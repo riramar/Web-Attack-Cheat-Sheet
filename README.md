@@ -192,6 +192,10 @@
 	https://github.com/opsdisk/pagodo
 		python3 pagodo.py -d example.com -g dorks.txt -l 50 -s -e 35.0 -j 1.1
 
+### CORS Misconfigurations
+	https://github.com/s0md3v/Corsy
+		python3 corsy.py -u https://example.com
+
 
 ## Attacking
 
