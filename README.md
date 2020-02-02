@@ -54,6 +54,12 @@
 	http://1.2.3.4
 	https://1.2.3.4
 
+### Generate wordlist
+	https://portswigger.net/bappstore/21df56baa03d499c8439018fe075d3d7
+		Wordlist Extractor
+	https://github.com/ameenmaali/wordlistgen
+		cat hosts.txt | wordlistgen
+
 ### Directory Bruteforcing
 	https://github.com/ffuf/ffuf
 		ffuf -H 'User-Agent: Mozilla' -v -t 30 -w mydirfilelist.txt -b 'NAME1=VALUE1; NAME2=VALUE2' -u 'https://example.com/FUZZ'
