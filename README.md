@@ -35,26 +35,24 @@
 	
 	https://opendata.rapid7.com/
 
-### Fetch URLs from Wayback Machine
+### Wayback Machine
 	https://github.com/tomnomnom/waybackurls
 		cat subdomains.txt | waybackurls > waybackurls.txt
-	
-### Check for valid URLs
 	https://github.com/tomnomnom/hacks
 		cat waybackurls.txt | go run /root/Tools/hacks/anti-burl/main.go | tee waybackurls_valid.txt
 	
-### Check for HTTPS or HTTP
+### HTTPS or HTTP
 	while read i; do curl -m 15 -ki http://$i &> /dev/null; if [ $? -eq 0 ]; then echo $i; fi; done < subdomains.txt
 	while read i; do curl -m 15 -ki https://$i &> /dev/null; if [ $? -eq 0 ]; then echo $i; fi; done < subdomains.txt
 
-### Lists which web files on a website are cached and which are not
+### Cache
 	https://www.giftofspeed.com/cache-checker/
 
 ### Access target directly through IP address
 	http://1.2.3.4
 	https://1.2.3.4
 
-### Generate wordlist
+### Wordlist
 	https://portswigger.net/bappstore/21df56baa03d499c8439018fe075d3d7
 		Wordlist Extractor
 	https://github.com/ameenmaali/wordlistgen
@@ -96,6 +94,9 @@
 	
 ### Google Dorks
 	https://www.exploit-db.com/google-hacking-database
+
+### Content Security Policy (CSP)
+	https://csp-evaluator.withgoogle.com/
 
 ### Brute Force Tiny URLs Services
 	https://www.scribd.com/doc/308659143/Cornell-Tech-Url-Shortening-Research
