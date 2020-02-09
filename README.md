@@ -10,6 +10,8 @@
 	http://www.asnlookup.com/
 	
 ### Subdomain Enumeration
+	https://appsecco.com/books/subdomain-enumeration/
+	
 	https://github.com/OWASP/Amass
 		amass enum -passive -dir /tmp/amass_output/ -d example.com -o dir/example.com
 
