@@ -233,6 +233,9 @@
 ### Reusing Cookies
 	https://medium.com/@ricardoiramar/reusing-cookies-23ed4691122b
 
+### SSRF
+	https://lab.wallarm.com/blind-ssrf-exploitation/
+
 ### Fake Server
 	# HTTP
 		python -m SimpleHTTPServer 8080
