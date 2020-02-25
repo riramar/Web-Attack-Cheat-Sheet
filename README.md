@@ -87,6 +87,8 @@
 		
 ### Acquisitions/Names/Addresses/Contacts/Emails/etc.
 	https://hunter.io
+	
+	https://intelx.io/
 
 	https://github.com/khast3x/h8mail
 		h8mail -t target@example.com
