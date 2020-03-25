@@ -137,6 +137,7 @@
 		aws s3api list-objects --bucket examples3bucketname
 		aws s3api list-objects-v2 --bucket examples3bucketname
 		aws s3api get-object --bucket examples3bucketname --key dir/file.ext localfilename.ext
+		aws s3api put-object --bucket examples3bucketname --key dir/file.ext --body localfilename.ext
 
 ### Enumerate permissions associated with cloud (e.g. AWS) credential
 	https://github.com/andresriancho/enumerate-iam
