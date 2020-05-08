@@ -57,6 +57,9 @@
 ### Access target directly through IP address
 	http://1.2.3.4
 	https://1.2.3.4
+	
+	https://github.com/pielco11/fav-up
+		Lookups for real IP starting from the favicon icon and using Shodan.
 
 ### Wordlist
 	https://portswigger.net/bappstore/21df56baa03d499c8439018fe075d3d7
@@ -115,11 +118,14 @@
 
 ### General
 	https://github.com/redhuntlabs/Awesome-Asset-Discovery
+	
+	https://github.com/phor3nsic/favicon_hash_shodan
+		Search for a framework by favicon
 
 
 ## Enumerating
 
-### Figerprint
+### Fingerprint
 	https://github.com/urbanadventurer/WhatWeb
 		whatweb -a 4 -U 'Mozilla' -c 'NAME1=VALUE1; NAME2=VALUE2' -t 20 www.example.com
 
