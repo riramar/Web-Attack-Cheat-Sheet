@@ -3,6 +3,9 @@
 
 ## Discovering
 
+### General
+	https://github.com/redhuntlabs/Awesome-Asset-Discovery
+
 ### Bug Bount Targets
 	https://github.com/arkadiyt/bounty-targets-data
 
