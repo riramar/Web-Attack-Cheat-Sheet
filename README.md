@@ -237,6 +237,9 @@
 	https://www.openwall.com/john/
 		unshadow /etc/passwd /etc/shadow > mypasswd.txt
 		john mypasswd.txt
+		
+	https://hashcat.net/hashcat/
+		hashcat -m 0 -a 0 hashes.txt passwords.txt
 
 
 ## Manual
