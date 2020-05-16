@@ -158,6 +158,10 @@
 	https://github.com/cloudsploit/scans
 	
 	https://github.com/RhinoSecurityLabs/pacu
+	
+	https://github.com/VirtueSecurity/aws-extender
+	
+	https://github.com/irgoncalves/gcp_security
 
 ### Visual Identification
 	https://github.com/FortyNorthSecurity/EyeWitness
