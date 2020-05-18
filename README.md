@@ -69,6 +69,12 @@
 		Wordlist Extractor
 	https://github.com/ameenmaali/wordlistgen
 		cat hosts.txt | wordlistgen
+	https://github.com/adamtlangley/gitscraper
+	https://github.com/riramar/MyPayloads
+	https://github.com/danielmiessler/SecLists
+	https://github.com/swisskyrepo/PayloadsAllTheThings
+	https://github.com/fuzzdb-project/fuzzdb
+	https://github.com/google/fuzzing
 
 ### Directory Bruteforcing
 	https://github.com/ffuf/ffuf
@@ -264,6 +270,11 @@
 
 ### SSRF
 	https://lab.wallarm.com/blind-ssrf-exploitation/
+
+### DNS Rebinding
+	https://github.com/brannondorsey/dns-rebind-toolkit
+	https://github.com/brannondorsey/whonow
+	https://nip.io
 
 ### SMTP Header Injection
 	https://www.acunetix.com/blog/articles/email-header-injection/
