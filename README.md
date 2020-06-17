@@ -32,6 +32,8 @@
 	
 	https://www.shodan.io/search?query=ssl%3AExample
 	
+	https://www.zoomeye.org/
+	
 	https://securitytrails.com/list/email/dns-admin.example.com
 		curl --request POST --url 'https://api.securitytrails.com/v1/domains/list?apikey={API_Key}&page=1&scroll=true' --data '{"filter":{"apex_domain":"example.com"}}' | jq '.records[].hostname' | sed 's/"//g' >> subdomains.txt
 		curl --request POST --url 'https://api.securitytrails.com/v1/domains/list?apikey={API_Key}&page=1&scroll=true' --data '{"filter":{"whois_email":"domains@example.com"}}' | jq '.records[].hostname' | sed 's/"//g' >> domains.txt
