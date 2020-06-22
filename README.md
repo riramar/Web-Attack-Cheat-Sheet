@@ -277,6 +277,8 @@
 	https://github.com/brannondorsey/dns-rebind-toolkit
 	https://github.com/brannondorsey/whonow
 	https://nip.io
+	http://xip.io
+	https://sslip.io
 
 ### SMTP Header Injection
 	https://www.acunetix.com/blog/articles/email-header-injection/
