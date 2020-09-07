@@ -147,14 +147,21 @@
 	https://portswigger.net/bappstore/c9fb79369b56407792a7104e3c4352fb
 		Software Vulnerability Scanner Burp Extension
 
-### List s3 bucket permissions and keys
-	https://aws.amazon.com/cli/
-		aws s3api get-bucket-acl --bucket examples3bucketname
-		aws s3api get-object-acl --bucket examples3bucketname --key dir/file.ext
-		aws s3api list-objects --bucket examples3bucketname
-		aws s3api list-objects-v2 --bucket examples3bucketname
-		aws s3api get-object --bucket examples3bucketname --key dir/file.ext localfilename.ext
-		aws s3api put-object --bucket examples3bucketname --key dir/file.ext --body localfilename.ext
+### Buckets
+	List s3 bucket permissions and keys
+		https://aws.amazon.com/cli/
+			aws s3api get-bucket-acl --bucket examples3bucketname
+			aws s3api get-object-acl --bucket examples3bucketname --key dir/file.ext
+			aws s3api list-objects --bucket examples3bucketname
+			aws s3api list-objects-v2 --bucket examples3bucketname
+			aws s3api get-object --bucket examples3bucketname --key dir/file.ext localfilename.ext
+			aws s3api put-object --bucket examples3bucketname --key dir/file.ext --body localfilename.ext
+			
+	Find interesting Amazon S3 Buckets by watching certificate transparency logs
+		https://github.com/eth0izzle/bucket-stream
+			
+	Search Public Buckets
+		https://buckets.grayhatwarfare.com/
 
 ### Enumerate permissions associated with cloud
 	https://github.com/andresriancho/enumerate-iam
