@@ -77,6 +77,7 @@
 	https://github.com/swisskyrepo/PayloadsAllTheThings
 	https://github.com/fuzzdb-project/fuzzdb
 	https://github.com/google/fuzzing
+	https://github.com/xyele/hackerone_wordlist
 
 ### Directory Bruteforcing
 	https://github.com/ffuf/ffuf
@@ -162,6 +163,9 @@
 			
 	Search Public Buckets
 		https://buckets.grayhatwarfare.com/
+		
+	Burp Suite extension which can identify and test S3 buckets
+		https://github.com/VirtueSecurity/aws-extender
 
 ### Enumerate permissions associated with cloud
 	https://github.com/andresriancho/enumerate-iam
