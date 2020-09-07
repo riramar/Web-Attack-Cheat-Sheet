@@ -253,6 +253,9 @@
 	https://hashcat.net/hashcat/
 		hashcat -m 0 -a 0 hashes.txt passwords.txt
 
+	Rotate the source IP address in order to bypass rate limits
+		https://github.com/ustayready/fireprox
+
 
 ## Manual
 
