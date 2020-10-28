@@ -109,6 +109,8 @@
 	https://portswigger.net/burp/documentation/collaborator
 		https://www.onsecurity.co.uk/blog/gaining-persistent-access-to-burps-collaborator-sessions
 		
+	http://pingb.in/
+		
 ### Acquisitions/Names/Addresses/Contacts/Emails/etc.
 	https://hunter.io
 	
