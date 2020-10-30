@@ -281,6 +281,12 @@
 	Rotate the source IP address in order to bypass rate limits
 		https://github.com/ustayready/fireprox
 
+### Exfiltration
+	A bash script that automates the exfiltration of data over dns
+		https://github.com/vp777/procrustes
+		
+	The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn.
+		https://github.com/sensepost/reGeorg
 
 ## Manual
 
