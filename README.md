@@ -237,6 +237,8 @@
 	https://github.com/BishopFox/h2csmuggler
 		h2csmuggler.py -x https://example.com/ --test
 		
+	https://github.com/0ang3el/websocket-smuggle
+	
 	https://portswigger.net/web-security/request-smuggling
 	
 	https://github.com/PortSwigger/http-request-smuggler
