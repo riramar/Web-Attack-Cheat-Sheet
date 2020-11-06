@@ -230,6 +230,19 @@
 	https://github.com/droope/droopescan
 		droopescan scan drupal -u example.com
 
+### HTTP Request Smuggling
+	https://github.com/defparam/smuggler
+		python3 smuggler.py -q -u https://example.com/
+		
+	https://github.com/BishopFox/h2csmuggler
+		h2csmuggler.py -x https://example.com/ --test
+		
+	https://portswigger.net/web-security/request-smuggling
+	
+	https://github.com/PortSwigger/http-request-smuggler
+	
+	https://medium.com/@ricardoiramar/the-powerful-http-request-smuggling-af208fafa142
+
 ### Subdomain Takeover
 	https://github.com/anshumanbh/tko-subs
 		tko-subs -data providers-data.csv -threads 20 -domains subdomains.txt
