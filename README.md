@@ -76,8 +76,6 @@
 		
 	https://github.com/adamtlangley/gitscraper
 	
-	https://github.com/riramar/MyPayloads
-	
 	https://github.com/danielmiessler/SecLists
 	
 	https://github.com/swisskyrepo/PayloadsAllTheThings
