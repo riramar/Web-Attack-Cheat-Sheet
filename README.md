@@ -143,6 +143,8 @@
 	
 	https://github.com/phor3nsic/favicon_hash_shodan
 		Search for a framework by favicon
+		
+	https://github.com/crashbrz/WebXmlExploiter/
 
 
 ## Enumerating
