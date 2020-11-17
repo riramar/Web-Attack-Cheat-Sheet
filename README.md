@@ -423,9 +423,13 @@
 	# FTP
 		python -m pyftpdlib --directory=/tmp/dir/ --port=21
     
-### General useful commands
+### Generic Tools
 	# Trim space and newlines on bash variable
 		"${i//[$'\t\r\n ']}"
+
+### General useful commands
+	The Cyber Swiss Army Knife
+		https://gchq.github.io/CyberChef/
 
 ### Check PreAuth RCE on Palo Alto GlobalProtect
 	https://blog.orange.tw/2019/07/attacking-ssl-vpn-part-1-preauth-rce-on-palo-alto.html
