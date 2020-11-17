@@ -423,11 +423,11 @@
 	# FTP
 		python -m pyftpdlib --directory=/tmp/dir/ --port=21
     
-### Generic Tools
+### General useful commands
 	# Trim space and newlines on bash variable
 		"${i//[$'\t\r\n ']}"
 
-### General useful commands
+### Generic Tools
 	The Cyber Swiss Army Knife
 		https://gchq.github.io/CyberChef/
 
