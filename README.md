@@ -85,6 +85,8 @@
 	https://github.com/google/fuzzing
 	
 	https://github.com/xyele/hackerone_wordlist
+	
+	https://wordlists.assetnote.io/
 
 ### Directory Bruteforcing
 	https://github.com/ffuf/ffuf
