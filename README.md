@@ -204,6 +204,9 @@
 
 	https://github.com/michenriksen/aquatone
 		cat targets.txt | aquatone
+		
+	https://github.com/sensepost/gowitness
+		gowitness scan --cidr 192.168.0.0/24 --threads 20
 
 
 ## Scanning
