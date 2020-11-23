@@ -435,6 +435,9 @@
 ### Generic Tools
 	The Cyber Swiss Army Knife
 		https://gchq.github.io/CyberChef/
+		
+	Pcap analysis and samples
+		https://packettotal.com/
 
 ### Check PreAuth RCE on Palo Alto GlobalProtect
 	https://blog.orange.tw/2019/07/attacking-ssl-vpn-part-1-preauth-rce-on-palo-alto.html
