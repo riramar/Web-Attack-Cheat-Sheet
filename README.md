@@ -5,6 +5,8 @@
 
 ### General
 	https://github.com/redhuntlabs/Awesome-Asset-Discovery
+	
+	https://spyse.com
 
 ### Bug Bount Targets
 	https://github.com/arkadiyt/bounty-targets-data
@@ -236,6 +238,9 @@
 		
 	https://github.com/droope/droopescan
 		droopescan scan drupal -u example.com
+		
+	https://github.com/projectdiscovery/nuclei
+		nuclei -l urls.txt -t cves/ -t files/ -o results.txt
 
 ### HTTP Request Smuggling
 	https://github.com/defparam/smuggler
