@@ -124,6 +124,8 @@
 	https://dashboard.fullcontact.com
 	
 	https://www.peopledatalabs.com
+	
+	https://www.social-searcher.com
 
 ### HTML/JavaScript Comments
 	Burp Engagement Tools
