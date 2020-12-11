@@ -339,6 +339,9 @@
 		https://github.com/GoSecure/dtd-finder
 			Identify DTDs on filesystem snapshot and build XXE payloads using those local DTDs.
 
+### Deserialization
+	https://github.com/pimps/JNDI-Exploit-Kit
+
 ### Reusing Cookies
 	https://medium.com/@ricardoiramar/reusing-cookies-23ed4691122b
 
