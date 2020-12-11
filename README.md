@@ -340,6 +340,8 @@
 			Identify DTDs on filesystem snapshot and build XXE payloads using those local DTDs.
 
 ### Deserialization
+	https://github.com/joaomatosf/jexboss
+	
 	https://github.com/pimps/JNDI-Exploit-Kit
 
 ### Reusing Cookies
