@@ -7,7 +7,7 @@
 	https://github.com/redhuntlabs/Awesome-Asset-Discovery
 	
 	https://spyse.com
-
+	
 ### Bug Bount Targets
 	https://github.com/arkadiyt/bounty-targets-data
 
