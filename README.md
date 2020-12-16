@@ -142,7 +142,13 @@
 ### GraphQL
 	https://github.com/doyensec/graph-ql
 	
+	https://hackernoon.com/understanding-graphql-part-1-nxm3uv9
+	
 	https://graphql.org/learn/introspection/
+	
+	https://jondow.eu/practical-graphql-attack-vectors/
+	
+	https://lab.wallarm.com/why-and-how-to-disable-introspection-query-for-graphql-apis/
 	
 	https://lab.wallarm.com/securing-and-attacking-graphql-part-1-overview/
 	
