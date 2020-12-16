@@ -142,7 +142,13 @@
 ### GraphQL
 	https://github.com/doyensec/graph-ql
 	
+	https://graphql.org/learn/introspection/
+	
 	https://lab.wallarm.com/securing-and-attacking-graphql-part-1-overview/
+	
+	https://medium.com/@apkash8/graphql-vs-rest-api-model-common-security-test-cases-for-graphql-endpoints-5b723b1468b4
+	
+	https://the-bilal-rizwan.medium.com/graphql-common-vulnerabilities-how-to-exploit-them-464f9fdce696
 
 ### General
 	https://github.com/redhuntlabs/Awesome-Asset-Discovery
