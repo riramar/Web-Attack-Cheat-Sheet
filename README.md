@@ -456,7 +456,7 @@
 	# HTTPS
 		openssl req -new -x509 -keyout test.key -out test.crt -nodes
 		cat test.key test.crt > test.pem
-		socat openssl-listen:443,reuseaddr,cert=test.pem,verify=0,fork stdio
+		socat -v -d -d openssl-listen:443,reuseaddr,cert=test.pem,verify=0,fork 'SYSTEM:/bin/echo "HTTP/1.1 200 OK";/bin/echo "Content-Length: 2";/bin/echo;/bin/echo "OK"'
 	
 	# FTP
 		python -m pyftpdlib --directory=/tmp/dir/ --port=21
