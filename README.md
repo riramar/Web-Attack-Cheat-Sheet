@@ -481,6 +481,9 @@
 	# GTFOBins is a curated list of Unix binaries that can used to bypass local security restrictions in misconfigured systems.
 		https://gtfobins.github.io/
 	
+	# Mirror a single page
+		wget -mkEpnp https://www.example.com/
+	
 	# Referer spoofing
 		<base href="https://www.google.com/">
 		<style>
