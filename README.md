@@ -446,6 +446,7 @@
 		
 	# HTTP
 		while true ; do echo -e "HTTP/1.1 200 OK\nContent-Length: 0\n\n" | nc -vl 1.2.3.4 80; done
+		socat -v -d -d TCP-LISTEN:80,crlf,reuseaddr,fork 'SYSTEM:/bin/echo "HTTP/1.1 200 OK";/bin/echo "Content-Length: 2";/bin/echo;/bin/echo "OK"'
     
 	# HTTP
 		python -m SimpleHTTPServer 8080
@@ -456,7 +457,7 @@
 	# HTTPS
 		openssl req -new -x509 -keyout test.key -out test.crt -nodes
 		cat test.key test.crt > test.pem
-		socat -v -d -d openssl-listen:443,reuseaddr,cert=test.pem,verify=0,fork 'SYSTEM:/bin/echo "HTTP/1.1 200 OK";/bin/echo "Content-Length: 2";/bin/echo;/bin/echo "OK"'
+		socat -v -d -d openssl-listen:443,crlf,reuseaddr,cert=test.pem,verify=0,fork 'SYSTEM:/bin/echo "HTTP/1.1 200 OK";/bin/echo "Content-Length: 2";/bin/echo;/bin/echo "OK"'
 	
 	# FTP
 		python -m pyftpdlib --directory=/tmp/dir/ --port=21
