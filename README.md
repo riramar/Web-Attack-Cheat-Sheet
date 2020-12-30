@@ -5,44 +5,64 @@
 
 ### General
 	https://github.com/redhuntlabs/Awesome-Asset-Discovery
+		Through this repository, we want to put out a list of curated resources which help during asset discovery phase of a security assessment engagement.
 	
 	https://spyse.com
+		Spyse holds the largest database of its kind, containing a wide range of OSINT data handy for the reconnaissance.
 	
-### Bug Bount Targets
+	https://github.com/yogeshojha/rengine
+		reNgine is an automated reconnaissance framework meant for information gathering during penetration testing of web applications.
+	
+### Targets
 	https://github.com/arkadiyt/bounty-targets-data
+		This repo contains data dumps of Hackerone and Bugcrowd scopes (i.e. the domains that are eligible for bug bounty reports).
 
 ### IP Enumeration
 	http://www.asnlookup.com/
+		This tool leverages ASN to look up IP addresses (IPv4 & IPv6) owned by a specific organization for reconnaissance purposes.
 	
 ### Subdomain Enumeration
 	https://appsecco.com/books/subdomain-enumeration/
+		This book intendes to be a reference for subdomain enumeration techniques.
 	
 	https://github.com/OWASP/Amass
-		amass enum -passive -dir /tmp/amass_output/ -d example.com -o dir/example.com
+		The OWASP Amass Project performs network mapping of attack surfaces and external asset discovery using open source information gathering and active reconnaissance techniques.
+			amass enum -passive -dir /tmp/amass_output/ -d example.com -o dir/example.com
 
 	https://github.com/projectdiscovery/subfinder
-		subfinder -r 8.8.8.8,8.8.4.4,1.1.1.1,1.0.0.1 -t 10 -v -d example.com -o dir/example.com
+		subfinder is a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources.
+			subfinder -r 8.8.8.8,8.8.4.4,1.1.1.1,1.0.0.1 -t 10 -v -d example.com -o dir/example.com
 	
 	https://github.com/nsonaniya2010/SubDomainizer
-		python3 SubDomainizer.py -u example.com -o dir/example.com
+		SubDomainizer is a tool designed to find hidden subdomains and secrets present is either webpage, Github, and external javascripts present in the given URL.
+			python3 SubDomainizer.py -u example.com -o dir/example.com
 	
 	https://dns.bufferover.run/dns?q=example.com
+		Powered by DNSGrep (https://github.com/erbbysam/DNSGrep)
+			A utility for quickly searching presorted DNS names. Built around the Rapid7 rdns & fdns dataset.
 	
-	https://crt.sh/?q=%25example.com
+	https://crt.sh/?q=example.com
+		Certificate Search
 	
 	https://censys.io/certificates?q=parsed.subject_dn%3AO%3DExample+Organization
+		Censys is the most reputable, exhaustive, and up-to-date source of Internet scan data in the world, so you see everything.
 	
 	https://www.shodan.io/search?query=ssl%3AExample
+		Shodan is the world's first search engine for Internet-connected devices.
 	
-	https://www.zoomeye.org/
+	https://www.zoomeye.org
+		ZoomEyeis China's first and world-renowned cyberspace search engine driven by 404 Laboratory of Knownsec. Through a large number of global surveying and mapping nodes, according to the global IPv4, IPv6 address and website domain name databases，it can continuously scan and identify multiple service port and protocols 24 hours a day, and finally map the whole or local cyberspace.
 	
 	https://securitytrails.com/list/email/dns-admin.example.com
-		curl --request POST --url 'https://api.securitytrails.com/v1/domains/list?apikey={API_Key}&page=1&scroll=true' --data '{"filter":{"apex_domain":"example.com"}}' | jq '.records[].hostname' | sed 's/"//g' >> subdomains.txt
-		curl --request POST --url 'https://api.securitytrails.com/v1/domains/list?apikey={API_Key}&page=1&scroll=true' --data '{"filter":{"whois_email":"domains@example.com"}}' | jq '.records[].hostname' | sed 's/"//g' >> domains.txt
+		Total Internet Inventory with the most comprehensive data that informs with unrivaled accuracy.
+			curl --request POST --url 'https://api.securitytrails.com/v1/domains/list?apikey={API_Key}&page=1&scroll=true' --data '{"filter":{"apex_domain":"example.com"}}' | jq '.records[].hostname' | sed 's/"//g' >> subdomains.txt
+			curl --request POST --url 'https://api.securitytrails.com/v1/domains/list?apikey={API_Key}&page=1&scroll=true' --data '{"filter":{"whois_email":"domains@example.com"}}' | jq '.records[].hostname' | sed 's/"//g' >> domains.txt
 	
 	https://viewdns.info/reversewhois/
+		This free tool will allow you to find domain names owned by an individual person or company.
 	
 	https://opendata.rapid7.com/
+		Offering researchers and community members open access to data from Project Sonar, which conducts internet-wide surveys to gain insights into global exposure to common vulnerabilities.
 
 ### Wayback Machine
 	https://github.com/tomnomnom/waybackurls
@@ -112,6 +132,9 @@
 		https://www.onsecurity.co.uk/blog/gaining-persistent-access-to-burps-collaborator-sessions
 		
 	http://pingb.in/
+	
+	https://github.com/ctxis/SnitchDNS
+		SnitchDNS is a database driven DNS Server with a Web UI, written in Python and Twisted, that makes DNS administration easier with all configuration changed applied instantly without restarting any system services.
 		
 ### Acquisitions/Names/Addresses/Contacts/Emails/etc.
 	https://hunter.io
@@ -126,6 +149,9 @@
 	https://www.peopledatalabs.com
 	
 	https://www.social-searcher.com
+	
+	https://github.com/mxrch/GHunt
+		GHunt is an OSINT tool to extract information from any Google Account using an email.
 
 ### HTML/JavaScript Comments
 	Burp Engagement Tools
@@ -136,8 +162,11 @@
 ### Content Security Policy (CSP)
 	https://csp-evaluator.withgoogle.com/
 
-### Brute Force Tiny URLs Services
+### Tiny URLs Services
 	https://www.scribd.com/doc/308659143/Cornell-Tech-Url-Shortening-Research
+	
+	https://github.com/utkusen/urlhunter
+		urlhunter -keywords keywords.txt -date 2020-11-20 -o out.txt
 
 ### GraphQL
 	https://github.com/doyensec/graph-ql
@@ -227,6 +256,10 @@
 
 ## Scanning
 
+### Static Application Security Testing
+	https://github.com/returntocorp/semgrep
+		Semgrep is a fast, open-source, static analysis tool that excels at expressing code standards — without complicated queries — and surfacing bugs early at editor, commit, and CI time.
+
 ### Burp Scanner
 	https://support.portswigger.net/customer/portal/articles/1783127-using-burp-scanner
 
@@ -242,6 +275,9 @@
 		
 	https://www.exploit-db.com/searchsploit
 		searchsploit -t oracle windows
+		
+	https://github.com/vulmon/Vulmap
+		Vulmap is an open-source online local vulnerability scanner project. It consists of online local vulnerability scanning programs for Windows and Linux operating systems.
 		
 ### Web Scanning
 	https://github.com/sullo/nikto
@@ -304,6 +340,13 @@
 ### CORS Misconfigurations
 	https://github.com/s0md3v/Corsy
 		python3 corsy.py -u https://example.com
+
+
+## Monitoring
+
+### CVE
+	https://www.opencve.io/
+		OpenCVE (formerly known as Saucs.com) allows you to subscribe to vendors and products, and send you an alert as soon as a CVE is published or updated.
 
 
 ## Attacking
