@@ -5,71 +5,73 @@
 
 ### General
 	https://github.com/redhuntlabs/Awesome-Asset-Discovery
-		Through this repository, we want to put out a list of curated resources which help during asset discovery phase of a security assessment engagement.
+		# Through this repository, we want to put out a list of curated resources which help during asset discovery phase of a security assessment engagement.
 	
 	https://spyse.com
-		Spyse holds the largest database of its kind, containing a wide range of OSINT data handy for the reconnaissance.
+		# Spyse holds the largest database of its kind, containing a wide range of OSINT data handy for the reconnaissance.
 	
 	https://github.com/yogeshojha/rengine
-		reNgine is an automated reconnaissance framework meant for information gathering during penetration testing of web applications.
+		# reNgine is an automated reconnaissance framework meant for information gathering during penetration testing of web applications.
 	
 ### Targets
 	https://github.com/arkadiyt/bounty-targets-data
-		This repo contains data dumps of Hackerone and Bugcrowd scopes (i.e. the domains that are eligible for bug bounty reports).
+		# This repo contains data dumps of Hackerone and Bugcrowd scopes (i.e. the domains that are eligible for bug bounty reports).
 
 ### IP Enumeration
 	http://www.asnlookup.com/
-		This tool leverages ASN to look up IP addresses (IPv4 & IPv6) owned by a specific organization for reconnaissance purposes.
+		# This tool leverages ASN to look up IP addresses (IPv4 & IPv6) owned by a specific organization for reconnaissance purposes.
 	
 ### Subdomain Enumeration
 	https://appsecco.com/books/subdomain-enumeration/
-		This book intendes to be a reference for subdomain enumeration techniques.
+		# This book intendes to be a reference for subdomain enumeration techniques.
 	
 	https://github.com/OWASP/Amass
-		The OWASP Amass Project performs network mapping of attack surfaces and external asset discovery using open source information gathering and active reconnaissance techniques.
+		# The OWASP Amass Project performs network mapping of attack surfaces and external asset discovery using open source information gathering and active reconnaissance techniques.
 			amass enum -passive -dir /tmp/amass_output/ -d example.com -o dir/example.com
 
 	https://github.com/projectdiscovery/subfinder
-		subfinder is a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources.
+		# subfinder is a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources.
 			subfinder -r 8.8.8.8,8.8.4.4,1.1.1.1,1.0.0.1 -t 10 -v -d example.com -o dir/example.com
 	
 	https://github.com/nsonaniya2010/SubDomainizer
-		SubDomainizer is a tool designed to find hidden subdomains and secrets present is either webpage, Github, and external javascripts present in the given URL.
+		# SubDomainizer is a tool designed to find hidden subdomains and secrets present is either webpage, Github, and external javascripts present in the given URL.
 			python3 SubDomainizer.py -u example.com -o dir/example.com
 	
 	https://dns.bufferover.run/dns?q=example.com
-		Powered by DNSGrep (https://github.com/erbbysam/DNSGrep)
-			A utility for quickly searching presorted DNS names. Built around the Rapid7 rdns & fdns dataset.
+		# Powered by DNSGrep (https://github.com/erbbysam/DNSGrep)
+			# A utility for quickly searching presorted DNS names. Built around the Rapid7 rdns & fdns dataset.
 	
 	https://crt.sh/?q=example.com
-		Certificate Search
+		# Certificate Search
 	
 	https://censys.io/certificates?q=parsed.subject_dn%3AO%3DExample+Organization
-		Censys is the most reputable, exhaustive, and up-to-date source of Internet scan data in the world, so you see everything.
+		# Censys is the most reputable, exhaustive, and up-to-date source of Internet scan data in the world, so you see everything.
 	
 	https://www.shodan.io/search?query=ssl%3AExample
-		Shodan is the world's first search engine for Internet-connected devices.
+		# Shodan is the world's first search engine for Internet-connected devices.
 	
 	https://www.zoomeye.org
-		ZoomEyeis China's first and world-renowned cyberspace search engine driven by 404 Laboratory of Knownsec. Through a large number of global surveying and mapping nodes, according to the global IPv4, IPv6 address and website domain name databases，it can continuously scan and identify multiple service port and protocols 24 hours a day, and finally map the whole or local cyberspace.
+		# ZoomEyeis China's first and world-renowned cyberspace search engine driven by 404 Laboratory of Knownsec. Through a large number of global surveying and mapping nodes, according to the global IPv4, IPv6 address and website domain name databases，it can continuously scan and identify multiple service port and protocols 24 hours a day, and finally map the whole or local cyberspace.
 	
 	https://securitytrails.com/list/email/dns-admin.example.com
-		Total Internet Inventory with the most comprehensive data that informs with unrivaled accuracy.
+		# Total Internet Inventory with the most comprehensive data that informs with unrivaled accuracy.
 			curl --request POST --url 'https://api.securitytrails.com/v1/domains/list?apikey={API_Key}&page=1&scroll=true' --data '{"filter":{"apex_domain":"example.com"}}' | jq '.records[].hostname' | sed 's/"//g' >> subdomains.txt
 			curl --request POST --url 'https://api.securitytrails.com/v1/domains/list?apikey={API_Key}&page=1&scroll=true' --data '{"filter":{"whois_email":"domains@example.com"}}' | jq '.records[].hostname' | sed 's/"//g' >> domains.txt
 	
 	https://viewdns.info/reversewhois/
-		This free tool will allow you to find domain names owned by an individual person or company.
+		# This free tool will allow you to find domain names owned by an individual person or company.
 	
 	https://opendata.rapid7.com/
-		Offering researchers and community members open access to data from Project Sonar, which conducts internet-wide surveys to gain insights into global exposure to common vulnerabilities.
+		# Offering researchers and community members open access to data from Project Sonar, which conducts internet-wide surveys to gain insights into global exposure to common vulnerabilities.
 
 ### Wayback Machine
 	https://github.com/tomnomnom/waybackurls
-		cat subdomains.txt | waybackurls > waybackurls.txt
+		# Accept line-delimited domains on stdin, fetch known URLs from the Wayback Machine for *.domain and output them on stdout.
+			cat subdomains.txt | waybackurls > waybackurls.txt
 		
 	https://github.com/tomnomnom/hacks
-		cat waybackurls.txt | go run /root/Tools/hacks/anti-burl/main.go | tee waybackurls_valid.txt
+		# Hacky one-off scripts, tests etc.
+			cat waybackurls.txt | go run /root/Tools/hacks/anti-burl/main.go | tee waybackurls_valid.txt
 	
 ### HTTPS or HTTP
 	while read i; do curl -m 15 -ki http://$i &> /dev/null; if [ $? -eq 0 ]; then echo $i; fi; done < subdomains.txt
@@ -77,38 +79,50 @@
 
 ### Cache
 	https://www.giftofspeed.com/cache-checker/
+		# This tool lists which web files on a website are cached and which are not. Furthermore it checks by which method these files are cached and what the expiry time of the cached files is.
 
 ### Crawling
 	https://github.com/jaeles-project/gospider
-		gospider -s "https://example.com/" -o output -c 20 -d 10
+		# Fast web spider written in Go.
+			gospider -s "https://example.com/" -o output -c 20 -d 10
 
 ### Access target directly through IP address
 	http://1.2.3.4
 	https://1.2.3.4
 	
 	https://github.com/pielco11/fav-up
-		Lookups for real IP starting from the favicon icon and using Shodan.
+		# Lookups for real IP starting from the favicon icon and using Shodan.
+			python3 favUp.py --favicon-file favicon.ico -sc
 
 ### Wordlist
 	https://portswigger.net/bappstore/21df56baa03d499c8439018fe075d3d7
-		Wordlist Extractor
+		# Scrapes all unique words and numbers for use with password cracking.
 		
 	https://github.com/ameenmaali/wordlistgen
-		cat hosts.txt | wordlistgen
+		# wordlistgen is a tool to pass a list of URLs and get back a list of relevant words for your wordlists.
+			cat hosts.txt | wordlistgen
 		
 	https://github.com/adamtlangley/gitscraper
+		# A tool which scrapes public github repositories for common naming conventions in variables, folders and files.
+			php gitscraper.php {GitHub Username} {GitHub Personal KEY}
 	
 	https://github.com/danielmiessler/SecLists
+		# SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.
 	
 	https://github.com/swisskyrepo/PayloadsAllTheThings
+		# A list of useful payloads and bypasses for Web Application Security. Feel free to improve with your payloads and techniques.
 	
 	https://github.com/fuzzdb-project/fuzzdb
+		# FuzzDB was created to increase the likelihood of finding application security vulnerabilities through dynamic application security testing.
 	
 	https://github.com/google/fuzzing
+		# This project aims at hosting tutorials, examples, discussions, research proposals, and other resources related to fuzzing.
 	
 	https://github.com/xyele/hackerone_wordlist
+		# The wordlists that have been compiled using disclosed reports at the HackerOne bug bounty platform.
 	
 	https://wordlists.assetnote.io/
+		# This website provides you with wordlists that are up to date and effective against the most popular technologies on the internet.
 
 ### Directory Bruteforcing
 	https://github.com/ffuf/ffuf
