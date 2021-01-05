@@ -274,9 +274,6 @@
 	https://github.com/returntocorp/semgrep
 		Semgrep is a fast, open-source, static analysis tool that excels at expressing code standards — without complicated queries — and surfacing bugs early at editor, commit, and CI time.
 
-### Burp Scanner
-	https://support.portswigger.net/customer/portal/articles/1783127-using-burp-scanner
-
 ### Send emails (SMTP)
 	while read i; do echo $i; echo -e "From: example1@gmail.com\nTo: ${i}\nCc: example2@gmail.com\nSubject: This is the subject ${i}\n\nThis is the body ${i}" | ssmtp ${i},example2@gmail.com; done < emails.txt
 	References
@@ -294,6 +291,13 @@
 		Vulmap is an open-source online local vulnerability scanner project. It consists of online local vulnerability scanning programs for Windows and Linux operating systems.
 		
 ### Web Scanning
+	https://support.portswigger.net/customer/portal/articles/1783127-using-burp-scanner
+		# Burp Scanner is a tool for automatically finding security vulnerabilities in web applications.
+		
+	https://github.com/spinkham/skipfish
+		# Skipfish is an active web application security reconnaissance tool.
+			skipfish -MEU -S dictionaries/minimal.wl -W new_dict.wl -C "AuthCookie=value" -X /logout.aspx -o output_dir http://www.example.com/
+	
 	https://github.com/sullo/nikto
 		nikto -ssl -host www.example.com
 
@@ -305,6 +309,10 @@
 		
 	https://github.com/projectdiscovery/nuclei
 		nuclei -l urls.txt -t cves/ -t files/ -o results.txt
+		
+	https://github.com/commixproject/commix
+		# By using this tool, it is very easy to find and exploit a command injection vulnerability in a certain vulnerable parameter or HTTP header.
+			python commix.py --url="http://192.168.178.58/DVWA-1.0.8/vulnerabilities/exec/#" --data="ip=127.0.0.1&Submit=submit" --cookie="security=medium; PHPSESSID=nq30op434117mo7o2oe5bl7is4"
 
 ### HTTP Request Smuggling
 	https://github.com/defparam/smuggler
