@@ -264,6 +264,9 @@
 	https://docs.microsoft.com/en-us/azure/virtual-machines/windows/instance-metadata-service
 	
 	https://www.alibabacloud.com/help/doc-detail/49122.htm
+	
+	https://about.gitlab.com/blog/2020/02/12/plundering-gcp-escalating-privileges-in-google-cloud-platform/
+		# Tutorial on privilege escalation and post exploitation tactics in Google Cloud Platform environments
 
 ### Visual Identification
 	https://github.com/FortyNorthSecurity/EyeWitness
