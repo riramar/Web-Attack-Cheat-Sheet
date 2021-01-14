@@ -531,7 +531,10 @@
 		while true ; do echo -e "HTTP/1.1 200 OK\nContent-Length: 0\n\n" | nc -vl 1.2.3.4 80; done
 		socat -v -d -d TCP-LISTEN:80,crlf,reuseaddr,fork 'SYSTEM:/bin/echo "HTTP/1.1 200 OK";/bin/echo "Content-Length: 2";/bin/echo;/bin/echo "OK"'
 		socat -v -d -d TCP-LISTEN:80,crlf,reuseaddr,fork 'SYSTEM:/bin/echo "HTTP/1.1 302 Found";/bin/echo "Content-Length: 0";/bin/echo "Location: http://metadata.google.internal/computeMetadata/v1beta1/instance/service-accounts/default/token";/bin/echo;/bin/echo'
-		python -m SimpleHTTPServer 8080
+		python -m SimpleHTTPServer 80
+		php -S 0.0.0.0:80
+		ruby -run -e httpd . -p 80
+		busybox httpd -f -p 80
     
 	# Fake HTTPS Server
 		openssl req -new -x509 -keyout test.key -out test.crt -nodes
