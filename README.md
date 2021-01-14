@@ -242,7 +242,7 @@
 	Burp Suite extension which can identify and test S3 buckets
 		https://github.com/VirtueSecurity/aws-extender
 
-### Enumerate permissions associated with cloud
+### Cloud Enumeration
 	https://github.com/andresriancho/enumerate-iam
 	
 	https://github.com/nccgroup/ScoutSuite
@@ -256,6 +256,14 @@
 	https://github.com/VirtueSecurity/aws-extender
 	
 	https://github.com/irgoncalves/gcp_security
+	
+	https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html
+	
+	https://cloud.google.com/compute/docs/storing-retrieving-metadata
+	
+	https://docs.microsoft.com/en-us/azure/virtual-machines/windows/instance-metadata-service
+	
+	https://www.alibabacloud.com/help/doc-detail/49122.htm
 
 ### Visual Identification
 	https://github.com/FortyNorthSecurity/EyeWitness
