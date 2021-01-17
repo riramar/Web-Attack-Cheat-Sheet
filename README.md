@@ -20,7 +20,11 @@
 ### IP Enumeration
 	http://www.asnlookup.com/
 		# This tool leverages ASN to look up IP addresses (IPv4 & IPv6) owned by a specific organization for reconnaissance purposes.
-	
+
+	https://github.com/pielco11/fav-up
+		# Lookups for real IP starting from the favicon icon and using Shodan.
+			python3 favUp.py --favicon-file favicon.ico -sc
+
 ### Subdomain Enumeration
 	https://appsecco.com/books/subdomain-enumeration/
 		# This book intendes to be a reference for subdomain enumeration techniques.
@@ -73,10 +77,6 @@
 		# Hacky one-off scripts, tests etc.
 			cat waybackurls.txt | go run /root/Tools/hacks/anti-burl/main.go | tee waybackurls_valid.txt
 	
-### HTTPS or HTTP
-	while read i; do curl -m 15 -ki http://$i &> /dev/null; if [ $? -eq 0 ]; then echo $i; fi; done < subdomains.txt
-	while read i; do curl -m 15 -ki https://$i &> /dev/null; if [ $? -eq 0 ]; then echo $i; fi; done < subdomains.txt
-
 ### Cache
 	https://www.giftofspeed.com/cache-checker/
 		# This tool lists which web files on a website are cached and which are not. Furthermore it checks by which method these files are cached and what the expiry time of the cached files is.
@@ -85,14 +85,6 @@
 	https://github.com/jaeles-project/gospider
 		# Fast web spider written in Go.
 			gospider -s "https://example.com/" -o output -c 20 -d 10
-
-### Access target directly through IP address
-	http://1.2.3.4
-	https://1.2.3.4
-	
-	https://github.com/pielco11/fav-up
-		# Lookups for real IP starting from the favicon icon and using Shodan.
-			python3 favUp.py --favicon-file favicon.ico -sc
 
 ### Wordlist
 	https://portswigger.net/bappstore/21df56baa03d499c8439018fe075d3d7
@@ -126,16 +118,24 @@
 
 ### Directory Bruteforcing
 	https://github.com/ffuf/ffuf
-		ffuf -H 'User-Agent: Mozilla' -v -t 30 -w mydirfilelist.txt -b 'NAME1=VALUE1; NAME2=VALUE2' -u 'https://example.com/FUZZ'
+		# A fast web fuzzer written in Go.
+			ffuf -H 'User-Agent: Mozilla' -v -t 30 -w mydirfilelist.txt -b 'NAME1=VALUE1; NAME2=VALUE2' -u 'https://example.com/FUZZ'
 		
 	https://github.com/OJ/gobuster
-		gobuster dir -a 'Mozilla' -e -k -l -t 30 -w mydirfilelist.txt -c 'NAME1=VALUE1; NAME2=VALUE2' -u 'https://example.com/'
+		# Gobuster is a tool used to brute-force.
+			gobuster dir -a 'Mozilla' -e -k -l -t 30 -w mydirfilelist.txt -c 'NAME1=VALUE1; NAME2=VALUE2' -u 'https://example.com/'
 
 	https://github.com/tomnomnom/meg
-		meg -c 50 -H 'User-Agent: Mozilla' -s 200 weblogic.txt example.txt weblogic
+		# meg is a tool for fetching lots of URLs but still being 'nice' to servers.
+			meg -c 50 -H 'User-Agent: Mozilla' -s 200 weblogic.txt example.txt weblogic
 
 	https://github.com/deibit/cansina
-		python3 cansina.py -u 'https://example.com/' -p mydirfilelist.txt --persist
+		# Cansina is a Web Content Discovery Application.
+			python3 cansina.py -u 'https://example.com/' -p mydirfilelist.txt --persist
+		
+	https://github.com/epi052/feroxbuster
+		# A simple, fast, recursive content discovery tool written in Rust.
+			feroxbuster -u 'https://example.com/' -x pdf -x js,html -x php txt json,docx
 	
 ### DNS and HTTP detection
 	https://ceye.io/
@@ -555,6 +555,14 @@
 	
 	# Fake FTP Server
 		python -m pyftpdlib --directory=/tmp/dir/ --port=21
+
+	# Check HTTP or HTTPS
+		while read i; do curl -m 15 -ki http://$i &> /dev/null; if [ $? -eq 0 ]; then echo $i; fi; done < subdomains.txt
+		while read i; do curl -m 15 -ki https://$i &> /dev/null; if [ $? -eq 0 ]; then echo $i; fi; done < subdomains.txt
+
+	# Access target directly through IP address
+		http://1.2.3.4
+		https://1.2.3.4
 
 	# Trim space and newlines on bash variable
 		"${i//[$'\t\r\n ']}"
