@@ -324,6 +324,9 @@
 	https://github.com/projectdiscovery/nuclei
 		nuclei -l urls.txt -t cves/ -t files/ -o results.txt
 		
+	https://gobies.org
+		# The new generation of network security technology achieves rapid security emergency through the establishment of a complete asset database for the target.
+		
 	https://github.com/commixproject/commix
 		# By using this tool, it is very easy to find and exploit a command injection vulnerability in a certain vulnerable parameter or HTTP header.
 			python commix.py --url="http://192.168.178.58/DVWA-1.0.8/vulnerabilities/exec/#" --data="ip=127.0.0.1&Submit=submit" --cookie="security=medium; PHPSESSID=nq30op434117mo7o2oe5bl7is4"
