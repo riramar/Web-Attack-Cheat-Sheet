@@ -330,6 +330,10 @@
 	https://github.com/commixproject/commix
 		# By using this tool, it is very easy to find and exploit a command injection vulnerability in a certain vulnerable parameter or HTTP header.
 			python commix.py --url="http://192.168.178.58/DVWA-1.0.8/vulnerabilities/exec/#" --data="ip=127.0.0.1&Submit=submit" --cookie="security=medium; PHPSESSID=nq30op434117mo7o2oe5bl7is4"
+	
+	https://github.com/MrCl0wnLab/ShellShockHunter
+		# Shellshock, also known as Bashdoor, is a family of security bugs in the Unix Bash shell, the first of which was disclosed on 24 September 2014.
+			python main.py --range '194.206.187.X,194.206.187.XXX' --check --thread 40 --ssl
 
 ### HTTP Request Smuggling
 	https://github.com/defparam/smuggler
