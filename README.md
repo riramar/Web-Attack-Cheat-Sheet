@@ -18,7 +18,7 @@
 		# This repo contains data dumps of Hackerone and Bugcrowd scopes (i.e. the domains that are eligible for bug bounty reports).
 
 ### IP Enumeration
-	http://www.asnlookup.com/
+	http://www.asnlookup.com
 		# This tool leverages ASN to look up IP addresses (IPv4 & IPv6) owned by a specific organization for reconnaissance purposes.
 
 	https://github.com/pielco11/fav-up
@@ -26,7 +26,7 @@
 			python3 favUp.py --favicon-file favicon.ico -sc
 
 ### Subdomain Enumeration
-	https://appsecco.com/books/subdomain-enumeration/
+	https://appsecco.com/books/subdomain-enumeration
 		# This book intendes to be a reference for subdomain enumeration techniques.
 	
 	https://github.com/OWASP/Amass
@@ -65,7 +65,7 @@
 			curl --request POST --url 'https://api.securitytrails.com/v1/domains/list?apikey={API_Key}&page=1&scroll=true' --data '{"filter":{"apex_domain":"example.com"}}' | jq '.records[].hostname' | sed 's/"//g' >> subdomains.txt
 			curl --request POST --url 'https://api.securitytrails.com/v1/domains/list?apikey={API_Key}&page=1&scroll=true' --data '{"filter":{"whois_email":"domains@example.com"}}' | jq '.records[].hostname' | sed 's/"//g' >> domains.txt
 	
-	https://viewdns.info/reversewhois/
+	https://viewdns.info/reversewhois
 		# This free tool will allow you to find domain names owned by an individual person or company.
 	
 	https://opendata.rapid7.com/
@@ -81,7 +81,7 @@
 			cat waybackurls.txt | go run /root/Tools/hacks/anti-burl/main.go | tee waybackurls_valid.txt
 	
 ### Cache
-	https://www.giftofspeed.com/cache-checker/
+	https://www.giftofspeed.com/cache-checker
 		# This tool lists which web files on a website are cached and which are not. Furthermore it checks by which method these files are cached and what the expiry time of the cached files is.
 
 ### Crawling
@@ -116,7 +116,7 @@
 	https://github.com/xyele/hackerone_wordlist
 		# The wordlists that have been compiled using disclosed reports at the HackerOne bug bounty platform.
 	
-	https://wordlists.assetnote.io/
+	https://wordlists.assetnote.io
 		# This website provides you with wordlists that are up to date and effective against the most popular technologies on the internet.
 
 ### Directory Bruteforcing
@@ -141,17 +141,20 @@
 			feroxbuster -u 'https://example.com/' -x pdf -x js,html -x php txt json,docx
 	
 ### DNS and HTTP detection
-	https://ceye.io/
+	https://ceye.io
 		curl http://api.ceye.io/v1/records?token={API Key}&type=dns
 		curl http://api.ceye.io/v1/records?token={API Key}&type=http
 
 	https://portswigger.net/burp/documentation/collaborator
 		https://www.onsecurity.co.uk/blog/gaining-persistent-access-to-burps-collaborator-sessions
 		
-	http://pingb.in/
+	http://pingb.in
 	
 	https://github.com/ctxis/SnitchDNS
 		SnitchDNS is a database driven DNS Server with a Web UI, written in Python and Twisted, that makes DNS administration easier with all configuration changed applied instantly without restarting any system services.
+		
+	http://dnslog.cn
+		# Simple DNS server with realitme logs
 		
 ### Acquisitions/Names/Addresses/Contacts/Emails/etc.
 	https://hunter.io
