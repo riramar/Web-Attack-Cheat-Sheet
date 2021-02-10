@@ -253,6 +253,8 @@
 	
 	https://github.com/nccgroup/ScoutSuite
 	
+	https://github.com/toniblyx/prowler
+	
 	https://github.com/salesforce/cloudsplaining
 	
 	https://github.com/cloudsploit/scans
@@ -574,6 +576,9 @@
 		while read i; do curl -m 15 -ki http://$i &> /dev/null; if [ $? -eq 0 ]; then echo $i; fi; done < subdomains.txt
 		while read i; do curl -m 15 -ki https://$i &> /dev/null; if [ $? -eq 0 ]; then echo $i; fi; done < subdomains.txt
 
+	# Ten requests in parallel
+		xargs -I % -P 10 curl -H 'Connection: close' -s -D - -o /dev/null https://example.com < <(printf '%s\n' {1..10000})
+		
 	# Access target directly through IP address
 		http://1.2.3.4
 		https://1.2.3.4
