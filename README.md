@@ -258,6 +258,8 @@
 	
 	https://github.com/toniblyx/prowler
 	
+	https://github.com/salesforce/endgame
+	
 	https://github.com/salesforce/cloudsplaining
 	
 	https://github.com/cloudsploit/scans
