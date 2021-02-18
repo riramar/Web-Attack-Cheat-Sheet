@@ -142,19 +142,22 @@
 	
 ### DNS and HTTP detection
 	https://ceye.io
-		curl http://api.ceye.io/v1/records?token={API Key}&type=dns
-		curl http://api.ceye.io/v1/records?token={API Key}&type=http
+		# Monitor service for security testing.
+			curl http://api.ceye.io/v1/records?token={API Key}&type=dns
+			curl http://api.ceye.io/v1/records?token={API Key}&type=http
 
 	https://portswigger.net/burp/documentation/collaborator
-		https://www.onsecurity.co.uk/blog/gaining-persistent-access-to-burps-collaborator-sessions
+		# Burp Collaborator is a network service that Burp Suite uses to help discover many kinds of vulnerabilities.
+		# Tip https://www.onsecurity.co.uk/blog/gaining-persistent-access-to-burps-collaborator-sessions
 		
 	http://pingb.in
+		# Simple DNS and HTTP service for security testing.
 	
 	https://github.com/ctxis/SnitchDNS
-		SnitchDNS is a database driven DNS Server with a Web UI, written in Python and Twisted, that makes DNS administration easier with all configuration changed applied instantly without restarting any system services.
+		# SnitchDNS is a database driven DNS Server with a Web UI, written in Python and Twisted, that makes DNS administration easier with all configuration changed applied instantly without restarting any system services.
 		
 	http://dnslog.cn
-		# Simple DNS server with realitme logs
+		# Simple DNS server with realitme logs.
 		
 ### Acquisitions/Names/Addresses/Contacts/Emails/etc.
 	https://hunter.io
@@ -446,6 +449,21 @@
 			<!DOCTYPE foo SYSTEM "http://xpto.burpcollaborator.net/xpto.dtd">
 		https://github.com/GoSecure/dtd-finder
 			Identify DTDs on filesystem snapshot and build XXE payloads using those local DTDs.
+	
+	SSRF
+		https://www.blackhat.com/us-17/briefings.html#a-new-era-of-ssrf-exploiting-url-parser-in-trending-programming-languages
+			# We propose a new exploit technique that brings a whole-new attack surface to bypass SSRF (Server Side Request Forgery) protections.
+				http://1.1.1.1&@2.2.2.2#@3.3.3.3/
+				http://127.0.0.1:11211:80/
+				http://google.com#@evil.com/
+				http://foo@evil.com:80@google.com/
+				http://foo@evil.com:80 @google.com/
+				http://127.0.0.1\tfoo.google.com/
+				http://127.0.0.1%09foo.google.com/
+				http://127.0.0.1%2509foo.google.com/
+				http://127.0.0.1:11211#@google.com:80/
+				http://foo@127.0.0.1:11211@google.com:80/
+				http://foo@127.0.0.1 @google.com:11211/
 
 ### Deserialization
 	https://github.com/joaomatosf/jexboss
