@@ -486,6 +486,9 @@
 	http://xip.io
 	
 	https://sslip.io
+	
+	http://1u.ms/
+		# This is a small set of zero-configuration DNS utilities for assisting in detection and exploitation of SSRF-related vulnerabilities. It provides easy to use DNS rebinding utility, as well as a way to get resolvable resource records with any given contents.
 
 ### SMTP Header Injection
 	https://www.acunetix.com/blog/articles/email-header-injection/
