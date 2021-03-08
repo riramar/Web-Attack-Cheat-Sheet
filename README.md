@@ -282,7 +282,11 @@
 	https://www.alibabacloud.com/help/doc-detail/49122.htm
 	
 	https://about.gitlab.com/blog/2020/02/12/plundering-gcp-escalating-privileges-in-google-cloud-platform/
-		# Tutorial on privilege escalation and post exploitation tactics in Google Cloud Platform environments
+		# Tutorial on privilege escalation and post exploitation tactics in Google Cloud Platform environments.
+
+### Containerization
+	https://github.com/stealthcopter/deepce
+		# Docker Enumeration, Escalation of Privileges and Container Escapes (DEEPCE).
 
 ### Visual Identification
 	https://github.com/FortyNorthSecurity/EyeWitness
