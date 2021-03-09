@@ -440,6 +440,9 @@
 ### Payloads
 	https://github.com/swisskyrepo/PayloadsAllTheThings
 		PayloadsAllTheThings
+	
+	https://appcheck-ng.com/wp-content/uploads/unicode_normalization.html
+		Unicode normalization good for WAF bypass.
   
 	XSS
 		https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
