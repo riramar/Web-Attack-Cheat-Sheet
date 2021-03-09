@@ -190,6 +190,9 @@
 	
 	https://github.com/utkusen/urlhunter
 		urlhunter -keywords keywords.txt -date 2020-11-20 -o out.txt
+		
+	https://shorteners.grayhatwarfare.com
+		Search Shortener Urls
 
 ### GraphQL
 	https://github.com/doyensec/graph-ql
