@@ -308,6 +308,13 @@
 	https://github.com/returntocorp/semgrep
 		Semgrep is a fast, open-source, static analysis tool that excels at expressing code standards — without complicated queries — and surfacing bugs early at editor, commit, and CI time.
 
+### Dependency Confusion (https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
+	https://github.com/dwisiswant0/nodep
+		nodep — check available dependency packages across npmjs, PyPI or RubyGems registry.
+		
+	https://github.com/visma-prodsec/confused
+		A tool for checking for lingering free namespaces for private package names referenced in dependency configuration for Python (pypi) requirements.txt, JavaScript (npm) package.json, PHP (composer) composer.json or MVN (maven) pom.xml.
+
 ### Send emails (SMTP)
 	while read i; do echo $i; echo -e "From: example1@gmail.com\nTo: ${i}\nCc: example2@gmail.com\nSubject: This is the subject ${i}\n\nThis is the body ${i}" | ssmtp ${i},example2@gmail.com; done < emails.txt
 	References
