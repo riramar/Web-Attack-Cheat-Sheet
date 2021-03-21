@@ -161,23 +161,31 @@
 		
 ### Acquisitions/Names/Addresses/Contacts/Emails/etc.
 	https://hunter.io
+		# Hunter lets you find email addresses in seconds and connect with the people that matter for your business.
 	
 	https://intelx.io
+		# Intelligence X is an independent European technology company founded in 2018 by Peter Kleissner. The company is based in Prague, Czech Republic. Its mission is to develop and maintain the search engine and data archive.
 
 	https://github.com/khast3x/h8mail
-		h8mail -t target@example.com
+		# h8mail is an email OSINT and breach hunting tool using different breach and reconnaissance services, or local breaches such as Troy Hunt's "Collection1" and the infamous "Breach Compilation" torrent.
+			h8mail -t target@example.com
 	
 	https://dashboard.fullcontact.com
+		# Our person-first Identity Resolution Platform provides the crucial intelligence needed to drive Media Amplification, Omnichannel Measurement, and Customer Recognition.
 	
 	https://www.peopledatalabs.com
+		# Our data empowers developers to build innovative, trusted data-driven products at scale.
 	
 	https://www.social-searcher.com
+		# Free Social Media Search Engine.
 	
 	https://github.com/mxrch/GHunt
-		GHunt is an OSINT tool to extract information from any Google Account using an email.
+		# GHunt is an OSINT tool to extract information from any Google Account using an email.
+			python3 ghunt.py email myemail@gmail.com
 
 ### HTML/JavaScript Comments
-	Burp Engagement Tools
+	https://portswigger.net/support/using-burp-suites-engagement-tools
+		# Burp Engagement Tools
 	
 ### Google Dorks
 	https://www.exploit-db.com/google-hacking-database
