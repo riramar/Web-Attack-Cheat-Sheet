@@ -349,7 +349,12 @@
 		droopescan scan drupal -u example.com
 		
 	https://github.com/projectdiscovery/nuclei
-		nuclei -l urls.txt -t cves/ -t files/ -o results.txt
+		# Nuclei is used to send requests across targets based on a template leading to zero false positives and providing fast scanning on large number of hosts.
+			nuclei -l urls.txt -t cves/ -t files/ -o results.txt
+	
+	https://github.com/six2dez/reconftw
+		# reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform enumeration and finding out vulnerabilities.
+			reconftw.sh -d target.com -a
 		
 	https://gobies.org
 		# The new generation of network security technology achieves rapid security emergency through the establishment of a complete asset database for the target.
