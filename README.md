@@ -525,11 +525,11 @@ https://github.com/swisskyrepo/PayloadsAllTheThings
 https://appcheck-ng.com/wp-content/uploads/unicode_normalization.html
 <br># Unicode normalization good for WAF bypass.
   
-XSS
+<br># XSS
 https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 <br># This cross-site scripting (XSS) cheat sheet contains many vectors that can help you bypass WAFs and filters. You can select vectors by the event, tag or browser and a proof of concept is included for every vector.
 
-XXE
+<br># XXE
 https://portswigger.net/web-security/xxe
 <br># XML external entity injection (also known as XXE) is a web security vulnerability that allows an attacker to interfere with an application's processing of XML data. It often allows an attacker to view files on the application server filesystem, and to interact with any back-end or external systems that the application itself can access.
 <br>```<?xml version="1.0" encoding="UTF-8"?>```
@@ -543,7 +543,7 @@ https://phonexicum.github.io/infosec/xxe.html
 https://github.com/GoSecure/dtd-finder
 <br># Identify DTDs on filesystem snapshot and build XXE payloads using those local DTDs.
 
-SSRF
+<br># SSRF
 https://www.blackhat.com/us-17/briefings.html#a-new-era-of-ssrf-exploiting-url-parser-in-trending-programming-languages
 <br># We propose a new exploit technique that brings a whole-new attack surface to bypass SSRF (Server Side Request Forgery) protections.
 <br>```http://1.1.1.1&@2.2.2.2#@3.3.3.3/```
