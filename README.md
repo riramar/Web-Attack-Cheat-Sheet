@@ -158,6 +158,9 @@
 		
 	http://dnslog.cn
 		# Simple DNS server with realitme logs.
+	
+	https://interact.projectdiscovery.io/
+		# Interactsh is an Open-Source Solution for Out of band Data Extraction, A tool designed to detect bugs that cause external interactions, For example - Blind SQLi, Blind CMDi, SSRF, etc.
 		
 ### Acquisitions/Names/Addresses/Contacts/Emails/etc.
 	https://hunter.io
