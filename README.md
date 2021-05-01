@@ -1,6 +1,5 @@
 # Web-Attack-Cheat-Sheet
 
-
 ## Discovering
 
 ### General
