@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Discovering](#Discovering)
-  - [General](#General)
+  - [General](#General-Discovering)
   - [Targets](#Targets)
   - [IP Enumeration](#IP-Enumeration)
   - [Subdomain Enumeration](#Subdomain-Enumeration)
@@ -57,7 +57,7 @@
 
 ## Discovering
 
-### General
+### <a name="General-Discovering"></a>General
 https://github.com/redhuntlabs/Awesome-Asset-Discovery
 <br># Asset Discovery is the initial phase of any security assessment engagement, be it offensive or defensive. With the evolution of information technology, the scope and definition of assets has also evolved.
 
