@@ -32,7 +32,7 @@
   - [Web Scanning](#Web-Scanning)
   - [HTTP Request Smuggling](#HTTP-Request-Smuggling)
   - [Subdomain Takeover](#Subdomain-Takeover)
-  - [SQLi](#SQLi)
+  - [SQLi (SQL Injection)](#SQLi-Scanning)
   - [Repositories Scanning](#Repositories-Scanning)
   - [Google Dorks Scanning](#Google-Dorks-Scanning)
   - [CORS Misconfigurations](#CORS-Misconfigurations)
@@ -49,7 +49,7 @@
   - [DNS Rebinding](#DNS-Rebinding)
   - [SMTP Header Injection](#SMTP-Header-Injection)
   - [Reverse Shell](#Reverse-Shell)
-  - [SQLi (SQL Injection)](#SQLi-(SQL-Injection))
+  - [SQLi (SQL Injection)](#SQLi-Manual)
   - [SSTI (Server Side Template Injection)](#SSTI-(Server-Side-Template-Injection))
   - [WebDAV (Web Distributed Authoring and Versioning)](#WebDAV-(Web-Distributed-Authoring-and-Versioning))
   - [Generic Tools](#Generic-Tools)
@@ -502,7 +502,7 @@ https://github.com/Ice3man543/SubOver
 <br># Subover is a Hostile Subdomain Takeover tool originally written in python but rewritten from scratch in Golang. Since it's redesign, it has been aimed with speed and efficiency in mind.
 <br>```SubOver -l subdomains.txt```
 
-### SQLi
+### <a name="SQLi-Scanning"></a>SQLi (SQL Injection)
 https://github.com/sqlmapproject/sqlmap
 <br># sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
 <br>```sqlmap --force-ssl -r RAW_REQUEST.txt --user-agent='Mozilla' --batch```
@@ -691,7 +691,7 @@ https://reverse-shell.sh/
 https://github.com/calebstewart/pwncat
 <br># pwncat is a post-exploitation platform for Linux targets.
 
-### SQLi (SQL Injection)
+### <a name="SQLi-Manual"></a>SQLi (SQL Injection)
 https://arxiv.org/abs/1303.3047
 <br># This paper describes an advanced SQL injection technique where DNS resolution process is exploited for retrieval of malicious SQL query results.
 
