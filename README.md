@@ -27,7 +27,7 @@
 - [Scanning](#Scanning)
   - [Static Application Security Testing](#Static-Application-Security-Testing)
   - [Dependency Confusion](#Dependency-Confusion)
-  - [Send emails(SMTP)](#Send-emails)
+  - [Send Emails](#Send-Emails)
   - [Search Vulnerabilities](#Search-Vulnerabilities)
   - [Web Scanning](#Web-Scanning)
   - [HTTP Request Smuggling](#HTTP-Request-Smuggling)
@@ -408,7 +408,7 @@ https://github.com/dwisiswant0/nodep
 https://github.com/visma-prodsec/confused
 <br># A tool for checking for lingering free namespaces for private package names referenced in dependency configuration for Python (pypi) requirements.txt, JavaScript (npm) package.json, PHP (composer) composer.json or MVN (maven) pom.xml.
 
-### Send emails
+### Send Emails
 https://medium.com/intigriti/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c
 <br># Ticket Trick
 
