@@ -347,7 +347,10 @@ https://github.com/sensepost/gowitness
 https://github.com/returntocorp/semgrep
 <br># Semgrep is a fast, open-source, static analysis tool that excels at expressing code standards — without complicated queries — and surfacing bugs early at editor, commit, and CI time.
 
-### Dependency Confusion (https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
+### Dependency Confusion
+https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610
+<br># How I Hacked Into Apple, Microsoft and Dozens of Other Companies.
+
 https://github.com/dwisiswant0/nodep
 <br># nodep check available dependency packages across npmjs, PyPI or RubyGems registry.
 
