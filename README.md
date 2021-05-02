@@ -2,59 +2,59 @@
 
 ## Table of Contents
 - [Discovering](#Discovering)
-  - General
-  - Targets
-  - IP Enumeration
-  - Subdomain Enumeration
-  - Wayback Machine
-  - Cache
-  - Crawling
-  - Wordlist
-  - Directory Bruteforcing
-  - DNS and HTTP detection
-  - Acquisitions/Names/Addresses/Contacts/Emails/etc.
-  - HTML/JavaScript Comments
-  - Google Dorks
-  - Content Security Policy (CSP)
-  - Tiny URLs Services
-  - GraphQL
-  - General
-- Enumerating
-  - Fingerprint
-  - Buckets
-  - Cloud Enumeration
-  - Containerization
-  - Visual Identification
-- Scanning
-  - Static Application Security Testing
-  - Dependency Confusion
-  - Send emails (SMTP)
-  - Search Vulnerabilities
-  - Web Scanning
-  - HTTP Request Smuggling
-  - Subdomain Takeover
-  - SQLi
-  - Repositories Scanning
-  - Google Dorks Scanning
-  - CORS Misconfigurations
-- Monitoring
-  - CVE
-- Attacking
-  - Brute Force
-  - Exfiltration
-- Manual
-  - Payloads
-  - Deserialization
-  - Reusing Cookies
-  - SSRF (Server-Side Request Forgery)
-  - DNS Rebinding
-  - SMTP Header Injection
-  - Reverse Shell
-  - SQLi (SQL Injection)
-  - SSTI (Server Side Template Injection)
-  - WebDAV (Web Distributed Authoring and Versioning)
-  - Generic Tools
-  - General
+  - [General](#General)
+  - [Targets](#Targets)
+  - [IP Enumeration](#IP-Enumeration)
+  - [Subdomain Enumeration](#Subdomain-Enumeration)
+  - [Wayback Machine](#Wayback-Machine)
+  - [Cache](#Cache)
+  - [Crawling](#Crawling)
+  - [Wordlist](#Wordlist)
+  - [Directory Bruteforcing](#Directory-Bruteforcing)
+  - [DNS and HTTP detection](#DNS-and-HTTP-detection)
+  - [Acquisitions/Names/Addresses/Contacts/Emails/etc.](#)
+  - [HTML/JavaScript Comments](#HTML/JavaScript-Comments)
+  - [Google Dorks](#Google-Dorks)
+  - [Content Security Policy (CSP)](#Content-Security-Policy-(CSP))
+  - [Tiny URLs Services](#Tiny-URLs-Services)
+  - [GraphQL](#GraphQL)
+  - [General](#General)
+- [Enumerating](#Enumerating)
+  - [Fingerprint](#Fingerprint)
+  - [Buckets](#Buckets)
+  - [Cloud Enumeration](#Cloud-Enumeration)
+  - [Containerization](#Containerization)
+  - [Visual Identification](#Visual-Identification)
+- [Scanning](#Scanning)
+  - [Static Application Security Testing](#Static-Application-Security-Testing)
+  - [Dependency Confusion](#Dependency-Confusion)
+  - [Send emails (SMTP)](#Send-emails-(SMTP))
+  - [Search Vulnerabilities](#Search-Vulnerabilities)
+  - [Web Scanning](#Web-Scanning)
+  - [HTTP Request Smuggling](#HTTP-Request-Smuggling)
+  - [Subdomain Takeover](#Subdomain-Takeover)
+  - [SQLi](#SQLi)
+  - [Repositories Scanning](#Repositories-Scanning)
+  - [Google Dorks Scanning](#Google-Dorks-Scanning)
+  - [CORS Misconfigurations](#CORS-Misconfigurations)
+- [Monitoring](#Monitoring)
+  - [CVE](#CVE)
+- [Attacking](#Attacking)
+  - [Brute Force](#Brute-Force)
+  - [Exfiltration](#Exfiltration)
+- [Manual](#Manual)
+  - [Payloads](#Payloads)
+  - [Deserialization](#Deserialization)
+  - [Reusing Cookies](#Reusing-Cookies)
+  - [SSRF (Server-Side Request Forgery)](#SSRF-(Server-Side-Request-Forgery))
+  - [DNS Rebinding](#DNS-Rebinding)
+  - [SMTP Header Injection](#SMTP-Header-Injection)
+  - [Reverse Shell](#Reverse-Shell)
+  - [SQLi (SQL Injection)](#SQLi-(SQL Injection))
+  - [SSTI (Server Side Template Injection)](#SSTI-(Server-Side-Template-Injection))
+  - [WebDAV (Web Distributed Authoring and Versioning)](#WebDAV-(Web-Distributed-Authoring-and-Versioning))
+  - [Generic Tools](#Generic-Tools)
+  - [General](#General)
 
 ## Discovering
 
