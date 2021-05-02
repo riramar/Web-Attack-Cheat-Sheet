@@ -14,7 +14,7 @@
   - [Acquisitions/Names/Addresses/Contacts/Emails/etc.](#Acquisitions)
   - [HTML/JavaScript Comments](#JavaScript-Comments)
   - [Google Dorks](#Google-Dorks)
-  - [Content Security Policy (CSP)](#Content-Security-Policy-(CSP))
+  - [Content Security Policy (CSP)](#CSP)
   - [Tiny URLs Services](#Tiny-URLs-Services)
   - [GraphQL](#GraphQL)
   - [General](#General-Discovering)
@@ -27,7 +27,7 @@
 - [Scanning](#Scanning)
   - [Static Application Security Testing](#Static-Application-Security-Testing)
   - [Dependency Confusion](#Dependency-Confusion)
-  - [Send emails (SMTP)](#Send-emails-(SMTP))
+  - [Send emails(SMTP)](#Send-emails)
   - [Search Vulnerabilities](#Search-Vulnerabilities)
   - [Web Scanning](#Web-Scanning)
   - [HTTP Request Smuggling](#HTTP-Request-Smuggling)
@@ -238,7 +238,7 @@ https://portswigger.net/support/using-burp-suites-engagement-tools
 https://www.exploit-db.com/google-hacking-database
 <br># Google Hacking Database
 
-### Content Security Policy (CSP)
+### <a name="CSP"></a>Content Security Policy (CSP)
 https://csp-evaluator.withgoogle.com/
 <br># CSP Evaluator allows developers and security experts to check if a Content Security Policy (CSP) serves as a strong mitigation against cross-site scripting attacks.
 
@@ -408,7 +408,7 @@ https://github.com/dwisiswant0/nodep
 https://github.com/visma-prodsec/confused
 <br># A tool for checking for lingering free namespaces for private package names referenced in dependency configuration for Python (pypi) requirements.txt, JavaScript (npm) package.json, PHP (composer) composer.json or MVN (maven) pom.xml.
 
-### Send emails (SMTP)
+### Send emails
 https://medium.com/intigriti/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c
 <br># Ticket Trick
 
