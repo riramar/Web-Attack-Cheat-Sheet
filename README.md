@@ -51,9 +51,9 @@
   - [Reverse Shell](#Reverse-Shell)
   - [SQLi (SQL Injection)](#SQLi-Manual)
   - [SSTI (Server Side Template Injection)](#SSTI)
-  - [WebDAV (Web Distributed Authoring and Versioning)](#WebDAV-(Web-Distributed-Authoring-and-Versioning))
+  - [WebDAV (Web Distributed Authoring and Versioning)](#WebDAV)
   - [Generic Tools](#Generic-Tools)
-  - [General](#General)
+  - [General](#General-Manual)
 
 ## Discovering
 
@@ -723,7 +723,7 @@ https://github.com/epinna/tplmap
 <br># Tplmap assists the exploitation of Code Injection and Server-Side Template Injection vulnerabilities with a number of sandbox escape techniques to get access to the underlying operating system.
 <br>```tplmap.py --os-shell -u 'http://www.example.com/page?name=John'```
 
-### WebDAV (Web Distributed Authoring and Versioning)
+### <a name="WebDAV"></a>WebDAV (Web Distributed Authoring and Versioning)
 http://www.webdav.org/cadaver/
 <br># cadaver is a command-line WebDAV client for Unix.
 
@@ -737,7 +737,7 @@ https://gchq.github.io/CyberChef/
 https://packettotal.com/
 <br># Pcap analysis and samples
 
-### General
+### <a name="General-Manual"></a>General
 https://httpbin.org/
 <br># A simple HTTP Request & Response Service.
 
