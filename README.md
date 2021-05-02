@@ -2,7 +2,6 @@
 
 ## Table of Contents
 - [Discovering](#Discovering)
-  - [General](#General-Discovering)
   - [Targets](#Targets)
   - [IP Enumeration](#IP-Enumeration)
   - [Subdomain Enumeration](#Subdomain-Enumeration)
@@ -18,6 +17,7 @@
   - [Content Security Policy (CSP)](#Content-Security-Policy-(CSP))
   - [Tiny URLs Services](#Tiny-URLs-Services)
   - [GraphQL](#GraphQL)
+  - [General](#General-Discovering)
 - [Enumerating](#Enumerating)
   - [Fingerprint](#Fingerprint)
   - [Buckets](#Buckets)
@@ -56,22 +56,6 @@
   - [General](#General)
 
 ## Discovering
-
-### <a name="General-Discovering"></a>General
-https://github.com/redhuntlabs/Awesome-Asset-Discovery
-<br># Asset Discovery is the initial phase of any security assessment engagement, be it offensive or defensive. With the evolution of information technology, the scope and definition of assets has also evolved.
-
-https://spyse.com
-<br># Spyse holds the largest database of its kind, containing a wide range of OSINT data handy for the reconnaissance.
-
-https://github.com/yogeshojha/rengine
-<br># reNgine is an automated reconnaissance framework meant for information gathering during penetration testing of web applications.
-
-https://github.com/phor3nsic/favicon_hash_shodan
-<br># Search for a framework by favicon
-
-https://github.com/crashbrz/WebXmlExploiter/
-<br># The WebXmlExploiter is a tool to exploit exposed by misconfiguration or path traversal web.xml files.
 
 ### Targets
 https://github.com/arkadiyt/bounty-targets-data
@@ -293,6 +277,22 @@ https://medium.com/@apkash8/graphql-vs-rest-api-model-common-security-test-cases
 
 https://the-bilal-rizwan.medium.com/graphql-common-vulnerabilities-how-to-exploit-them-464f9fdce696
 <br># GraphQL common vulnerabilities & how to exploit them.
+
+### <a name="General-Discovering"></a>General
+https://github.com/redhuntlabs/Awesome-Asset-Discovery
+<br># Asset Discovery is the initial phase of any security assessment engagement, be it offensive or defensive. With the evolution of information technology, the scope and definition of assets has also evolved.
+
+https://spyse.com
+<br># Spyse holds the largest database of its kind, containing a wide range of OSINT data handy for the reconnaissance.
+
+https://github.com/yogeshojha/rengine
+<br># reNgine is an automated reconnaissance framework meant for information gathering during penetration testing of web applications.
+
+https://github.com/phor3nsic/favicon_hash_shodan
+<br># Search for a framework by favicon
+
+https://github.com/crashbrz/WebXmlExploiter/
+<br># The WebXmlExploiter is a tool to exploit exposed by misconfiguration or path traversal web.xml files.
 
 ## Enumerating
 
