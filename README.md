@@ -45,7 +45,7 @@
   - [Payloads](#Payloads)
   - [Deserialization](#Deserialization)
   - [Reusing Cookies](#Reusing-Cookies)
-  - [SSRF (Server-Side Request Forgery)](#SSRF-(Server-Side-Request-Forgery))
+  - [SSRF (Server-Side Request Forgery)](#SSRF)
   - [DNS Rebinding](#DNS-Rebinding)
   - [SMTP Header Injection](#SMTP-Header-Injection)
   - [Reverse Shell](#Reverse-Shell)
@@ -623,7 +623,7 @@ https://github.com/pimps/JNDI-Exploit-Kit
 https://medium.com/@ricardoiramar/reusing-cookies-23ed4691122b
 <br># This is a story how I accidentally found a common vulnerability across similar web applications just by reusing cookies on different subdomains from the same web application.
 
-### SSRF (Server-Side Request Forgery)
+### <a name="SSRF"></a>SSRF (Server-Side Request Forgery)
 https://lab.wallarm.com/blind-ssrf-exploitation/
 <br># There is such a thing as SSRF. There’s lots of information about it, but here is my quick summary.
 
