@@ -18,7 +18,6 @@
   - [Content Security Policy (CSP)](#Content-Security-Policy-(CSP))
   - [Tiny URLs Services](#Tiny-URLs-Services)
   - [GraphQL](#GraphQL)
-  - [General](#General)
 - [Enumerating](#Enumerating)
   - [Fingerprint](#Fingerprint)
   - [Buckets](#Buckets)
