@@ -1,4 +1,60 @@
-# Web-Attack-Cheat-Sheet
+# Web Attack Cheat Sheet
+
+## Table of Contents
+- [Discovering](#Discovering)
+  - General
+  - Targets
+  - IP Enumeration
+  - Subdomain Enumeration
+  - Wayback Machine
+  - Cache
+  - Crawling
+  - Wordlist
+  - Directory Bruteforcing
+  - DNS and HTTP detection
+  - Acquisitions/Names/Addresses/Contacts/Emails/etc.
+  - HTML/JavaScript Comments
+  - Google Dorks
+  - Content Security Policy (CSP)
+  - Tiny URLs Services
+  - GraphQL
+  - General
+- Enumerating
+  - Fingerprint
+  - Buckets
+  - Cloud Enumeration
+  - Containerization
+  - Visual Identification
+- Scanning
+  - Static Application Security Testing
+  - Dependency Confusion
+  - Send emails (SMTP)
+  - Search Vulnerabilities
+  - Web Scanning
+  - HTTP Request Smuggling
+  - Subdomain Takeover
+  - SQLi
+  - Repositories Scanning
+  - Google Dorks Scanning
+  - CORS Misconfigurations
+- Monitoring
+  - CVE
+- Attacking
+  - Brute Force
+  - Exfiltration
+- Manual
+  - Payloads
+  - Deserialization
+  - Reusing Cookies
+  - SSRF (Server-Side Request Forgery)
+  - DNS Rebinding
+  - SMTP Header Injection
+  - Reverse Shell
+  - SQLi (SQL Injection)
+  - SSTI (Server Side Template Injection)
+  - WebDAV (Web Distributed Authoring and Versioning)
+  - Generic Tools
+  - General
 
 ## Discovering
 
