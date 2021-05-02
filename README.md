@@ -11,7 +11,7 @@
   - [Wordlist](#Wordlist)
   - [Directory Bruteforcing](#Directory-Bruteforcing)
   - [DNS and HTTP detection](#DNS-and-HTTP-detection)
-  - [Acquisitions/Names/Addresses/Contacts/Emails/etc.](#)
+  - [Acquisitions/Names/Addresses/Contacts/Emails/etc.](#Acquisitions)
   - [HTML/JavaScript Comments](#HTML/JavaScript-Comments)
   - [Google Dorks](#Google-Dorks)
   - [Content Security Policy (CSP)](#Content-Security-Policy-(CSP))
@@ -206,7 +206,7 @@ http://dnslog.cn
 https://interact.projectdiscovery.io/
 <br># Interactsh is an Open-Source Solution for Out of band Data Extraction, A tool designed to detect bugs that cause external interactions, For example - Blind SQLi, Blind CMDi, SSRF, etc.
 
-### Acquisitions/Names/Addresses/Contacts/Emails/etc.
+### <a name="Acquisitions"></a>Acquisitions/Names/Addresses/Contacts/Emails/etc.
 https://hunter.io
 <br># Hunter lets you find email addresses in seconds and connect with the people that matter for your business.
 
