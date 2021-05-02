@@ -50,7 +50,7 @@
   - [DNS Rebinding](#DNS-Rebinding)
   - [SMTP Header Injection](#SMTP-Header-Injection)
   - [Reverse Shell](#Reverse-Shell)
-  - [SQLi (SQL Injection)](#SQLi-(SQL Injection))
+  - [SQLi (SQL Injection)](#SQLi-(SQL-Injection))
   - [SSTI (Server Side Template Injection)](#SSTI-(Server-Side-Template-Injection))
   - [WebDAV (Web Distributed Authoring and Versioning)](#WebDAV-(Web-Distributed-Authoring-and-Versioning))
   - [Generic Tools](#Generic-Tools)
