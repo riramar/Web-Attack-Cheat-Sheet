@@ -115,6 +115,9 @@ https://viewdns.info/reversewhois
 https://opendata.rapid7.com/
 <br># Offering researchers and community members open access to data from Project Sonar, which conducts internet-wide surveys to gain insights into global exposure to common vulnerabilities.
 
+https://github.com/ninoseki/mihari
+<br># Mihari is a framework for continuous OSINT based threat hunting.
+
 ### Wayback Machine
 https://github.com/tomnomnom/waybackurls
 <br># Accept line-delimited domains on stdin, fetch known URLs from the Wayback Machine for *.domain and output them on stdout.
