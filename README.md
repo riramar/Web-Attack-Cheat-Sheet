@@ -216,6 +216,9 @@ https://hunter.io
 https://intelx.io
 <br># Intelligence X is an independent European technology company founded in 2018 by Peter Kleissner. The company is based in Prague, Czech Republic. Its mission is to develop and maintain the search engine and data archive.
 
+https://www.nerdydata.com/
+<br># Find companies based on their website's tech stack or code.
+
 https://github.com/khast3x/h8mail
 <br># h8mail is an email OSINT and breach hunting tool using different breach and reconnaissance services, or local breaches such as Troy Hunt's "Collection1" and the infamous "Breach Compilation" torrent.
 <br>```h8mail -t target@example.com```
