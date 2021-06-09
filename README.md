@@ -634,6 +634,9 @@ https://lab.wallarm.com/blind-ssrf-exploitation/
 <br># There is such a thing as SSRF. There’s lots of information about it, but here is my quick summary.
 
 ### DNS Rebinding
+http://rebind.it
+<br># Singularity of Origin is a tool to perform DNS rebinding attacks. It includes the necessary components to rebind the IP address of the attack server DNS name to the target machine's IP address and to serve attack payloads to exploit vulnerable software on the target machine.
+
 https://github.com/brannondorsey/dns-rebind-toolkit
 <br># DNS Rebind Toolkit is a frontend JavaScript framework for developing DNS Rebinding exploits against vulnerable hosts and services on a local area network (LAN).
 
