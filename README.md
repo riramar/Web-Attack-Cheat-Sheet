@@ -187,6 +187,15 @@ https://github.com/epi052/feroxbuster
 <br># A simple, fast, recursive content discovery tool written in Rust.
 <br>```feroxbuster -u 'https://example.com/' -x pdf -x js,html -x php txt json,docx```
 
+### Parameter Bruteforcing
+https://github.com/s0md3v/Arjun
+<br># Arjun can find query parameters for URL endpoints.
+<br>```arjun -u https://example.com/```
+
+https://github.com/Sh1Yo/x8
+<br># Hidden parameters discovery suite written in Rust.
+<br>```x8 -u "https://example.com/" -w <wordlist>```
+
 ### DNS and HTTP detection
 https://ceye.io
 <br># Monitor service for security testing.
