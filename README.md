@@ -10,6 +10,7 @@
   - [Crawling](#Crawling)
   - [Wordlist](#Wordlist)
   - [Directory Bruteforcing](#Directory-Bruteforcing)
+  - [Parameter Bruteforcing](#Parameter-Bruteforcing)
   - [DNS and HTTP detection](#DNS-and-HTTP-detection)
   - [Acquisitions/Names/Addresses/Contacts/Emails/etc.](#Acquisitions)
   - [HTML/JavaScript Comments](#JavaScript-Comments)
