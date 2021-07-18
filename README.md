@@ -775,7 +775,15 @@ https://httpbin.org/
 <br>```cat test.key test.crt > test.pem```
 <br>```socat -v -d -d openssl-listen:443,crlf,reuseaddr,cert=test.pem,verify=0,fork 'SYSTEM:/bin/echo "HTTP/1.1 200 OK";/bin/echo "Content-Length: 2";/bin/echo;/bin/echo "OK"'```
 <br>```socat -v -d -d openssl-listen:443,crlf,reuseaddr,cert=web.pem,verify=0,fork 'SYSTEM:/bin/echo "HTTP/1.1 302 Found";/bin/echo "Content-Length: 0";/bin/echo "Location: http://metadata.google.internal/computeMetadata/v1beta1/instance/service-accounts/default/token";/bin/echo;/bin/echo'```
-<br>stunnel stunnel.conf # Check https://www.stunnel.org/
+<br>```stunnel stunnel.conf``` # Check https://www.stunnel.org/
+<br># Python 3 Simple HTTPS Server
+```
+    import http.server, ssl
+    server_address = ('0.0.0.0', 443)
+    httpd = http.server.HTTPServer(server_address, http.server.SimpleHTTPRequestHandler)
+    httpd.socket = ssl.wrap_socket(httpd.socket, server_side=True, certfile='/path/cert.pem', ssl_version=ssl.PROTOCOL_TLS)
+    httpd.serve_forever()
+```
 
 <br># Fake FTP Server
 <br>```python -m pyftpdlib --directory=/tmp/dir/ --port=21```
