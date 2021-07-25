@@ -70,6 +70,10 @@ https://github.com/pielco11/fav-up
 <br># Lookups for real IP starting from the favicon icon and using Shodan.
 <br>```python3 favUp.py --favicon-file favicon.ico -sc```
 
+https://stackoverflow.com/questions/16986879/bash-script-to-list-all-ips-in-prefix
+<br># List all IP addresses in a given CIDR block
+<br>```nmap -sL -n 10.10.64.0/27 | awk '/Nmap scan report/{print $NF}'```
+
 ### Subdomain Enumeration
 https://appsecco.com/books/subdomain-enumeration
 <br># This book intendes to be a reference for subdomain enumeration techniques.
