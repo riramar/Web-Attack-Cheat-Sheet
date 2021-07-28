@@ -647,6 +647,9 @@ https://medium.com/@ricardoiramar/reusing-cookies-23ed4691122b
 https://lab.wallarm.com/blind-ssrf-exploitation/
 <br># There is such a thing as SSRF. There’s lots of information about it, but here is my quick summary.
 
+https://blog.assetnote.io/2021/01/13/blind-ssrf-chains/
+<br># A Glossary of Blind SSRF Chains.
+
 ### DNS Rebinding
 http://rebind.it
 <br># Singularity of Origin is a tool to perform DNS rebinding attacks. It includes the necessary components to rebind the IP address of the attack server DNS name to the target machine's IP address and to serve attack payloads to exploit vulnerable software on the target machine.
