@@ -613,6 +613,8 @@ https://appcheck-ng.com/wp-content/uploads/unicode_normalization.html
 <br># XSS
 <br>https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 <br># This cross-site scripting (XSS) cheat sheet contains many vectors that can help you bypass WAFs and filters. You can select vectors by the event, tag or browser and a proof of concept is included for every vector.
+<br>https://www.gremwell.com/firefox-xss-302
+<br># Forcing Firefox to Execute XSS Payloads during 302 Redirects.
 
 <br># XXE
 <br>https://portswigger.net/web-security/xxe
