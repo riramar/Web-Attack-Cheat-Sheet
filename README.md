@@ -780,6 +780,9 @@ https://packettotal.com/
 https://httpbin.org/
 <br># A simple HTTP Request & Response Service.
 
+<br># Print only response headers for any method with curl
+<br>```curl -skSL -D - https://www.example.com -o /dev/null```
+
 <br># Reverse Proxy
 <br>```mitmdump --certs ~/cert/cert.pem --listen-port 443 --scripts script.py --set block_global=false --mode reverse:https://example.com/``` # Good for capture credentials
 ```
