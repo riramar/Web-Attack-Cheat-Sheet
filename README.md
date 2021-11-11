@@ -45,7 +45,6 @@
 - [Manual](#Manual)
   - [Payloads](#Payloads)
   - [Deserialization](#Deserialization)
-  - [Reusing Cookies](#Reusing-Cookies)
   - [SSRF (Server-Side Request Forgery)](#SSRF)
   - [DNS Rebinding](#DNS-Rebinding)
   - [SMTP Header Injection](#SMTP-Header-Injection)
@@ -527,6 +526,9 @@ https://medium.com/@ricardoiramar/the-powerful-http-request-smuggling-af208fafa1
 https://www.intruder.io/research/practical-http-header-smuggling
 <br># Modern web applications typically rely on chains of multiple servers, which forward HTTP requests to one another. The attack surface created by this forwarding is increasingly receiving more attention, including the recent popularisation of cache poisoning and request smuggling vulnerabilities. Much of this exploration, especially recent request smuggling research, has developed new ways to hide HTTP request headers from some servers in the chain while keeping them visible to others – a technique known as "header smuggling". This paper presents a new technique for identifying header smuggling and demonstrates how header smuggling can lead to cache poisoning, IP restriction bypasses, and request smuggling.
 
+https://docs.google.com/presentation/d/1DV-VYkoEsjFsePPCmzjeYjMxSbJ9PUH5EIN2ealhr5I/
+<br># Two Years Ago @albinowax Shown Us A New Technique To PWN Web Apps So Inspired By This Technique AND @defparam's Tool , I Have Been Collecting A Lot Of Mutations To Achieve Request Smuggling.
+
 ### Subdomain Takeover
 https://github.com/anshumanbh/tko-subs
 <br># Subdomain Takeover Scanner
@@ -680,10 +682,6 @@ https://github.com/joaomatosf/jexboss
 
 https://github.com/pimps/JNDI-Exploit-Kit
 <br># This is a forked modified version of the great exploitation tool created by @welk1n (https://github.com/welk1n/JNDI-Injection-Exploit). 
-
-### Reusing Cookies
-https://medium.com/@ricardoiramar/reusing-cookies-23ed4691122b
-<br># This is a story how I accidentally found a common vulnerability across similar web applications just by reusing cookies on different subdomains from the same web application.
 
 ### <a name="SSRF"></a>SSRF (Server-Side Request Forgery)
 https://lab.wallarm.com/blind-ssrf-exploitation/
@@ -924,3 +922,9 @@ https://blog.orange.tw/2019/07/attacking-ssl-vpn-part-1-preauth-rce-on-palo-alto
 <br>```time curl -s -d 'scep-profile-name=%9999999c' https://${HOST}/sslmgr >/dev/null```
 <br>```time curl -s -d 'scep-profile-name=%99999999c' https://${HOST}/sslmgr >/dev/null```
 <br>```time curl -s -d 'scep-profile-name=%999999999c' https://${HOST}/sslmgr >/dev/null```
+
+https://docs.google.com/presentation/d/1jqnpPe0A7L_cVuPe1V0XeW6LOHvMYg5PBqHd96SScJ8/
+<br># Routing To Another Backend , Deserve Spending Hours AND Hours On Its So Inspired By @samwcyo's Talk " Attacking Secondary Contexts in Web Applications " , I Have Been Collecting A Lot Of Stuff To PWN This Backend.
+
+https://medium.com/@ricardoiramar/reusing-cookies-23ed4691122b
+<br># This is a story how I accidentally found a common vulnerability across similar web applications just by reusing cookies on different subdomains from the same web application.
