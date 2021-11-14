@@ -923,6 +923,9 @@ https://blog.orange.tw/2019/07/attacking-ssl-vpn-part-1-preauth-rce-on-palo-alto
 <br>```time curl -s -d 'scep-profile-name=%99999999c' https://${HOST}/sslmgr >/dev/null```
 <br>```time curl -s -d 'scep-profile-name=%999999999c' https://${HOST}/sslmgr >/dev/null```
 
+https://blog.orange.tw/2018/08/how-i-chained-4-bugs-features-into-rce-on-amazon.html
+<br># How I Chained 4 Bugs(Features?) into RCE on Amazon Collaboration System (bypass with /..;/)
+
 https://docs.google.com/presentation/d/1jqnpPe0A7L_cVuPe1V0XeW6LOHvMYg5PBqHd96SScJ8/
 <br># Routing To Another Backend , Deserve Spending Hours AND Hours On Its So Inspired By @samwcyo's Talk " Attacking Secondary Contexts in Web Applications " , I Have Been Collecting A Lot Of Stuff To PWN This Backend.
 
