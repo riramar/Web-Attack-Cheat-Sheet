@@ -310,8 +310,8 @@ https://github.com/yogeshojha/rengine
 https://github.com/phor3nsic/favicon_hash_shodan
 <br># Search for a framework by favicon
 
-https://github.com/crashbrz/WebXmlExploiter/
-<br># The WebXmlExploiter is a tool to exploit exposed by misconfiguration or path traversal web.xml files.
+https://github.com/righettod/website-passive-reconnaissance
+<br># Script to automate, when possible, the passive reconnaissance performed on a website prior to an assessment.
 
 ## Enumerating
 
@@ -494,6 +494,9 @@ https://github.com/commixproject/commix
 https://github.com/MrCl0wnLab/ShellShockHunter
 <br># Shellshock, also known as Bashdoor, is a family of security bugs in the Unix Bash shell, the first of which was disclosed on 24 September 2014.
 <br>```python main.py --range '194.206.187.X,194.206.187.XXX' --check --thread 40 --ssl```
+
+https://github.com/crashbrz/WebXmlExploiter/
+<br># The WebXmlExploiter is a tool to exploit exposed by misconfiguration or path traversal web.xml files.
 
 ### HTTP Request Smuggling
 https://github.com/defparam/smuggler
