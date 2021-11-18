@@ -53,7 +53,7 @@
   - [SSTI (Server Side Template Injection)](#SSTI)
   - [WebDAV (Web Distributed Authoring and Versioning)](#WebDAV)
   - [Generic Tools](#Generic-Tools)
-- [General](#General)
+- [General](#General-All)
 
 ## Discovering
 
@@ -809,7 +809,7 @@ https://gchq.github.io/CyberChef/
 https://packettotal.com/
 <br># Pcap analysis and samples
 
-## <a name="General"></a>General
+## <a name="General-All"></a>General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
 
