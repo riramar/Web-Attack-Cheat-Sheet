@@ -53,7 +53,7 @@
   - [SSTI (Server Side Template Injection)](#SSTI)
   - [WebDAV (Web Distributed Authoring and Versioning)](#WebDAV)
   - [Generic Tools](#Generic-Tools)
-  - [General](#General-Manual)
+- [General](#General)
 
 ## Discovering
 
@@ -209,6 +209,9 @@ curl http://api.ceye.io/v1/records?token={API Key}&type=http```
 https://portswigger.net/burp/documentation/collaborator
 <br># Burp Collaborator is a network service that Burp Suite uses to help discover many kinds of vulnerabilities.
 <br># Tip https://www.onsecurity.co.uk/blog/gaining-persistent-access-to-burps-collaborator-sessions
+
+https://httpbin.org/
+<br># A simple HTTP Request & Response Service.
 
 http://pingb.in
 <br># Simple DNS and HTTP service for security testing.
@@ -806,10 +809,7 @@ https://gchq.github.io/CyberChef/
 https://packettotal.com/
 <br># Pcap analysis and samples
 
-### <a name="General-Manual"></a>General
-https://httpbin.org/
-<br># A simple HTTP Request & Response Service.
-
+## <a name="General"></a>General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
 
@@ -934,3 +934,6 @@ https://docs.google.com/presentation/d/1jqnpPe0A7L_cVuPe1V0XeW6LOHvMYg5PBqHd96SS
 
 https://medium.com/@ricardoiramar/reusing-cookies-23ed4691122b
 <br># This is a story how I accidentally found a common vulnerability across similar web applications just by reusing cookies on different subdomains from the same web application.
+
+https://github.com/shieldfy/API-Security-Checklist
+<br># Checklist of the most important security countermeasures when designing, testing, and releasing your API.
