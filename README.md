@@ -17,7 +17,7 @@
   - [Google Dorks](#Google-Dorks)
   - [Content Security Policy (CSP)](#CSP)
   - [Tiny URLs Services](#Tiny-URLs-Services)
-  - [GraphQL](#GraphQL)
+  - [GraphQL](#GraphQL)hello
   - [General](#General-Discovering)
 - [Enumerating](#Enumerating)
   - [Fingerprint](#Fingerprint)
