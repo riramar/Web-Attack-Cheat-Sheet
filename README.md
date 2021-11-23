@@ -535,6 +535,9 @@ https://www.intruder.io/research/practical-http-header-smuggling
 https://docs.google.com/presentation/d/1DV-VYkoEsjFsePPCmzjeYjMxSbJ9PUH5EIN2ealhr5I/
 <br># Two Years Ago @albinowax Shown Us A New Technique To PWN Web Apps So Inspired By This Technique AND @defparam's Tool , I Have Been Collecting A Lot Of Mutations To Achieve Request Smuggling.
 
+https://github.com/GrrrDog/weird_proxies
+<br># It's a cheat sheet about behaviour of various reverse proxies and related attacks.
+
 ### Subdomain Takeover
 https://github.com/anshumanbh/tko-subs
 <br># Subdomain Takeover Scanner
