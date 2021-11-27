@@ -102,6 +102,9 @@ https://censys.io/certificates?q=parsed.subject_dn%3AO%3DExample+Organization
 https://www.shodan.io/search?query=ssl%3AExample
 <br># Shodan is the world's first search engine for Internet-connected devices.
 
+https://publicwww.com
+<br># Find any alphanumeric snippet, signature or keyword in the web pages HTML, JS and CSS code.
+
 https://fofa.so
 <br># FOFA (Cyberspace Assets Retrieval System) is the world's IT equipment search engine with more complete data coverage, and it has more complete DNA information of global networked IT equipment.
 
