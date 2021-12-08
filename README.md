@@ -647,6 +647,12 @@ ID="xxxxx-xxxxx"
 echo "${RESULTS}" | jq -cM '.responses[]' | while read LINE; do if [[ $LINE == *'"protocol":"dns'* ]]; then echo ${LINE} | jq -rM '.data.subDomain' | egrep "^[[:digit:]]+\..*\..*\.$BC$"; fi; done | egrep "$ID" | sort -t. -k3 -g | sed -r 's/^[[:digit:]]+\.([^.]+)\..*/\1/g' | while read i; do i=${i//_0/+}; i=${i//_1/\/}; i=${i//_2/=}; echo ${i} | base64 -d; done
 ```
 
+https://www.slideshare.net/snyff/code-that-gets-you-pwnsd
+<br># Code that gets you pwn(s|'d). Very intersting bypasses ideas.
+
+https://github.com/aufzayed/bugbounty/tree/main/403-bypass
+<br># Common 403 bypass.
+
 ## Manual
 
 ### Payloads
@@ -918,9 +924,6 @@ def request(flow):
 
 https://gtfobins.github.io/
 <br># GTFOBins is a curated list of Unix binaries that can used to bypass local security restrictions in misconfigured systems.
-
-https://github.com/aufzayed/bugbounty/tree/main/403-bypass
-<br># Common 403 bypass.
 
 https://www.guyrutenberg.com/2014/05/02/make-offline-mirror-of-a-site-using-wget/
 <br># Make Offline Mirror of a Site using wget
