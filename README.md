@@ -228,6 +228,10 @@ http://dnslog.cn
 https://interact.projectdiscovery.io/
 <br># Interactsh is an Open-Source Solution for Out of band Data Extraction, A tool designed to detect bugs that cause external interactions, For example - Blind SQLi, Blind CMDi, SSRF, etc.
 
+https://canarytokens.org/
+<br># You'll be familiar with web bugs, the transparent images which track when someone opens an email. They work by embedding a unique URL in a page's image tag, and monitoring incoming GET requests.
+<br># Imagine doing that, but for file reads, database queries, process executions or patterns in log files. Canarytokens does all this and more, letting you implant traps in your production systems rather than setting up separate honeypots.
+
 ### <a name="Acquisitions"></a>Acquisitions/Names/Addresses/Contacts/Emails/etc.
 https://hunter.io
 <br># Hunter lets you find email addresses in seconds and connect with the people that matter for your business.
