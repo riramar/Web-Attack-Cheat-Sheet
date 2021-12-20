@@ -134,6 +134,10 @@ https://github.com/tomnomnom/hacks
 <br># Hacky one-off scripts, tests etc.
 <br>```cat waybackurls.txt | go run /root/Tools/hacks/anti-burl/main.go | tee waybackurls_valid.txt```
 
+https://github.com/lc/gau
+<br># getallurls (gau) fetches known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl for any given domain.
+<br>```cat domains.txt | gau --threads 5```
+
 ### Cache
 https://www.giftofspeed.com/cache-checker
 <br># This tool lists which web files on a website are cached and which are not. Furthermore it checks by which method these files are cached and what the expiry time of the cached files is.
