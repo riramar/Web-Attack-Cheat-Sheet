@@ -142,6 +142,9 @@ https://github.com/lc/gau
 https://www.giftofspeed.com/cache-checker
 <br># This tool lists which web files on a website are cached and which are not. Furthermore it checks by which method these files are cached and what the expiry time of the cached files is.
 
+https://youst.in/posts/cache-poisoning-at-scale/
+<br># Even though Web Cache Poisoning has been around for years, the increasing complexity in technology stacks constantly introduces unexpected behaviour which can be abused to achieve novel cache poisoning attacks. In this paper I will present the techniques I used to report over 70 cache poisoning vulnerabilities to various Bug Bounty programs.
+
 ### Crawling
 https://github.com/jaeles-project/gospider
 <br># Fast web spider written in Go.
