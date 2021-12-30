@@ -102,6 +102,10 @@ https://censys.io/certificates?q=parsed.subject_dn%3AO%3DExample+Organization
 https://www.shodan.io/search?query=ssl%3AExample
 <br># Shodan is the world's first search engine for Internet-connected devices.
 
+https://github.com/xiecat/fofax
+<br># fofax is a fofa query tool written in go, positioned as a command-line tool and characterized by simplicity and speed.
+<br>```fofax -q 'app="APACHE-Solr"'```
+
 https://publicwww.com
 <br># Find any alphanumeric snippet, signature or keyword in the web pages HTML, JS and CSS code.
 
