@@ -50,6 +50,7 @@
   - [SMTP Header Injection](#SMTP-Header-Injection)
   - [Reverse Shell](#Reverse-Shell)
   - [SQLi (SQL Injection)](#SQLi-Manual)
+  - [LFI (Local File Inclusion)](#LFI-Manual)
   - [SSTI (Server Side Template Injection)](#SSTI)
   - [WebDAV (Web Distributed Authoring and Versioning)](#WebDAV)
   - [Generic Tools](#Generic-Tools)
@@ -817,6 +818,10 @@ https://arxiv.org/abs/1303.3047
 
 <br># PostgreSQL
 <br>```'||;COPY%20users(names)%20FROM%20'\\xpto.example.com\';||'```
+
+### <a name="LDI-Manual"></a>LFI (Local File Inclusion)
+https://bierbaumer.net/security/php-lfi-with-nginx-assistance/
+<br># This post presents a new method to exploit local file inclusion (LFI) vulnerabilities in utmost generality, assuming only that PHP is running in combination with Nginx under a common standard configuration.
 
 ### <a name="SSTI"></a>SSTI (Server Side Template Injection)
 https://www.youtube.com/watch?v=SN6EVIG4c-0
