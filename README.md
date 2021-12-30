@@ -149,6 +149,10 @@ https://www.giftofspeed.com/cache-checker
 https://youst.in/posts/cache-poisoning-at-scale/
 <br># Even though Web Cache Poisoning has been around for years, the increasing complexity in technology stacks constantly introduces unexpected behaviour which can be abused to achieve novel cache poisoning attacks. In this paper I will present the techniques I used to report over 70 cache poisoning vulnerabilities to various Bug Bounty programs.
 
+https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner
+<br># Web Cache Vulnerability Scanner (WCVS) is a fast and versatile CLI scanner for web cache poisoning developed by Hackmanit.
+<br>```wcvs -u https://example.com -hw "file:/home/user/Documents/wordlist-header.txt" -pw "file:/home/user/Documents/wordlist-parameter.txt"```
+
 ### Crawling
 https://github.com/jaeles-project/gospider
 <br># Fast web spider written in Go.
