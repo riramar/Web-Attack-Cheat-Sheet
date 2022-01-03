@@ -976,3 +976,6 @@ https://medium.com/@ricardoiramar/reusing-cookies-23ed4691122b
 
 https://github.com/shieldfy/API-Security-Checklist
 <br># Checklist of the most important security countermeasures when designing, testing, and releasing your API.
+
+https://ippsec.rocks
+<br># Looking for a video on a specific hacking technique/tool? Searches over 100 hours of my videos to find you the exact spot in the video you are looking for.
