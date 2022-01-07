@@ -75,7 +75,7 @@ https://stackoverflow.com/questions/16986879/bash-script-to-list-all-ips-in-pref
 <br>```nmap -sL -n 10.10.64.0/27 | awk '/Nmap scan report/{print $NF}'```
 
 ### Subdomain Enumeration
-https://appsecco.com/books/subdomain-enumeration
+https://web.archive.org/web/20211127183642/https://appsecco.com/books/subdomain-enumeration/
 <br># This book intendes to be a reference for subdomain enumeration techniques.
 
 https://github.com/OWASP/Amass
