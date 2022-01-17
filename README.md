@@ -486,6 +486,9 @@ https://github.com/laluka/jolokia-exploitation-toolkit
 <br># Jolokia Exploitation Toolkit (JET) helps exploitation of exposed jolokia endpoints.
 
 ### Web Scanning
+https://github.com/psiinon/open-source-web-scanners
+<br># A list of open source web security scanners on GitHub.
+
 https://support.portswigger.net/customer/portal/articles/1783127-using-burp-scanner
 <br># Burp Scanner is a tool for automatically finding security vulnerabilities in web applications.
 
