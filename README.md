@@ -599,6 +599,9 @@ https://github.com/awslabs/git-secrets
 https://github.com/eth0izzle/shhgit
 <br># shhgit helps secure forward-thinking development, operations, and security teams by finding secrets across their code before it leads to a security breach.
 
+https://pinatahub.incognita.tech/
+<br># PinataHub allows you to explore a fraction of the 4M+ passwords and secrets committed in public GitHub repositories, detected by GoldDigger.
+
 ### Google Dorks Scanning
 https://github.com/opsdisk/pagodo
 <br># The goal of this project was to develop a passive Google dork script to collect potentially vulnerable web pages and applications on the Internet.
