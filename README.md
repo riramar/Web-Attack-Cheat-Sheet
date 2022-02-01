@@ -737,6 +737,12 @@ https://lab.wallarm.com/blind-ssrf-exploitation/
 https://blog.assetnote.io/2021/01/13/blind-ssrf-chains/
 <br># A Glossary of Blind SSRF Chains.
 
+https://wya.pl/2021/12/20/bring-your-own-ssrf-the-gateway-actuator/
+<br># BRING YOUR OWN SSRF – THE GATEWAY ACTUATOR.
+
+https://blog.tneitzel.eu/posts/01-attacking-java-rmi-via-ssrf/
+<br># Attacking Java RMI via SSRF.
+
 ### DNS Rebinding
 http://rebind.it
 <br># Singularity of Origin is a tool to perform DNS rebinding attacks. It includes the necessary components to rebind the IP address of the attack server DNS name to the target machine's IP address and to serve attack payloads to exploit vulnerable software on the target machine.
