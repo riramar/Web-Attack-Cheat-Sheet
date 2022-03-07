@@ -917,6 +917,9 @@ def request(flow):
         ctx.log.info(flow.request.get_text())
 ```
 
+<br># SOCKS Proxy
+<br>```ssh -N -D 0.0.0.0:1337 localhost```
+
 <br># Fake HTTP Server
 <br>```while true ; do echo -e "HTTP/1.1 200 OK\nContent-Length: 0\n\n" | nc -vl 1.2.3.4 80; done```
 <br>```socat -v -d -d TCP-LISTEN:80,crlf,reuseaddr,fork 'SYSTEM:/bin/echo "HTTP/1.1 200 OK";/bin/echo "Content-Length: 2";/bin/echo;/bin/echo "OK"'```
