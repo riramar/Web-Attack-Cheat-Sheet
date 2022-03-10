@@ -86,6 +86,10 @@ https://github.com/projectdiscovery/subfinder
 <br># subfinder is a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources.
 <br>```subfinder -r 8.8.8.8,8.8.4.4,1.1.1.1,1.0.0.1 -t 10 -v -d example.com -o dir/example.com```
 
+https://github.com/infosec-au/altdns
+<br># Altdns is a DNS recon tool that allows for the discovery of subdomains that conform to patterns. Altdns takes in words that could be present in subdomains under a domain (such as test, dev, staging) as well as takes in a list of subdomains that you know of.
+<br>```altdns -i subdomains.txt -o data_output -w words.txt -r -s results_output.txt```
+
 https://github.com/nsonaniya2010/SubDomainizer
 <br># SubDomainizer is a tool designed to find hidden subdomains and secrets present is either webpage, Github, and external javascripts present in the given URL.
 <br>```python3 SubDomainizer.py -u example.com -o dir/example.com```
