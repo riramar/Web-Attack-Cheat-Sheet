@@ -44,6 +44,7 @@
   - [Exfiltration](#Exfiltration)
 - [Manual](#Manual)
   - [Payloads](#Payloads)
+  - [Bypass](#Bypass)
   - [Deserialization](#Deserialization)
   - [SSRF (Server-Side Request Forgery)](#SSRF)
   - [DNS Rebinding](#DNS-Rebinding)
