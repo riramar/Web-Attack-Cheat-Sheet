@@ -727,6 +727,10 @@ https://github.com/GoSecure/dtd-finder
 <br>```http://foo@127.0.0.1:11211@google.com:80/```
 <br>```http://foo@127.0.0.1 @google.com:11211/```
 
+### Bypass
+https://blog.ryanjarv.sh/2022/03/16/bypassing-wafs-with-alternate-domain-routing.html
+<br># Bypassing CDN WAF’s with Alternate Domain Routing
+
 ### Deserialization
 https://github.com/joaomatosf/jexboss
 <br># JexBoss is a tool for testing and exploiting vulnerabilities in JBoss Application Server and others Java Platforms, Frameworks, Applications, etc.
