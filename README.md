@@ -874,6 +874,9 @@ https://github.com/cldrn/davtest
 <br># This program attempts to exploit WebDAV enabled servers.
 
 ### Generic Tools
+https://ahrefs.com/backlink-checker
+<br># Try the free version of Ahrefs' Backlink Checker.
+
 https://gchq.github.io/CyberChef/
 <br># The Cyber Swiss Army Knife
 
