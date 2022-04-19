@@ -469,6 +469,10 @@ https://medium.com/intigriti/abusing-autoresponders-and-email-bounces-9b1995eb53
 <br>```while read i; do echo $i; echo -e "From: example1@gmail.com\nTo: ${i}\nCc: example2@gmail.com\nSubject: This is the subject ${i}\n\nThis is the body ${i}" | ssmtp ${i},example2@gmail.com; done < emails.txt```
 
 ### Search Vulnerabilities
+https://pypi.org/project/urlscanio/
+<br># URLScan.io is a useful tool for scanning and obtaining information from potentially malicious websites. The creators of URLScan have very helpfully made an API which can be used to add some automation to your workflow. urlscanio is a simple Python CLI utility which makes use of the aforementioned APIs to automate my own personal workflow when it comes to using URLScan.
+<br>```urlscanio -i https://www.example.com```
+
 https://github.com/vulnersCom/getsploit
 <br># Command line search and download tool for Vulners Database inspired by searchsploit.
 <br>```getsploit wordpress 4.7.0```
