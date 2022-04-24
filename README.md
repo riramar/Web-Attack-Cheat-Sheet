@@ -75,6 +75,12 @@ https://stackoverflow.com/questions/16986879/bash-script-to-list-all-ips-in-pref
 <br># List all IP addresses in a given CIDR block
 <br>```nmap -sL -n 10.10.64.0/27 | awk '/Nmap scan report/{print $NF}'```
 
+https://kaeferjaeger.gay/?dir=cdn-ranges/
+<br># Lists of IP ranges used by CDNs (Cloudflare, Akamai, Incapsula, Fastly, etc). Updated every 30 minutes.
+
+https://kaeferjaeger.gay/?dir=ip-ranges/
+<br># Lists of IP ranges from: Google (Cloud & GoogleBot), Bing (Bingbot), Amazon (AWS), Microsoft (Azure), Oracle (Cloud) and DigitalOcean. Updated every 6 hours.
+
 ### Subdomain Enumeration
 https://web.archive.org/web/20211127183642/https://appsecco.com/books/subdomain-enumeration/
 <br># This book intendes to be a reference for subdomain enumeration techniques.
