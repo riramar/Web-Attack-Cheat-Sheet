@@ -1023,3 +1023,6 @@ https://github.com/shieldfy/API-Security-Checklist
 
 https://ippsec.rocks
 <br># Looking for a video on a specific hacking technique/tool? Searches over 100 hours of my videos to find you the exact spot in the video you are looking for.
+
+https://book.hacktricks.xyz/welcome/hacktricks
+<br># Welcome to the page where you will find each hacking trick/technique/whatever I have learnt in CTFs, real life apps, and reading researches and news.
