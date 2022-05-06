@@ -586,6 +586,9 @@ https://docs.google.com/presentation/d/1DV-VYkoEsjFsePPCmzjeYjMxSbJ9PUH5EIN2ealh
 https://github.com/GrrrDog/weird_proxies
 <br># It's a cheat sheet about behaviour of various reverse proxies and related attacks.
 
+https://github.com/bahruzjabiyev/T-Reqs-HTTP-Fuzzer
+<br># T-Reqs (Two Requests) is a grammar-based HTTP Fuzzer written as a part of the paper titled "T-Reqs: HTTP Request Smuggling with Differential Fuzzing" which was presented at ACM CCS 2021.
+
 ### Subdomain Takeover
 https://github.com/anshumanbh/tko-subs
 <br># Subdomain Takeover Scanner
