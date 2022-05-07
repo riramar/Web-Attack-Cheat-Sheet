@@ -934,7 +934,7 @@ done < ${FILE}
 wait
 ```
 
-<br># Reverse Proxy
+<br># Reverse Proxy (mitmproxy)
 <br>```mitmdump --certs ~/cert/cert.pem --listen-port 443 --scripts script.py --set block_global=false --mode reverse:https://example.com/``` # Good for capture credentials
 ```
 $ cat script.py
@@ -945,6 +945,9 @@ def request(flow):
     if flow.request.method == "POST":
         ctx.log.info(flow.request.get_text())
 ```
+
+<br># Reverse Proxy (socat)
+<br>```socat -v -d -d TCP-LISTEN:8101,reuseaddr,fork TCP:127.0.0.1:8100```
 
 <br># SOCKS Proxy
 <br>```ssh -N -D 0.0.0.0:1337 localhost```
