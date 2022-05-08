@@ -749,6 +749,9 @@ https://github.com/GoSecure/dtd-finder
 https://blog.ryanjarv.sh/2022/03/16/bypassing-wafs-with-alternate-domain-routing.html
 <br># Bypassing CDN WAF’s with Alternate Domain Routing
 
+https://github.com/filedescriptor/Unicode-Mapping-on-Domain-names
+<br># Browsers support internetionalized domains, but some Unicode characters are converted into English letters and symbols. This may be useful to make very short domains or bypass SSRF protection.
+
 ### Deserialization
 https://github.com/joaomatosf/jexboss
 <br># JexBoss is a tool for testing and exploiting vulnerabilities in JBoss Application Server and others Java Platforms, Frameworks, Applications, etc.
