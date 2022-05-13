@@ -354,6 +354,9 @@ https://github.com/phor3nsic/favicon_hash_shodan
 https://github.com/righettod/website-passive-reconnaissance
 <br># Script to automate, when possible, the passive reconnaissance performed on a website prior to an assessment.
 
+https://dhiyaneshgeek.github.io/red/teaming/2022/04/28/reconnaissance-red-teaming/
+<br># Reconnaissance is carried out in a Red Teaming Engagement.
+
 ## Enumerating
 
 ### Fingerprint
