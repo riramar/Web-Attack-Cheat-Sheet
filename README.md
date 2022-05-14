@@ -405,6 +405,9 @@ https://github.com/andresriancho/enumerate-iam
 https://github.com/nccgroup/ScoutSuite
 <br># Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments.
 
+https://github.com/initstring/cloud_enum
+<br># Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
+
 https://github.com/toniblyx/prowler
 <br># Prowler is a command line tool that helps you with AWS security assessment, auditing, hardening and incident response.
 
