@@ -755,6 +755,9 @@ https://github.com/GoSecure/dtd-finder
 https://blog.ryanjarv.sh/2022/03/16/bypassing-wafs-with-alternate-domain-routing.html
 <br># Bypassing CDN WAF’s with Alternate Domain Routing
 
+https://bishopfox.com/blog/json-interoperability-vulnerabilities
+<br># The same JSON document can be parsed with different values across microservices, leading to a variety of potential security risks.
+
 https://github.com/filedescriptor/Unicode-Mapping-on-Domain-names
 <br># Browsers support internetionalized domains, but some Unicode characters are converted into English letters and symbols. This may be useful to make very short domains or bypass SSRF protection.
 
