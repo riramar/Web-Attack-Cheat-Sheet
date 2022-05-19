@@ -596,7 +596,7 @@ https://github.com/bahruzjabiyev/T-Reqs-HTTP-Fuzzer
 <br># T-Reqs (Two Requests) is a grammar-based HTTP Fuzzer written as a part of the paper titled "T-Reqs: HTTP Request Smuggling with Differential Fuzzing" which was presented at ACM CCS 2021.
 
 https://github.com/BenjiTrapp/http-request-smuggling-lab
-<br># Two HTTP request smuggling labs
+<br># Two HTTP request smuggling labs.
 
 ### Subdomain Takeover
 https://github.com/anshumanbh/tko-subs
