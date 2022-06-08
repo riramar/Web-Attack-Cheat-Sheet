@@ -298,6 +298,9 @@ https://portswigger.net/support/using-burp-suites-engagement-tools
 https://www.exploit-db.com/google-hacking-database
 <br># Google Hacking Database
 
+<br># Search on AWS
+<br>```site:amazonaws.com company```
+
 ### <a name="CSP"></a>Content Security Policy (CSP)
 https://csp-evaluator.withgoogle.com/
 <br># CSP Evaluator allows developers and security experts to check if a Content Security Policy (CSP) serves as a strong mitigation against cross-site scripting attacks.
