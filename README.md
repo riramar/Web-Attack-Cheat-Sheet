@@ -656,7 +656,6 @@ https://pinatahub.incognita.tech/
 ### Secret Scanning
 https://github.com/redhuntlabs/HTTPLoot
 <br># An automated tool which can simultaneously crawl, fill forms, trigger error/debug pages and "loot" secrets out of the client-facing code of sites.
-<br>```gitleaks --github-org=organization --threads=4 -v --disk```
 
 ### Google Dorks Scanning
 https://github.com/opsdisk/pagodo
