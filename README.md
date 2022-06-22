@@ -145,6 +145,18 @@ https://opendata.rapid7.com/
 https://github.com/ninoseki/mihari
 <br># Mihari is a framework for continuous OSINT based threat hunting.
 
+https://github.com/ProjectAnte/dnsgen
+<br># This tool generates a combination of domain names from the provided input. Combinations are created based on wordlist. Custom words are extracted per execution.
+
+https://github.com/resyncgg/ripgen
+<br># A rust-based version of the popular dnsgen python utility.
+
+https://github.com/d3mondev/puredns
+<br># Fast domain resolver and subdomain bruteforcing with accurate wildcard filtering.
+
+https://github.com/projectdiscovery/dnsx
+<br># Fast and multi-purpose DNS toolkit allow to run multiple DNS queries.
+
 ### Wayback Machine
 https://github.com/tomnomnom/waybackurls
 <br># Accept line-delimited domains on stdin, fetch known URLs from the Wayback Machine for *.domain and output them on stdout.
