@@ -237,6 +237,10 @@ https://github.com/epi052/feroxbuster
 <br># A simple, fast, recursive content discovery tool written in Rust.
 <br>```feroxbuster -u 'https://example.com/' -x pdf -x js,html -x php txt json,docx```
 
+https://github.com/projectdiscovery/httpx
+<br># httpx is a fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads.
+<br>```cat hosts.txt | httpx```
+
 ### Parameter Bruteforcing
 https://github.com/s0md3v/Arjun
 <br># Arjun can find query parameters for URL endpoints.
