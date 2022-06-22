@@ -732,6 +732,9 @@ https://github.com/aufzayed/bugbounty/tree/main/403-bypass
 ## Manual
 
 ### Payloads
+https://github.com/six2dez/OneListForAll
+<br># This is a project to generate huge wordlists for web fuzzing, if you just want to fuzz with a good wordlist use the file onelistforallmicro.txt.
+
 https://github.com/swisskyrepo/PayloadsAllTheThings
 <br># PayloadsAllTheThings
 
