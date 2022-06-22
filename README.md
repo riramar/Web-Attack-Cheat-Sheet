@@ -35,6 +35,7 @@
   - [Subdomain Takeover](#Subdomain-Takeover)
   - [SQLi (SQL Injection)](#SQLi-Scanning)
   - [Repositories Scanning](#Repositories-Scanning)
+  - [Secret Scanning](#Secret-Scanning)
   - [Google Dorks Scanning](#Google-Dorks-Scanning)
   - [CORS Misconfigurations](#CORS-Misconfigurations)
 - [Monitoring](#Monitoring)
@@ -636,7 +637,6 @@ https://github.com/sqlmapproject/sqlmap
 ### Repositories Scanning
 https://github.com/zricethezav/gitleaks
 <br># Gitleaks is a SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos.
-<br>```gitleaks --github-org=organization --threads=4 -v --disk```
 
 https://github.com/michenriksen/gitrob
 <br># Gitrob is a tool to help find potentially sensitive files pushed to public repositories on Github.
@@ -652,6 +652,11 @@ https://github.com/eth0izzle/shhgit
 
 https://pinatahub.incognita.tech/
 <br># PinataHub allows you to explore a fraction of the 4M+ passwords and secrets committed in public GitHub repositories, detected by GoldDigger.
+
+### Secrect Scanning
+https://github.com/redhuntlabs/HTTPLoot
+<br># An automated tool which can simultaneously crawl, fill forms, trigger error/debug pages and "loot" secrets out of the client-facing code of sites.
+<br>```gitleaks --github-org=organization --threads=4 -v --disk```
 
 ### Google Dorks Scanning
 https://github.com/opsdisk/pagodo
