@@ -173,6 +173,10 @@ https://github.com/lc/gau
 <br>```cat domains.txt | gau --threads 5```
 
 ### Cache
+https://portswigger.net/research/practical-web-cache-poisoning
+<br># Web cache poisoning has long been an elusive vulnerability, a 'theoretical' threat used mostly to scare developers into obediently patching issues that nobody could actually exploit.
+<br># In this paper I'll show you how to compromise websites by using esoteric web features to turn their caches into exploit delivery systems, targeting everyone that makes the mistake of visiting their homepage.
+
 https://www.giftofspeed.com/cache-checker
 <br># This tool lists which web files on a website are cached and which are not. Furthermore it checks by which method these files are cached and what the expiry time of the cached files is.
 
