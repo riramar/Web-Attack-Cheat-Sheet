@@ -216,9 +216,6 @@ https://github.com/fuzzdb-project/fuzzdb
 https://github.com/google/fuzzing
 <br># This project aims at hosting tutorials, examples, discussions, research proposals, and other resources related to fuzzing.
 
-https://github.com/xyele/hackerone_wordlist
-<br># The wordlists that have been compiled using disclosed reports at the HackerOne bug bounty platform.
-
 https://wordlists.assetnote.io
 <br># This website provides you with wordlists that are up to date and effective against the most popular technologies on the internet.
 
