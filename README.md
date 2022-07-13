@@ -595,6 +595,10 @@ https://github.com/BishopFox/h2csmuggler
 
 https://github.com/0ang3el/websocket-smuggle
 <br># Smuggling HTTP requests over fake WebSocket connection.
+<br>```python3 smuggle.py -u https://example.com/```
+
+https://github.com/anshumanpattnaik/http-request-smuggling
+<br># So the idea behind this security tool is to detect HRS vulnerability for a given host and the detection happens based on the time delay technique with the given permutes.
 
 https://portswigger.net/web-security/request-smuggling
 <br># HTTP request smuggling is a technique for interfering with the way a web site processes sequences of HTTP requests that are received from one or more users.
