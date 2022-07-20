@@ -53,6 +53,7 @@
   - [SMTP Header Injection](#SMTP-Header-Injection)
   - [Reverse Shell](#Reverse-Shell)
   - [SQLi (SQL Injection)](#SQLi-Manual)
+  - [XPath Injection](#XPath-Injection-Manual)
   - [LFI (Local File Inclusion)](#LFI-Manual)
   - [SSTI (Server Side Template Injection)](#SSTI)
   - [WebDAV (Web Distributed Authoring and Versioning)](#WebDAV)
@@ -914,6 +915,16 @@ https://arxiv.org/abs/1303.3047
 
 https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet
 <br># This repository contains a advanced methodology of all types of SQL Injection.
+
+### <a name="XPath-Injection-Manual"></a>XPath Injection
+https://book.hacktricks.xyz/pentesting-web/xpath-injection
+<br># XPath Injection is an attack technique used to exploit applications that construct XPath (XML Path Language) queries from user-supplied input to query or navigate XML documents.
+
+https://devhints.io/xpath
+<br># Xpath cheatsheet.
+
+https://www.s4msecurity.com/2022/06/xmlxpath-injection-search-bwapp-level.html
+<br># This article subject XML/XPath Injection vulnerability on web app.
 
 ### <a name="LDI-Manual"></a>LFI (Local File Inclusion)
 https://bierbaumer.net/security/php-lfi-with-nginx-assistance/
