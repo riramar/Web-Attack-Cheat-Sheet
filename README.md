@@ -142,6 +142,13 @@ https://securitytrails.com/list/email/dns-admin.example.com
 https://viewdns.info/reversewhois
 <br># This free tool will allow you to find domain names owned by an individual person or company.
 
+https://www.whoxy.com
+<br># Our WHOIS API returns consistent and well-structured WHOIS data in XML & JSON format. Returned data contain parsed WHOIS fields that can be easily understood by your application.
+
+https://github.com/MilindPurswani/whoxyrm
+<br># A reverse whois tool based on Whoxy API based on @jhaddix's talk on Bug Hunter's Methodology v4.02.
+<br>```whoxyrm -company-name "Example Inc."```
+
 https://opendata.rapid7.com/
 <br># Offering researchers and community members open access to data from Project Sonar, which conducts internet-wide surveys to gain insights into global exposure to common vulnerabilities.
 
