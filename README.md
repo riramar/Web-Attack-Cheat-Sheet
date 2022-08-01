@@ -812,6 +812,9 @@ https://github.com/filedescriptor/Unicode-Mapping-on-Domain-names
 https://neilmadden.blog/2022/04/19/psychic-signatures-in-java/
 <br># It’s hard to overstate the severity of this bug. If you are using ECDSA signatures for any of these security mechanisms, then an attacker can trivially and completely bypass them if your server is running any Java 15, 16, 17, or 18 version before the April 2022 Critical Patch Update (CPU). For context, almost all WebAuthn/FIDO devices in the real world (including Yubikeys) use ECDSA signatures and many OIDC providers use ECDSA-signed JWTs.
 
+https://h.43z.one/ipconverter/
+<br># Convert IP address to different formats for bypass.
+
 ### Deserialization
 https://github.com/joaomatosf/jexboss
 <br># JexBoss is a tool for testing and exploiting vulnerabilities in JBoss Application Server and others Java Platforms, Frameworks, Applications, etc.
