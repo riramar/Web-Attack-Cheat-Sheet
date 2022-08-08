@@ -641,6 +641,10 @@ https://github.com/Ice3man543/SubOver
 <br># Subover is a Hostile Subdomain Takeover tool originally written in python but rewritten from scratch in Golang. Since it's redesign, it has been aimed with speed and efficiency in mind.
 <br>```SubOver -l subdomains.txt```
 
+https://github.com/punk-security/dnsReaper
+<br># DNS Reaper is yet another sub-domain takeover tool, but with an emphasis on accuracy, speed and the number of signatures in our arsenal.
+<br>```python3 main.py file --filename subdomains.txt```
+
 ### <a name="SQLi-Scanning"></a>SQLi (SQL Injection)
 https://github.com/sqlmapproject/sqlmap
 <br># sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
