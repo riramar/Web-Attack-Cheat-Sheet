@@ -258,6 +258,9 @@ https://github.com/projectdiscovery/httpx
 <br># httpx is a fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads.
 <br>```cat hosts.txt | httpx```
 
+https://github.com/assetnote/kiterunner
+<br># Kiterunner is a tool that is capable of not only performing traditional content discovery at lightning fast speeds, but also bruteforcing routes/endpoints in modern applications.
+
 ### Parameter Bruteforcing
 https://github.com/s0md3v/Arjun
 <br># Arjun can find query parameters for URL endpoints.
