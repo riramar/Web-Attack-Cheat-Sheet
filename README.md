@@ -203,6 +203,13 @@ https://github.com/jaeles-project/gospider
 <br># Fast web spider written in Go.
 <br>```gospider -s "https://example.com/" -o output -c 20 -d 10```
 
+https://github.com/rivermont/spidy
+<br># Spidy (/spˈɪdi/) is the simple, easy to use command line web crawler.
+
+https://github.com/hakluke/hakrawler
+<br># Fast golang web crawler for gathering URLs and JavaScript file locations. This is basically a simple implementation of the awesome Gocolly library.
+<br>```echo https://example.com | hakrawler```
+
 ### Wordlist
 https://portswigger.net/bappstore/21df56baa03d499c8439018fe075d3d7
 <br># Scrapes all unique words and numbers for use with password cracking.
