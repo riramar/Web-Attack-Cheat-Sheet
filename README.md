@@ -218,10 +218,6 @@ https://github.com/ameenmaali/wordlistgen
 <br># wordlistgen is a tool to pass a list of URLs and get back a list of relevant words for your wordlists.
 <br>```cat hosts.txt | wordlistgen```
 
-https://github.com/adamtlangley/gitscraper
-<br># A tool which scrapes public github repositories for common naming conventions in variables, folders and files.
-<br>```php gitscraper.php {GitHub Username} {GitHub Personal KEY}```
-
 https://github.com/danielmiessler/SecLists
 <br># SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.
 
@@ -682,6 +678,13 @@ https://github.com/eth0izzle/shhgit
 
 https://pinatahub.incognita.tech/
 <br># PinataHub allows you to explore a fraction of the 4M+ passwords and secrets committed in public GitHub repositories, detected by GoldDigger.
+
+https://github.com/adamtlangley/gitscraper
+<br># A tool which scrapes public github repositories for common naming conventions in variables, folders and files.
+<br>```php gitscraper.php {GitHub Username} {GitHub Personal KEY}```
+
+https://docs.gitguardian.com/secrets-detection/detectors/supported_credentials
+<br># Here is an exhaustive list of the detectors supported by GitGuardian.
 
 ### Secret Scanning
 https://github.com/redhuntlabs/HTTPLoot
