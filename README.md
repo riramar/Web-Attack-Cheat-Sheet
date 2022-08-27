@@ -438,6 +438,9 @@ https://github.com/andresriancho/enumerate-iam
 https://github.com/nccgroup/ScoutSuite
 <br># Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments.
 
+https://github.com/aquasecurity/trivy
+<br># Trivy (tri pronounced like trigger, vy pronounced like envy) is a comprehensive security scanner. It is reliable, fast, extremely easy to use, and it works wherever you need it.
+
 https://github.com/initstring/cloud_enum
 <br># Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
 
