@@ -683,6 +683,9 @@ https://github.com/adamtlangley/gitscraper
 <br># A tool which scrapes public github repositories for common naming conventions in variables, folders and files.
 <br>```php gitscraper.php {GitHub Username} {GitHub Personal KEY}```
 
+https://www.gitguardian.com/
+<br># Secure your software development lifecycle with enterprise-grade secrets detection. Eliminate blind spots with our automated, battle-tested detection engine.
+
 https://docs.gitguardian.com/secrets-detection/detectors/supported_credentials
 <br># Here is an exhaustive list of the detectors supported by GitGuardian.
 
