@@ -203,8 +203,8 @@ https://github.com/jaeles-project/gospider
 <br># Fast web spider written in Go.
 <br>```gospider -s "https://example.com/" -o output -c 20 -d 10```
 
-https://github.com/rivermont/spidy
-<br># Spidy (/spˈɪdi/) is the simple, easy to use command line web crawler.
+https://github.com/xnl-h4ck3r/xnLinkFinder
+<br># This is a tool used to discover endpoints (and potential parameters) for a given target.
 
 https://github.com/hakluke/hakrawler
 <br># Fast golang web crawler for gathering URLs and JavaScript file locations. This is basically a simple implementation of the awesome Gocolly library.
