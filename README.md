@@ -1137,3 +1137,7 @@ https://book.hacktricks.xyz/welcome/hacktricks
 
 https://github.com/s0md3v/uro
 <br># Using a URL list for security testing can be painful as there are a lot of URLs that have uninteresting/duplicate content; uro aims to solve that.
+
+https://github.com/hakluke/hakscale
+<br># Hakscale allows you to scale out shell commands over multiple systems with multiple threads on each system. The key concept is that a master server will push commands to the queue, then multiple worker servers pop commands from the queue and execute them. The output from those commands will then be sent back to the master server.
+<br>```hakscale push -p "host:./hosts.txt" -c "echo _host_ | httpx" -t 20```
