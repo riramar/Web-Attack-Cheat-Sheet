@@ -155,6 +155,9 @@ https://github.com/MilindPurswani/whoxyrm
 https://opendata.rapid7.com/
 <br># Offering researchers and community members open access to data from Project Sonar, which conducts internet-wide surveys to gain insights into global exposure to common vulnerabilities.
 
+https://openintel.nl/
+<br># The goal of the OpenINTEL measurement platform is to capture daily snapshots of the state of large parts of the global Domain Name System. Because the DNS plays a key role in almost all Internet services, recording this information allows us to track changes on the Internet, and thus its evolution, over longer periods of time. By performing active measurements, rather than passively collecting DNS data, we build consistent and reliable time series of the state of the DNS.
+
 https://github.com/ninoseki/mihari
 <br># Mihari is a framework for continuous OSINT based threat hunting.
 
