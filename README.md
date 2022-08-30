@@ -1135,6 +1135,9 @@ https://ippsec.rocks
 https://book.hacktricks.xyz/welcome/hacktricks
 <br># Welcome to the page where you will find each hacking trick/technique/whatever I have learnt in CTFs, real life apps, and reading researches and news.
 
+https://github.com/c3l3si4n/godeclutter
+<br># Declutters URLs in a lightning fast and flexible way, for improving input for web hacking automations such as crawlers and vulnerability scans.
+
 https://github.com/s0md3v/uro
 <br># Using a URL list for security testing can be painful as there are a lot of URLs that have uninteresting/duplicate content; uro aims to solve that.
 
