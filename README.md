@@ -1051,6 +1051,9 @@ def request(flow):
         ctx.log.info(flow.request.get_text())
 ```
 
+<br># Port Forwarding (socat)
+<br>```sudo socat -v TCP-LISTEN:80,fork TCP:127.0.0.1:81```
+
 <br># Reverse Proxy (socat)
 <br>```socat -v -d -d TCP-LISTEN:8101,reuseaddr,fork TCP:127.0.0.1:8100```
 
