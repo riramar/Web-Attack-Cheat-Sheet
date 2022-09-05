@@ -108,6 +108,9 @@ https://github.com/nsonaniya2010/SubDomainizer
 <br># SubDomainizer is a tool designed to find hidden subdomains and secrets present is either webpage, Github, and external javascripts present in the given URL.
 <br>```python3 SubDomainizer.py -u example.com -o dir/example.com```
 
+https://github.com/projectdiscovery/uncover
+<br># uncover is a go wrapper using APIs of well known search engines to quickly discover exposed hosts on the internet.
+
 https://dns.bufferover.run/dns?q=example.com
 <br># Powered by DNSGrep (https://github.com/erbbysam/DNSGrep)
 <br># A utility for quickly searching presorted DNS names. Built around the Rapid7 rdns & fdns dataset.
