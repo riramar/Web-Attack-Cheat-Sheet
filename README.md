@@ -173,6 +173,9 @@ https://github.com/d3mondev/puredns
 https://github.com/projectdiscovery/dnsx
 <br># Fast and multi-purpose DNS toolkit allow to run multiple DNS queries.
 
+https://github.com/glebarez/cero
+<br># Cero will connect to remote hosts, and read domain names from the certificates provided during TLS handshake.
+
 ### Wayback Machine
 https://github.com/tomnomnom/waybackurls
 <br># Accept line-delimited domains on stdin, fetch known URLs from the Wayback Machine for *.domain and output them on stdout.
