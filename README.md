@@ -219,6 +219,9 @@ https://github.com/hakluke/hakrawler
 <br># Fast golang web crawler for gathering URLs and JavaScript file locations. This is basically a simple implementation of the awesome Gocolly library.
 <br>```echo https://example.com | hakrawler```
 
+https://geotargetly.com/geo-browse
+<br># Geo Browse is a tool designed to capture screenshots of your website from different countries.
+
 ### Wordlist
 https://portswigger.net/bappstore/21df56baa03d499c8439018fe075d3d7
 <br># Scrapes all unique words and numbers for use with password cracking.
