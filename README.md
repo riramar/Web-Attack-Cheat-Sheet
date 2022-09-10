@@ -250,6 +250,10 @@ https://github.com/ffuf/ffuf
 <br># A fast web fuzzer written in Go.
 <br>```ffuf -H 'User-Agent: Mozilla' -v -t 30 -w mydirfilelist.txt -b 'NAME1=VALUE1; NAME2=VALUE2' -u 'https://example.com/FUZZ'```
 
+https://github.com/iustin24/chameleon
+<br># Chameleon provides better content discovery by using wappalyzer's set of technology fingerprints alongside custom wordlists tailored to each detected technologies.
+<br>```chameleon --url https://example.com -a```
+
 https://github.com/OJ/gobuster
 <br># Gobuster is a tool used to brute-force.
 <br>```gobuster dir -a 'Mozilla' -e -k -l -t 30 -w mydirfilelist.txt -c 'NAME1=VALUE1; NAME2=VALUE2' -u 'https://example.com/'```
