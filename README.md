@@ -1163,3 +1163,6 @@ https://github.com/s0md3v/uro
 https://github.com/hakluke/hakscale
 <br># Hakscale allows you to scale out shell commands over multiple systems with multiple threads on each system. The key concept is that a master server will push commands to the queue, then multiple worker servers pop commands from the queue and execute them. The output from those commands will then be sent back to the master server.
 <br>```hakscale push -p "host:./hosts.txt" -c "echo _host_ | httpx" -t 20```
+
+https://nathandavison.com/blog/abusing-http-hop-by-hop-request-headers
+<br># In this writeup, I will be covering techniques which can be used to influence web systems and applications in unexpected ways, by abusing HTTP/1.1 hop-by-hop headers. Systems affected by these techniques are likely ones with multiple caches/proxies handling requests before reaching the backend application.
