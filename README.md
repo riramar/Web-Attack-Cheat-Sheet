@@ -660,6 +660,9 @@ https://github.com/bahruzjabiyev/T-Reqs-HTTP-Fuzzer
 https://github.com/BenjiTrapp/http-request-smuggling-lab
 <br># Two HTTP request smuggling labs.
 
+https://infosec.zeyu2001.com/2022/http-request-smuggling-in-the-multiverse-of-parsing-flaws
+<br># Nowadays, novel HTTP request smuggling techniques rely on subtle deviations from the HTTP standard. Here, I discuss some of my recent findings and novel techniques.
+
 ### Subdomain Takeover
 https://github.com/anshumanbh/tko-subs
 <br># Subdomain Takeover Scanner
