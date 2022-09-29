@@ -454,6 +454,12 @@ https://github.com/VirtueSecurity/aws-extender
 <br># Burp Suite extension which can identify and test S3 buckets
 
 ### Cloud Enumeration
+<br># Basic check
+<br>```export AWS_ACCESS_KEY_ID=XYZ```
+<br>```export AWS_SECRET_ACCESS_KEY=XYZ```
+<br>```export AWS_SESSION_TOKEN=XYZ```
+<br>```aws sts get-caller-identity```
+
 https://github.com/andresriancho/enumerate-iam
 <br># Found a set of AWS credentials and have no idea which permissions it might have?
 
