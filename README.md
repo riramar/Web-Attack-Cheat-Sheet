@@ -245,6 +245,9 @@ https://github.com/google/fuzzing
 https://wordlists.assetnote.io
 <br># This website provides you with wordlists that are up to date and effective against the most popular technologies on the internet.
 
+https://github.com/trickest/wordlists
+<br># Real-world infosec wordlists, updated regularly.
+
 ### Directory Bruteforcing
 https://github.com/ffuf/ffuf
 <br># A fast web fuzzer written in Go.
