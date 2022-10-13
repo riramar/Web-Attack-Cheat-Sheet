@@ -623,6 +623,9 @@ https://github.com/MrCl0wnLab/ShellShockHunter
 https://github.com/crashbrz/WebXmlExploiter/
 <br># The WebXmlExploiter is a tool to exploit exposed by misconfiguration or path traversal web.xml files.
 
+https://github.com/stark0de/nginxpwner
+<br># Nginxpwner is a simple tool to look for common Nginx misconfigurations and vulnerabilities.
+
 ### HTTP Request Smuggling
 https://github.com/defparam/smuggler
 <br># An HTTP Request Smuggling / Desync testing tool written in Python 3.
