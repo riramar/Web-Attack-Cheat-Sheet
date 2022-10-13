@@ -822,8 +822,6 @@ https://appcheck-ng.com/wp-content/uploads/unicode_normalization.html
 <br># XSS
 <br>https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 <br># This cross-site scripting (XSS) cheat sheet contains many vectors that can help you bypass WAFs and filters. You can select vectors by the event, tag or browser and a proof of concept is included for every vector.
-<br>https://www.gremwell.com/firefox-xss-302
-<br># Forcing Firefox to Execute XSS Payloads during 302 Redirects.
 
 <br># XXE
 <br>https://portswigger.net/web-security/xxe
@@ -984,6 +982,9 @@ https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet
 ### <a name="XSS-Manual"></a>XSS
 https://rhynorater.github.io/postMessage-Braindump
 <br># postMessage-related bugs have landed me some serious bounties during the past couple live hacking events. Here is a quick summary of what you need to know about postMessage.
+
+<br>https://www.gremwell.com/firefox-xss-302
+<br># Forcing Firefox to Execute XSS Payloads during 302 Redirects.
 
 ### <a name="XPath-Injection-Manual"></a>XPath Injection
 https://book.hacktricks.xyz/pentesting-web/xpath-injection
