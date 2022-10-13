@@ -54,6 +54,7 @@
   - [Reverse Shell](#Reverse-Shell)
   - [SQLi (SQL Injection)](#SQLi-Manual)
   - [XPath Injection](#XPath-Injection-Manual)
+  - [XSS](#XSS-Manual)
   - [LFI (Local File Inclusion)](#LFI-Manual)
   - [SSTI (Server Side Template Injection)](#SSTI)
   - [WebDAV (Web Distributed Authoring and Versioning)](#WebDAV)
@@ -979,6 +980,10 @@ https://arxiv.org/abs/1303.3047
 
 https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet
 <br># This repository contains a advanced methodology of all types of SQL Injection.
+
+### <a name="XSS-Manual"></a>XSS
+https://rhynorater.github.io/postMessage-Braindump
+<br># postMessage-related bugs have landed me some serious bounties during the past couple live hacking events. Here is a quick summary of what you need to know about postMessage.
 
 ### <a name="XPath-Injection-Manual"></a>XPath Injection
 https://book.hacktricks.xyz/pentesting-web/xpath-injection
