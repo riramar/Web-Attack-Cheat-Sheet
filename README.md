@@ -180,6 +180,9 @@ https://github.com/projectdiscovery/dnsx
 https://github.com/glebarez/cero
 <br># Cero will connect to remote hosts, and read domain names from the certificates provided during TLS handshake.
 
+https://cramppet.github.io/regulator/index.html
+<br># Regulator: A unique method of subdomain enumeration
+
 ### Wayback Machine
 https://github.com/tomnomnom/waybackurls
 <br># Accept line-delimited domains on stdin, fetch known URLs from the Wayback Machine for *.domain and output them on stdout.
