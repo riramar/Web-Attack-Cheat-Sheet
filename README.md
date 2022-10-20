@@ -1018,6 +1018,10 @@ https://github.com/epinna/tplmap
 <br># Tplmap assists the exploitation of Code Injection and Server-Side Template Injection vulnerabilities with a number of sandbox escape techniques to get access to the underlying operating system.
 <br>```tplmap.py --os-shell -u 'http://www.example.com/page?name=John'```
 
+https://github.com/vladko312/SSTImap
+<br># SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
+<br>```sstimap.py -u https://example.com/page?name=John```
+
 ### <a name="WebDAV"></a>WebDAV (Web Distributed Authoring and Versioning)
 http://www.webdav.org/cadaver/
 <br># cadaver is a command-line WebDAV client for Unix.
