@@ -767,6 +767,14 @@ https://hashcat.net/hashcat/
 <br># Hashcat is a password recovery tool.
 <br>```hashcat -m 0 -a 0 hashes.txt passwords.txt```
 
+https://github.com/iangcarroll/cookiemonster
+<br># CookieMonster is a command-line tool and API for decoding and modifying vulnerable session cookies from several different frameworks. It is designed to run in automation pipelines which must be able to efficiently process a large amount of these cookies to quickly discover vulnerabilities. Additionally, CookieMonster is extensible and can easily support new cookie formats.
+<br>```cookiemonster -cookie "gAJ9cQFYCgAAAHRlc3Rjb29raWVxAlgGAAAAd29ya2VkcQNzLg:1mgnkC:z5yDxzI06qYVAU3bkLaWYpADT4I"```
+
+https://github.com/ticarpi/jwt_tool
+<br># jwt_tool.py is a toolkit for validating, forging, scanning and tampering JWTs (JSON Web Tokens).
+<br>```python3 jwt_tool.py eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbiI6InRpY2FycGkifQ.aqNCvShlNT9jBFTPBpHDbt2gBB1MyHiisSDdp8SQvgw```
+
 https://github.com/ustayready/fireprox
 <br># Rotate the source IP address in order to bypass rate limits
 
