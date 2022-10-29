@@ -1203,3 +1203,6 @@ https://github.com/hakluke/hakscale
 
 https://nathandavison.com/blog/abusing-http-hop-by-hop-request-headers
 <br># In this writeup, I will be covering techniques which can be used to influence web systems and applications in unexpected ways, by abusing HTTP/1.1 hop-by-hop headers. Systems affected by these techniques are likely ones with multiple caches/proxies handling requests before reaching the backend application.
+
+https://github.com/chubin/cheat.sh
+<br># Unified access to the best community driven cheat sheets repositories of the world.
