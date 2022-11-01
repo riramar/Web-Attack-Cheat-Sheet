@@ -688,6 +688,10 @@ https://github.com/anshumanbh/tko-subs
 <br># Subdomain Takeover Scanner
 <br>```tko-subs -data providers-data.csv -threads 20 -domains subdomains.txt```
 
+https://github.com/haccer/subjack
+<br># Subjack is a Subdomain Takeover tool written in Go designed to scan a list of subdomains concurrently and identify ones that are able to be hijacked.
+<br>```subjack -w subdomains.txt -t 100 -timeout 30 -o results.txt -ssl```
+
 https://github.com/Ice3man543/SubOver
 <br># Subover is a Hostile Subdomain Takeover tool originally written in python but rewritten from scratch in Golang. Since it's redesign, it has been aimed with speed and efficiency in mind.
 <br>```SubOver -l subdomains.txt```
