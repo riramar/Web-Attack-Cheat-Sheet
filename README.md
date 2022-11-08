@@ -1103,6 +1103,9 @@ from mitmproxy import ctx
 def request(flow):
     if flow.request.method == "POST":
         ctx.log.info(flow.request.get_text())
+        f = open("captured.log", "a")
+        f.write(flow.request.get_text() + '\n')
+        f.close()
 ```
 
 <br># Port Forwarding (socat)
