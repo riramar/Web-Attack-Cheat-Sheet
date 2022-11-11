@@ -859,17 +859,7 @@ https://github.com/GoSecure/dtd-finder
 
 https://www.blackhat.com/us-17/briefings.html#a-new-era-of-ssrf-exploiting-url-parser-in-trending-programming-languages
 <br># We propose a new exploit technique that brings a whole-new attack surface to bypass SSRF (Server Side Request Forgery) protections.
-<br>```http://1.1.1.1&@2.2.2.2#@3.3.3.3/```
-<br>```http://127.0.0.1:11211:80/```
-<br>```http://google.com#@evil.com/```
-<br>```http://foo@evil.com:80@google.com/```
-<br>```http://foo@evil.com:80 @google.com/```
-<br>```http://127.0.0.1\tfoo.google.com/```
-<br>```http://127.0.0.1%09foo.google.com/```
-<br>```http://127.0.0.1%2509foo.google.com/```
-<br>```http://127.0.0.1:11211#@google.com:80/```
-<br>```http://foo@127.0.0.1:11211@google.com:80/```
-<br>```http://foo@127.0.0.1 @google.com:11211/```
+<br>https://github.com/orangetw/Tiny-URL-Fuzzer/blob/master/samples.txt
 
 ### Bypass
 https://blog.ryanjarv.sh/2022/03/16/bypassing-wafs-with-alternate-domain-routing.html
