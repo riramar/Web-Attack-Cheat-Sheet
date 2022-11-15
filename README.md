@@ -1002,7 +1002,7 @@ https://book.hacktricks.xyz/pentesting-web/xpath-injection
 https://devhints.io/xpath
 <br># Xpath cheatsheet.
 
-https://www.s4msecurity.com/2022/06/xmlxpath-injection-search-bwapp-level.html
+https://www.s4msecurity.com/2022/06/08/xml-xpath-injection-search-bwapp-level-low/
 <br># This article subject XML/XPath Injection vulnerability on web app.
 
 ### <a name="LDI-Manual"></a>LFI (Local File Inclusion)
