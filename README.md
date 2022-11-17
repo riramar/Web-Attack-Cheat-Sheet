@@ -1214,3 +1214,6 @@ https://github.com/chubin/cheat.sh
 
 https://labs.detectify.com/2022/10/28/hacking-supercharged-how-to-gunnar-andrews/
 <br># How to supercharge your hacking: Mindset, workflow, productivity and checklist.
+
+https://github.com/sehno/Bug-bounty
+<br># You can find here some resources I use to do bug bounty hunting.
