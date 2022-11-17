@@ -1211,3 +1211,6 @@ https://nathandavison.com/blog/abusing-http-hop-by-hop-request-headers
 
 https://github.com/chubin/cheat.sh
 <br># Unified access to the best community driven cheat sheets repositories of the world.
+
+https://labs.detectify.com/2022/10/28/hacking-supercharged-how-to-gunnar-andrews/
+<br># How to supercharge your hacking: Mindset, workflow, productivity and checklist.
