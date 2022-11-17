@@ -227,6 +227,10 @@ https://github.com/hakluke/hakrawler
 <br># Fast golang web crawler for gathering URLs and JavaScript file locations. This is basically a simple implementation of the awesome Gocolly library.
 <br>```echo https://example.com | hakrawler```
 
+https://github.com/projectdiscovery/katana
+<br># A next-generation crawling and spidering framework.
+<br>```katana -u https://example.com```
+
 https://geotargetly.com/geo-browse
 <br># Geo Browse is a tool designed to capture screenshots of your website from different countries.
 
