@@ -1111,7 +1111,7 @@ def request(flow):
 
 <br># Reverse Proxy (socat)
 <br>```socat -v -d -d TCP-LISTEN:8101,reuseaddr,fork TCP:127.0.0.1:8100```
-<br>```sudo socat -v -d -d openssl-listen:8443,crlf,reuseaddr,cert=cert.pem,verify=0,reuseaddr,fork SSL:127.0.0.1:443,verify=0```
+<br>```sudo socat -v -d -d openssl-listen:8443,cert=cert.pem,reuseaddr,fork,verify=0 SSL:127.0.0.1:443,verify=0```
 
 <br># SOCKS Proxy
 <br>```ssh -N -D 0.0.0.0:1337 localhost```
