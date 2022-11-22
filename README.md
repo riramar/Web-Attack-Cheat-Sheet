@@ -1217,3 +1217,6 @@ https://labs.detectify.com/2022/10/28/hacking-supercharged-how-to-gunnar-andrews
 
 https://github.com/sehno/Bug-bounty
 <br># You can find here some resources I use to do bug bounty hunting.
+
+https://wpdemo.net/
+<br># WPDemo.net is for WordPress theme designers and plugin developers that want to allow potential customers to test drive their WordPress plugins or themes before buying.
