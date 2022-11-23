@@ -850,6 +850,9 @@ https://github.com/six2dez/OneListForAll
 https://github.com/swisskyrepo/PayloadsAllTheThings
 <br># PayloadsAllTheThings
 
+https://github.com/0xacb/recollapse
+<br># REcollapse is a helper tool for black-box regex fuzzing to bypass validations and discover normalizations in web applications.
+
 https://appcheck-ng.com/wp-content/uploads/unicode_normalization.html
 <br># Unicode normalization good for WAF bypass.
   
