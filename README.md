@@ -1116,6 +1116,10 @@ def request(flow):
 <br># SOCKS Proxy
 <br>```ssh -N -D 0.0.0.0:1337 localhost```
 
+https://github.com/projectdiscovery/proxify/
+<br># Swiss Army Knife Proxy for rapid deployments. Supports multiple operations such as request/response dump, filtering and manipulation via DSL language, upstream HTTP/Socks5 proxy.
+<br>```proxify -socks5-proxy socks5://127.0.0.1:9050```
+
 <br># Fake HTTP Server
 <br>```while true ; do echo -e "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 2\r\n\r\nOK" | sudo nc -vlp 80; done```
 <br>```socat -v -d -d TCP-LISTEN:80,crlf,reuseaddr,fork 'SYSTEM:/bin/echo "HTTP/1.1 200 OK";/bin/echo "Connection: close";/bin/echo "Content-Length: 2";/bin/echo;/bin/echo "OK"'```
