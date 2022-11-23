@@ -541,6 +541,10 @@ https://github.com/sensepost/gowitness
 <br># gowitness is a website screenshot utility written in Golang, that uses Chrome Headless to generate screenshots of web interfaces using the command line, with a handy report viewer to process results. Both Linux and macOS is supported, with Windows support mostly working.
 <br>```gowitness scan --cidr 192.168.0.0/24 --threads 20```
 
+https://github.com/BishopFox/eyeballer
+<br># Eyeballer is meant for large-scope network penetration tests where you need to find "interesting" targets from a huge set of web-based hosts.
+<br>```eyeballer.py --weights YOUR_WEIGHTS.h5 predict PATH_TO/YOUR_FILES/```
+
 ## Scanning
 
 ### Static Application Security Testing
