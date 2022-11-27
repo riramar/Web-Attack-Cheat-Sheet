@@ -191,6 +191,9 @@ https://github.com/blechschmidt/massdns
 <br># MassDNS is a simple high-performance DNS stub resolver targeting those who seek to resolve a massive amount of domain names in the order of millions or even billions.
 <br>```massdns -r resolvers.txt -o S -w massdns.out subdomains.txt```
 
+https://github.com/trickest/resolvers
+<br># The most exhaustive list of reliable DNS resolvers.
+
 ### Wayback Machine
 https://github.com/tomnomnom/waybackurls
 <br># Accept line-delimited domains on stdin, fetch known URLs from the Wayback Machine for *.domain and output them on stdout.
