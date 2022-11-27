@@ -597,6 +597,10 @@ https://github.com/0ang3el/aem-hacker
 https://github.com/laluka/jolokia-exploitation-toolkit
 <br># Jolokia Exploitation Toolkit (JET) helps exploitation of exposed jolokia endpoints.
 
+https://github.com/cve-search/git-vuln-finder
+<br># Finding potential software vulnerabilities from git commit messages.
+<br>```git-vuln-finder -r ~/git/curl | jq .```
+
 ### Web Scanning
 https://github.com/psiinon/open-source-web-scanners
 <br># A list of open source web security scanners on GitHub.
