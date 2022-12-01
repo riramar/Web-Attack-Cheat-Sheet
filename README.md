@@ -1010,6 +1010,9 @@ https://arxiv.org/abs/1303.3047
 https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet
 <br># This repository contains a advanced methodology of all types of SQL Injection.
 
+https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/
+<br># This SQL injection cheat sheet is an updated version of a 2007 post by Ferruh Mavituna on his personal blog. Currently this SQL injection cheat sheet only contains information for MySQL, Microsoft SQL Server, and some limited information for ORACLE and PostgreSQL SQL servers. Some of the samples in this sheet might not work in every situation because real live environments may vary depending on the usage of parentheses, different code bases and unexpected, strange and complex SQL sentences.
+
 ### <a name="XSS-Manual"></a>XSS
 https://rhynorater.github.io/postMessage-Braindump
 <br># postMessage-related bugs have landed me some serious bounties during the past couple live hacking events. Here is a quick summary of what you need to know about postMessage.
