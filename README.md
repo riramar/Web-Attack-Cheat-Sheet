@@ -919,6 +919,10 @@ https://wya.pl/2021/12/20/bring-your-own-ssrf-the-gateway-actuator/
 https://blog.tneitzel.eu/posts/01-attacking-java-rmi-via-ssrf/
 <br># Attacking Java RMI via SSRF.
 
+https://docs.aws.amazon.com/lambda/latest/dg/runtimes-api.html#runtimes-api-next
+<br># Got SSRF in a AWS lambda?
+```http://localhost:9001/2018-06-01/runtime/invocation/next```
+
 ### DNS Rebinding
 http://rebind.it
 <br># Singularity of Origin is a tool to perform DNS rebinding attacks. It includes the necessary components to rebind the IP address of the attack server DNS name to the target machine's IP address and to serve attack payloads to exploit vulnerable software on the target machine.
