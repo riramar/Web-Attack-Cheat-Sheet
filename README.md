@@ -815,6 +815,8 @@ https://cloud.hacktricks.xyz/pentesting-cloud/gcp-pentesting/gcp-services/gcp-da
 https://blog.assetnote.io/bug-bounty/2020/02/01/expanding-attack-surface-react-native/
 <br># Extract data from Firebase with apikey.
 ```
+$ python3 -m venv venv
+$ source venv/bin/activate
 $ pip3 install pyrebase4
 $ python3
 >>> import pyrebase
