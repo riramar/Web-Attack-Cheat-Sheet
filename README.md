@@ -811,6 +811,7 @@ https://github.com/sensepost/reGeorg
 https://github.com/fbkcs/ThunderDNS
 <br># This tool can forward TCP traffic over DNS protocol. Non-compile clients + socks5 support.
 
+https://cloud.hacktricks.xyz/pentesting-cloud/gcp-pentesting/gcp-services/gcp-databases-enum/gcp-firebase-enum
 https://blog.assetnote.io/bug-bounty/2020/02/01/expanding-attack-surface-react-native/
 <br># Extract data from Firebase with apikey.
 ```
