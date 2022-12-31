@@ -554,6 +554,21 @@ https://github.com/BishopFox/eyeballer
 https://github.com/returntocorp/semgrep
 <br># Semgrep is a fast, open-source, static analysis tool that excels at expressing code standards — without complicated queries — and surfacing bugs early at editor, commit, and CI time.
 
+https://owasp.org/www-project-dependency-check/
+<br># Dependency-Check is a Software Composition Analysis (SCA) tool that attempts to detect publicly disclosed vulnerabilities contained within a project’s dependencies. It does this by determining if there is a Common Platform Enumeration (CPE) identifier for a given dependency. If found, it will generate a report linking to the associated CVE entries.
+
+https://owasp.org/www-community/Source_Code_Analysis_Tools
+<br># Source code analysis tools, also known as Static Application Security Testing (SAST) Tools, can help analyze source code or compiled versions of code to help find security flaws.
+
+https://github.com/robotframework/robotframework
+<br># Robot Framework is a generic open source automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). It has simple plain text syntax and it can be extended easily with generic and custom libraries.
+
+https://github.com/google/osv-scanner
+<br># Use OSV-Scanner to find existing vulnerabilities affecting your project's dependencies.
+
+https://github.com/securego/gosec
+<br># Inspects source code for security problems by scanning the Go AST.
+
 ### Dependency Confusion
 https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610
 <br># How I Hacked Into Apple, Microsoft and Dozens of Other Companies.
