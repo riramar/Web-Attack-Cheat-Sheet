@@ -1282,3 +1282,6 @@ https://github.com/sehno/Bug-bounty
 
 https://wpdemo.net/
 <br># WPDemo.net is for WordPress theme designers and plugin developers that want to allow potential customers to test drive their WordPress plugins or themes before buying.
+
+https://searchcode.com/
+<br># Search 75 billion lines of code from 40 million projects.
