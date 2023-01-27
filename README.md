@@ -241,6 +241,9 @@ https://github.com/projectdiscovery/katana
 https://geotargetly.com/geo-browse
 <br># Geo Browse is a tool designed to capture screenshots of your website from different countries.
 
+https://commoncrawl.org/
+<br># We build and maintain an open repository of web crawl data that can be accessed and analyzed by anyone.
+
 ### Wordlist
 https://portswigger.net/bappstore/21df56baa03d499c8439018fe075d3d7
 <br># Scrapes all unique words and numbers for use with password cracking.
