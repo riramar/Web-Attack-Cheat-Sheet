@@ -1057,8 +1057,11 @@ https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/
 https://rhynorater.github.io/postMessage-Braindump
 <br># postMessage-related bugs have landed me some serious bounties during the past couple live hacking events. Here is a quick summary of what you need to know about postMessage.
 
-<br>https://www.gremwell.com/firefox-xss-302
+https://www.gremwell.com/firefox-xss-302
 <br># Forcing Firefox to Execute XSS Payloads during 302 Redirects.
+
+https://trufflesecurity.com/blog/xsshunter/
+<br># Truffle Security is proud to host a new XSSHunter.
 
 ### <a name="XPath-Injection-Manual"></a>XPath Injection
 https://book.hacktricks.xyz/pentesting-web/xpath-injection
