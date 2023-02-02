@@ -12,7 +12,7 @@
   - [Directory Bruteforcing](#Directory-Bruteforcing)
   - [Parameter Bruteforcing](#Parameter-Bruteforcing)
   - [DNS and HTTP detection](#DNS-and-HTTP-detection)
-  - [Acquisitions/Names/Addresses/Contacts/Emails/etc.](#Acquisitions)
+  - [Acquisitions/Names/Addresses/Contacts/Emails/etc.](#acquisitionsnamesaddressescontactsemailsetc)
   - [HTML/JavaScript Comments](#JavaScript-Comments)
   - [Google Dorks](#Google-Dorks)
   - [Content Security Policy (CSP)](#CSP)
@@ -340,7 +340,7 @@ https://canarytokens.org/
 <br># You'll be familiar with web bugs, the transparent images which track when someone opens an email. They work by embedding a unique URL in a page's image tag, and monitoring incoming GET requests.
 <br># Imagine doing that, but for file reads, database queries, process executions or patterns in log files. Canarytokens does all this and more, letting you implant traps in your production systems rather than setting up separate honeypots.
 
-### <a name="Acquisitions"></a>Acquisitions/Names/Addresses/Contacts/Emails/etc.
+### Acquisitions/Names/Addresses/Contacts/Emails/etc.
 https://hunter.io
 <br># Hunter lets you find email addresses in seconds and connect with the people that matter for your business.
 
