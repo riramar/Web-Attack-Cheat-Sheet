@@ -579,6 +579,9 @@ https://github.com/securego/gosec
 https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610
 <br># How I Hacked Into Apple, Microsoft and Dozens of Other Companies.
 
+https://www.blazeinfosec.com/post/dependency-confusion-exploitation/
+<br># This blog post provides an overview of Dependency Confusion attacks and explains in detail how they can be exploited in the wild, with examples using NPM packages and tips to prevent these vulnerabilities from occurring.
+
 https://github.com/dwisiswant0/nodep
 <br># nodep check available dependency packages across npmjs, PyPI or RubyGems registry.
 
