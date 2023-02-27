@@ -33,7 +33,7 @@
   - [Web Scanning](#Web-Scanning)
   - [HTTP Request Smuggling](#HTTP-Request-Smuggling)
   - [Subdomain Takeover](#Subdomain-Takeover)
-  - [SQLi (SQL Injection)](#SQLi-Scanning)
+  - [SQLi (SQL Injection)](#sqli-sql-injection)
   - [Repositories Scanning](#Repositories-Scanning)
   - [Secret Scanning](#Secret-Scanning)
   - [Google Dorks Scanning](#Google-Dorks-Scanning)
@@ -743,7 +743,7 @@ https://github.com/punk-security/dnsReaper
 <br># DNS Reaper is yet another sub-domain takeover tool, but with an emphasis on accuracy, speed and the number of signatures in our arsenal.
 <br>```python3 main.py file --filename subdomains.txt```
 
-### <a name="SQLi-Scanning"></a>SQLi (SQL Injection)
+### SQLi (SQL Injection)
 https://github.com/sqlmapproject/sqlmap
 <br># sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
 <br>```sqlmap --force-ssl -r RAW_REQUEST.txt --user-agent='Mozilla' --batch```
