@@ -13,7 +13,7 @@
   - [Parameter Bruteforcing](#Parameter-Bruteforcing)
   - [DNS and HTTP detection](#DNS-and-HTTP-detection)
   - [Acquisitions/Names/Addresses/Contacts/Emails/etc.](#acquisitionsnamesaddressescontactsemailsetc)
-  - [HTML/JavaScript Comments](#JavaScript-Comments)
+  - [HTML/JavaScript Comments](#htmljavascript-comments)
   - [Google Dorks](#Google-Dorks)
   - [Content Security Policy (CSP)](#CSP)
   - [Tiny URLs Services](#Tiny-URLs-Services)
