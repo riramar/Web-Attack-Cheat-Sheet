@@ -43,7 +43,7 @@
 - [Attacking](#Attacking)
   - [Brute Force](#Brute-Force)
   - [Exfiltration](#Exfiltration)
-  - [General](#General-Attacking)
+  - [General](#general-1)
 - [Manual](#Manual)
   - [Payloads](#Payloads)
   - [Bypass](#Bypass)
