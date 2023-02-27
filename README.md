@@ -48,7 +48,7 @@
   - [Payloads](#Payloads)
   - [Bypass](#Bypass)
   - [Deserialization](#Deserialization)
-  - [SSRF (Server-Side Request Forgery)](#SSRF)
+  - [SSRF (Server-Side Request Forgery)](#ssrf-server-side-request-forgery)
   - [DNS Rebinding](#DNS-Rebinding)
   - [SMTP Header Injection](#SMTP-Header-Injection)
   - [Reverse Shell](#Reverse-Shell)
