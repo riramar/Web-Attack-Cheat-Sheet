@@ -1095,7 +1095,7 @@ https://github.com/vladko312/SSTImap
 <br># SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
 <br>```sstimap.py -u https://example.com/page?name=John```
 
-### <a name="WebDAV"></a>WebDAV (Web Distributed Authoring and Versioning)
+### WebDAV (Web Distributed Authoring and Versioning)
 http://www.webdav.org/cadaver/
 <br># cadaver is a command-line WebDAV client for Unix.
 
