@@ -55,7 +55,7 @@
   - [SQLi (SQL Injection)](#sqli-sql-injection-1)
   - [XSS](#xss)
   - [XPath Injection](#xpath-injection)
-  - [LFI (Local File Inclusion)](#LFI-Manual)
+  - [LFI (Local File Inclusion)](#lfi-local-file-inclusion)
   - [SSTI (Server Side Template Injection)](#SSTI)
   - [WebDAV (Web Distributed Authoring and Versioning)](#WebDAV)
   - [Generic Tools](#Generic-Tools)
