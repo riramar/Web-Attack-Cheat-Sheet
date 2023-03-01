@@ -367,7 +367,7 @@ https://github.com/mxrch/GHunt
 <br># GHunt is an OSINT tool to extract information from any Google Account using an email.
 <br>```python3 ghunt.py email myemail@gmail.com```
 
-### <a name="JavaScript-Comments"></a>HTML/JavaScript Comments
+### HTML/JavaScript Comments
 https://portswigger.net/support/using-burp-suites-engagement-tools
 <br># Burp Engagement Tools
 
