@@ -1080,7 +1080,7 @@ https://www.s4msecurity.com/2022/06/08/xml-xpath-injection-search-bwapp-level-lo
 https://bierbaumer.net/security/php-lfi-with-nginx-assistance/
 <br># This post presents a new method to exploit local file inclusion (LFI) vulnerabilities in utmost generality, assuming only that PHP is running in combination with Nginx under a common standard configuration.
 
-### <a name="SSTI"></a>SSTI (Server Side Template Injection)
+### SSTI (Server Side Template Injection)
 https://www.youtube.com/watch?v=SN6EVIG4c-0
 <br># Template Injections (SSTI) in 10 minutes
 
