@@ -53,7 +53,7 @@
   - [SMTP Header Injection](#SMTP-Header-Injection)
   - [Reverse Shell](#Reverse-Shell)
   - [SQLi (SQL Injection)](#sqli-sql-injection-1)
-  - [XPath Injection](#XPath-Injection-Manual)
+  - [XPath Injection](#xpath-injection)
   - [XSS](#XSS-Manual)
   - [LFI (Local File Inclusion)](#LFI-Manual)
   - [SSTI (Server Side Template Injection)](#SSTI)
