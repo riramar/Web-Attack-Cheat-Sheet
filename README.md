@@ -1112,7 +1112,7 @@ https://gchq.github.io/CyberChef/
 https://packettotal.com/
 <br># Pcap analysis and samples
 
-## <a name="General-All"></a>General
+## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
 
