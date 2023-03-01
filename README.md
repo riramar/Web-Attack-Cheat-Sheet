@@ -945,7 +945,7 @@ https://github.com/joaomatosf/jexboss
 https://github.com/pimps/JNDI-Exploit-Kit
 <br># This is a forked modified version of the great exploitation tool created by @welk1n (https://github.com/welk1n/JNDI-Injection-Exploit). 
 
-### <a name="SSRF"></a>SSRF (Server-Side Request Forgery)
+### SSRF (Server-Side Request Forgery)
 https://lab.wallarm.com/blind-ssrf-exploitation/
 <br># There is such a thing as SSRF. There’s lots of information about it, but here is my quick summary.
 
