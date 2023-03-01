@@ -1076,7 +1076,7 @@ https://devhints.io/xpath
 https://www.s4msecurity.com/2022/06/08/xml-xpath-injection-search-bwapp-level-low/
 <br># This article subject XML/XPath Injection vulnerability on web app.
 
-### <a name="LDI-Manual"></a>LFI (Local File Inclusion)
+### LFI (Local File Inclusion)
 https://bierbaumer.net/security/php-lfi-with-nginx-assistance/
 <br># This post presents a new method to exploit local file inclusion (LFI) vulnerabilities in utmost generality, assuming only that PHP is running in combination with Nginx under a common standard configuration.
 
