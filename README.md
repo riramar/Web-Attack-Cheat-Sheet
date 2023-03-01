@@ -1029,7 +1029,7 @@ https://reverse-shell.sh/
 https://github.com/calebstewart/pwncat
 <br># pwncat is a post-exploitation platform for Linux targets.
 
-### <a name="#sqli-sql-injection-1"></a>SQLi (SQL Injection)
+### SQLi (SQL Injection)
 https://arxiv.org/abs/1303.3047
 <br># This paper describes an advanced SQL injection technique where DNS resolution process is exploited for retrieval of malicious SQL query results.
 
