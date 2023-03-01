@@ -59,7 +59,7 @@
   - [SSTI (Server Side Template Injection)](#ssti-server-side-template-injection)
   - [WebDAV (Web Distributed Authoring and Versioning)](#webdav-web-distributed-authoring-and-versioning)
   - [Generic Tools](#generic-tools)
-- [General](#General-All)
+- [General](#general-2)
 
 ## Discovering
 
