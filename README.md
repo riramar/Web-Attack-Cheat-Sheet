@@ -52,7 +52,7 @@
   - [DNS Rebinding](#DNS-Rebinding)
   - [SMTP Header Injection](#SMTP-Header-Injection)
   - [Reverse Shell](#Reverse-Shell)
-  - [SQLi (SQL Injection)](#SQLi-Manual)
+  - [SQLi (SQL Injection)](#sqli-sql-injection-1)
   - [XPath Injection](#XPath-Injection-Manual)
   - [XSS](#XSS-Manual)
   - [LFI (Local File Inclusion)](#LFI-Manual)
