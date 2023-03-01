@@ -882,7 +882,7 @@ https://www.slideshare.net/snyff/code-that-gets-you-pwnsd
 https://github.com/aufzayed/bugbounty/tree/main/403-bypass
 <br># Common 403 bypass.
 
-### <a name="General-Attacking"></a>General
+### General
 https://github.com/firefart/stunner
 <br># Stunner is a tool to test and exploit STUN, TURN and TURN over TCP servers. TURN is a protocol mostly used in videoconferencing and audio chats (WebRTC).
 <br>```stunner info -s x.x.x.x:443```
