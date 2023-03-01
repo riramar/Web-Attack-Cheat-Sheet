@@ -56,7 +56,7 @@
   - [XSS](#xss)
   - [XPath Injection](#xpath-injection)
   - [LFI (Local File Inclusion)](#lfi-local-file-inclusion)
-  - [SSTI (Server Side Template Injection)](#SSTI)
+  - [SSTI (Server Side Template Injection)](#ssti-server-side-template-injection)
   - [WebDAV (Web Distributed Authoring and Versioning)](#WebDAV)
   - [Generic Tools](#Generic-Tools)
 - [General](#General-All)
