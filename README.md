@@ -1066,7 +1066,7 @@ https://www.gremwell.com/firefox-xss-302
 https://trufflesecurity.com/blog/xsshunter/
 <br># Truffle Security is proud to host a new XSSHunter.
 
-### <a name="XPath-Injection-Manual"></a>XPath Injection
+### XPath Injection
 https://book.hacktricks.xyz/pentesting-web/xpath-injection
 <br># XPath Injection is an attack technique used to exploit applications that construct XPath (XML Path Language) queries from user-supplied input to query or navigate XML documents.
 
