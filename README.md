@@ -963,7 +963,7 @@ https://docs.aws.amazon.com/lambda/latest/dg/runtimes-api.html#runtimes-api-next
 ```http://localhost:9001/2018-06-01/runtime/invocation/next```
 
 ### DNS Rebinding
-http://rebind.it
+https://github.com/nccgroup/singularity
 <br># Singularity of Origin is a tool to perform DNS rebinding attacks. It includes the necessary components to rebind the IP address of the attack server DNS name to the target machine's IP address and to serve attack payloads to exploit vulnerable software on the target machine.
 
 https://github.com/brannondorsey/dns-rebind-toolkit
@@ -980,6 +980,9 @@ https://sslip.io
 
 http://1u.ms/
 <br># This is a small set of zero-configuration DNS utilities for assisting in detection and exploitation of SSRF-related vulnerabilities. It provides easy to use DNS rebinding utility, as well as a way to get resolvable resource records with any given contents.
+
+https://github.com/Rhynorater/rebindMultiA
+<br># rebindMultiA is a tool to perform a Multiple A Record rebind attack.
 
 ### SMTP Header Injection
 https://www.acunetix.com/blog/articles/email-header-injection/
