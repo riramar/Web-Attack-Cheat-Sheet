@@ -1116,7 +1116,7 @@ https://packettotal.com/
 <br># Pcap analysis and samples
 
 https://github.com/vavkamil/awesome-bugbounty-tools
-<br># https://github.com/vavkamil/awesome-bugbounty-tools
+<br># A curated list of various bug bounty tools.
 
 ## General
 <br># Print only response headers for any method with curl
