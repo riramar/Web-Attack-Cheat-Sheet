@@ -1233,6 +1233,9 @@ https://github.com/projectdiscovery/proxify/
 <br># Trim space and newlines on bash variable
 <br>```"${i//[$'\t\r\n ']}"```
 
+<br> Extract paths from swagger.json
+<br>```cat swagger.json | jq -r '.paths | to_entries[] | .key'```
+
 https://gtfobins.github.io/
 <br># GTFOBins is a curated list of Unix binaries that can used to bypass local security restrictions in misconfigured systems.
 
