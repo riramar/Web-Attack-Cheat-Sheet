@@ -1108,7 +1108,7 @@ https://github.com/vladko312/SSTImap
 ### Information Disclosure
 
 https://infosecwriteups.com/information-disclosure-vulnerability-in-adobe-experience-manager-affecting-multiple-companies-2fb0558cd957
-<br># https://www.example.com/content/example/filename.pdf/.1.json
+<br>```https://www.example.com/content/example/filename.pdf/.1.json```
 
 ### WebDAV (Web Distributed Authoring and Versioning)
 http://www.webdav.org/cadaver/
