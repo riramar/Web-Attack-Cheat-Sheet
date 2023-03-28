@@ -57,6 +57,7 @@
   - [XPath Injection](#xpath-injection)
   - [LFI (Local File Inclusion)](#lfi-local-file-inclusion)
   - [SSTI (Server Side Template Injection)](#ssti-server-side-template-injection)
+  - [Information Disclosure](#information-disclosure)
   - [WebDAV (Web Distributed Authoring and Versioning)](#webdav-web-distributed-authoring-and-versioning)
   - [Generic Tools](#generic-tools)
 - [General](#general-2)
@@ -1103,6 +1104,11 @@ https://github.com/epinna/tplmap
 https://github.com/vladko312/SSTImap
 <br># SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
 <br>```sstimap.py -u https://example.com/page?name=John```
+
+### Information Disclosure
+
+https://infosecwriteups.com/information-disclosure-vulnerability-in-adobe-experience-manager-affecting-multiple-companies-2fb0558cd957
+<br># https://www.example.com/content/example/filename.pdf/.1.json
 
 ### WebDAV (Web Distributed Authoring and Versioning)
 http://www.webdav.org/cadaver/
