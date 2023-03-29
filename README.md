@@ -34,7 +34,7 @@
   - [HTTP Request Smuggling](#HTTP-Request-Smuggling)
   - [Subdomain Takeover](#Subdomain-Takeover)
   - [SQLi (SQL Injection)](#sqli-sql-injection)
-  - [XSS]
+  - [XSS](#xss)
   - [Repositories Scanning](#Repositories-Scanning)
   - [Secret Scanning](#Secret-Scanning)
   - [Google Dorks Scanning](#Google-Dorks-Scanning)
@@ -54,7 +54,7 @@
   - [SMTP Header Injection](#SMTP-Header-Injection)
   - [Reverse Shell](#Reverse-Shell)
   - [SQLi (SQL Injection)](#sqli-sql-injection-1)
-  - [XSS](#xss)
+  - [XSS](#xss-1)
   - [XPath Injection](#xpath-injection)
   - [LFI (Local File Inclusion)](#lfi-local-file-inclusion)
   - [SSTI (Server Side Template Injection)](#ssti-server-side-template-injection)
