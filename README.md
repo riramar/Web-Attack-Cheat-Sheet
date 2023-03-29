@@ -34,6 +34,7 @@
   - [HTTP Request Smuggling](#HTTP-Request-Smuggling)
   - [Subdomain Takeover](#Subdomain-Takeover)
   - [SQLi (SQL Injection)](#sqli-sql-injection)
+  - [XSS]
   - [Repositories Scanning](#Repositories-Scanning)
   - [Secret Scanning](#Secret-Scanning)
   - [Google Dorks Scanning](#Google-Dorks-Scanning)
@@ -749,6 +750,11 @@ https://github.com/sqlmapproject/sqlmap
 <br># sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
 <br>```sqlmap --force-ssl -r RAW_REQUEST.txt --user-agent='Mozilla' --batch```
 <br>```sqlmap -vv -u 'https://www.example.com?id=1*' --user-agent='Mozilla' --level 5 --risk 3 --batch```
+
+### XSS
+https://github.com/hahwul/dalfox
+<br># DalFox is a powerful open-source tool that focuses on automation, making it ideal for quickly scanning for XSS flaws and analyzing parameters. Its advanced testing engine and niche features are designed to streamline the process of detecting and verifying vulnerabilities.
+<br>```dalfox url http://testphp.vulnweb.com/listproducts.php\?cat\=123\&artist\=123\&asdf\=ff -b https://your-callback-url```
 
 ### Repositories Scanning
 https://github.com/zricethezav/gitleaks
