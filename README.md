@@ -756,6 +756,10 @@ https://github.com/hahwul/dalfox
 <br># DalFox is a powerful open-source tool that focuses on automation, making it ideal for quickly scanning for XSS flaws and analyzing parameters. Its advanced testing engine and niche features are designed to streamline the process of detecting and verifying vulnerabilities.
 <br>```dalfox url http://testphp.vulnweb.com/listproducts.php\?cat\=123\&artist\=123\&asdf\=ff -b https://your-callback-url```
 
+https://github.com/KathanP19/Gxss
+<br># A Light Weight Tool for checking reflecting Parameters in a URL. Inspired by kxss by @tomnomnom.
+<br>```echo "https://www.example.com/some.php?first=hello&last=world" | Gxss -c 100```
+
 ### Repositories Scanning
 https://github.com/zricethezav/gitleaks
 <br># Gitleaks is a SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos.
