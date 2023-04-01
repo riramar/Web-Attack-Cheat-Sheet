@@ -1325,3 +1325,6 @@ https://searchcode.com/
 
 https://github.com/vitalysim/Awesome-Hacking-Resources
 <br># A collection of hacking / penetration testing resources to make you better!
+
+https://github.com/infoslack/awesome-web-hacking
+<br># A list of web application security.
