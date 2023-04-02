@@ -196,6 +196,9 @@ https://github.com/blechschmidt/massdns
 https://github.com/trickest/resolvers
 <br># The most exhaustive list of reliable DNS resolvers.
 
+https://github.com/n0kovo/n0kovo_subdomains
+<br># An extremely effective subdomain wordlist of 3,000,000 lines, crafted by harvesting SSL certs from the entire IPv4 space.
+
 ### Wayback Machine
 https://github.com/tomnomnom/waybackurls
 <br># Accept line-delimited domains on stdin, fetch known URLs from the Wayback Machine for *.domain and output them on stdout.
