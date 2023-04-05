@@ -1331,3 +1331,9 @@ https://github.com/vitalysim/Awesome-Hacking-Resources
 
 https://github.com/infoslack/awesome-web-hacking
 <br># A list of web application security.
+
+https://www.youtube.com/watch?v=QSq-aYYQpro
+<br># Command-Line Data-Wrangling by Tomnomnom.
+
+https://www.youtube.com/watch?v=s9w0KutMorE
+<br># Bug Bounties With Bash by Tomnomnom.
