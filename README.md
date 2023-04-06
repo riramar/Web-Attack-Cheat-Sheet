@@ -1143,6 +1143,9 @@ https://packettotal.com/
 https://github.com/vavkamil/awesome-bugbounty-tools
 <br># A curated list of various bug bounty tools.
 
+https://check-host.net/
+<br># Check-Host is a modern online tool for website monitoring and checking availability of hosts, DNS records, IP addresses.
+
 ## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
