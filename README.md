@@ -445,6 +445,10 @@ https://github.com/righettod/website-passive-reconnaissance
 https://dhiyaneshgeek.github.io/red/teaming/2022/04/28/reconnaissance-red-teaming/
 <br># Reconnaissance is carried out in a Red Teaming Engagement.
 
+https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs?tabs=azure-ad
+<br># The List Blobs operation returns a list of the blobs under the specified container.
+<br>```https://myaccount.blob.core.windows.net/mycontainer?restype=container&comp=list```
+
 ## Enumerating
 
 ### Fingerprint
