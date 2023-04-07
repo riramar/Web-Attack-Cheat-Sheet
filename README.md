@@ -910,6 +910,9 @@ https://github.com/six2dez/OneListForAll
 https://github.com/swisskyrepo/PayloadsAllTheThings
 <br># PayloadsAllTheThings
 
+https://github.com/RenwaX23/XSS-Payloads
+<br># List of XSS Vectors/Payloads i have been collecting since 2015 from different resources like websites,tweets,books.
+
 https://github.com/0xacb/recollapse
 <br># REcollapse is a helper tool for black-box regex fuzzing to bypass validations and discover normalizations in web applications.
 
