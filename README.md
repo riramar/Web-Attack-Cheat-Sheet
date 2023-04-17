@@ -503,6 +503,9 @@ https://github.com/andresriancho/enumerate-iam
 https://github.com/nccgroup/ScoutSuite
 <br># Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments.
 
+https://github.com/streaak/keyhacks
+<br># KeyHacks shows ways in which particular API keys found on a Bug Bounty Program can be used, to check if they are valid.
+
 https://github.com/aquasecurity/trivy
 <br># Trivy (tri pronounced like trigger, vy pronounced like envy) is a comprehensive security scanner. It is reliable, fast, extremely easy to use, and it works wherever you need it.
 
