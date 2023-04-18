@@ -506,6 +506,9 @@ https://github.com/nccgroup/ScoutSuite
 https://github.com/streaak/keyhacks
 <br># KeyHacks shows ways in which particular API keys found on a Bug Bounty Program can be used, to check if they are valid.
 
+https://github.com/ozguralp/gmapsapiscanner
+<br># Used for determining whether a leaked/found Google Maps API Key is vulnerable to unauthorized access by other applications or not.
+
 https://github.com/aquasecurity/trivy
 <br># Trivy (tri pronounced like trigger, vy pronounced like envy) is a comprehensive security scanner. It is reliable, fast, extremely easy to use, and it works wherever you need it.
 
