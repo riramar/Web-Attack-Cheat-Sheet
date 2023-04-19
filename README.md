@@ -1163,6 +1163,9 @@ https://check-host.net/
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
 
+<br># Extract website certificate
+<br>```true | openssl s_client -connect www.example.com:443 2>/dev/null | openssl x509 -noout -text```
+
 <br># Pure bash multhread script
 ```
 #!/bin/bash
