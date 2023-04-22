@@ -87,6 +87,9 @@ https://kaeferjaeger.gay/?dir=cdn-ranges/
 https://kaeferjaeger.gay/?dir=ip-ranges/
 <br># Lists of IP ranges from: Google (Cloud & GoogleBot), Bing (Bingbot), Amazon (AWS), Microsoft (Azure), Oracle (Cloud) and DigitalOcean. Updated every 6 hours.
 
+https://netlas.io/
+<br># Internet intelligence apps that provide accurate technical information on IP addresses, domain names, websites, web applications, IoT devices, and other online assets.
+
 ### Subdomain Enumeration
 https://web.archive.org/web/20211127183642/https://appsecco.com/books/subdomain-enumeration/
 <br># This book intendes to be a reference for subdomain enumeration techniques.
