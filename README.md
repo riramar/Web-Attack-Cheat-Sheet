@@ -868,6 +868,7 @@ https://blog.assetnote.io/bug-bounty/2020/02/01/expanding-attack-surface-react-n
 ```
 $ python3 -m venv venv
 $ source venv/bin/activate
+$ python3 -m ensurepip
 $ pip3 install pyrebase4
 $ python3
 >>> import pyrebase
