@@ -1163,6 +1163,9 @@ https://github.com/vavkamil/awesome-bugbounty-tools
 https://check-host.net/
 <br># Check-Host is a modern online tool for website monitoring and checking availability of hosts, DNS records, IP addresses.
 
+https://github.com/fyoorer/ShadowClone
+<br># ShadowClone allows you to distribute your long running tasks dynamically across thousands of serverless functions and gives you the results within seconds where it would have taken hours to complete.
+
 ## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
