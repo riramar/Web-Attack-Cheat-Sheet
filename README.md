@@ -1166,6 +1166,9 @@ https://check-host.net/
 https://github.com/fyoorer/ShadowClone
 <br># ShadowClone allows you to distribute your long running tasks dynamically across thousands of serverless functions and gives you the results within seconds where it would have taken hours to complete.
 
+https://github.com/A-poc/RedTeam-Tools
+<br># This github repository contains a collection of 125+ tools and resources that can be useful for red teaming activities.
+
 ## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
