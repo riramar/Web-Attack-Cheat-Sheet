@@ -1169,6 +1169,10 @@ https://github.com/fyoorer/ShadowClone
 https://github.com/A-poc/RedTeam-Tools
 <br># This github repository contains a collection of 125+ tools and resources that can be useful for red teaming activities.
 
+https://github.com/xonsh/xonsh
+<br># Python-powered shell to automate the pentesting processes using the shell commands and python together.
+
+
 ## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
