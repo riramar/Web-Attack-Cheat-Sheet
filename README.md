@@ -593,6 +593,12 @@ https://github.com/google/osv-scanner
 https://github.com/securego/gosec
 <br># Inspects source code for security problems by scanning the Go AST.
 
+https://dotnetfiddle.net
+<br># We are a group of .NET developers who are sick and tired of starting Visual Studio, creating a new project and running it, just to test simple code or try out samples from other developers.
+
+https://jsfiddle.net
+<br># Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.
+
 ### Dependency Confusion
 https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610
 <br># How I Hacked Into Apple, Microsoft and Dozens of Other Companies.
