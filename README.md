@@ -1169,6 +1169,9 @@ https://ahrefs.com/backlink-checker
 https://gchq.github.io/CyberChef/
 <br># The Cyber Swiss Army Knife
 
+https://github.com/securisec/chepy
+<br># Chepy is a python lib/cli equivalent of the awesome CyberChef tool.
+
 https://packettotal.com/
 <br># Pcap analysis and samples
 
