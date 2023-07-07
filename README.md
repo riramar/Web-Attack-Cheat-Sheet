@@ -429,6 +429,9 @@ https://the-bilal-rizwan.medium.com/graphql-common-vulnerabilities-how-to-exploi
 https://cybervelia.com/?p=736
 <br># GraphQL exploitation – All you need to know.
 
+https://portswigger.net/web-security/graphql
+<br># GraphQL vulnerabilities generally arise due to implementation and design flaws.
+
 ### General
 https://github.com/redhuntlabs/Awesome-Asset-Discovery
 <br># Asset Discovery is the initial phase of any security assessment engagement, be it offensive or defensive. With the evolution of information technology, the scope and definition of assets has also evolved.
