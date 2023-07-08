@@ -252,6 +252,10 @@ https://geotargetly.com/geo-browse
 https://commoncrawl.org/
 <br># We build and maintain an open repository of web crawl data that can be accessed and analyzed by anyone.
 
+https://github.com/bitquark/shortscan
+<br># Shortscan is designed to quickly determine which files with short filenames exist on an IIS webserver. Once a short filename has been identified the tool will try to automatically identify the full filename.
+<br>```shortscan https://example.com/```
+
 ### Wordlist
 https://portswigger.net/bappstore/21df56baa03d499c8439018fe075d3d7
 <br># Scrapes all unique words and numbers for use with password cracking.
