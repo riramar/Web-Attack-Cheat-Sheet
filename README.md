@@ -446,6 +446,9 @@ https://github.com/forcesunseen/graphquail
 https://github.com/graphql-kit/graphql-voyager
 <br># Represent any GraphQL API as an interactive graph.
 
+https://github.com/assetnote/batchql
+<br># BatchQL is a GraphQL security auditing script with a focus on performing batch GraphQL queries and mutations.
+
 ### General
 https://github.com/redhuntlabs/Awesome-Asset-Discovery
 <br># Asset Discovery is the initial phase of any security assessment engagement, be it offensive or defensive. With the evolution of information technology, the scope and definition of assets has also evolved.
