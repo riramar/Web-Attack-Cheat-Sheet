@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Discovering](#discovering)
-  - [Targets](#Targets)
+  - [Targets](#targets)
   - [IP Enumeration](#IP-Enumeration)
   - [Subdomain Enumeration](#Subdomain-Enumeration)
   - [Wayback Machine](#Wayback-Machine)
