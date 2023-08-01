@@ -1,7 +1,7 @@
 # Web Attack Cheat Sheet
 
 ## Table of Contents
-- [Discovering](#Discovering)
+- [Discovering](#discovering)
   - [Targets](#Targets)
   - [IP Enumeration](#IP-Enumeration)
   - [Subdomain Enumeration](#Subdomain-Enumeration)
