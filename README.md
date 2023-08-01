@@ -831,6 +831,15 @@ https://docs.gitguardian.com/secrets-detection/detectors/supported_credentials
 https://github.com/redhuntlabs/HTTPLoot
 <br># An automated tool which can simultaneously crawl, fill forms, trigger error/debug pages and "loot" secrets out of the client-facing code of sites.
 
+https://github.com/redhuntlabs/BucketLoot
+<br># BucketLoot is an automated S3-compatible Bucket inspector that can help users extract assets, flag secret exposures and even search for custom keywords as well as Regular Expressions from publicly-exposed storage buckets by scanning files that store data in plain-text.
+
+https://github.com/0xTeles/jsleak
+<br># jsleak is a tool to identify sensitive data in JS files through regex patterns.
+
+https://github.com/channyein1337/jsleak
+<br># I was developing jsleak during most of my free time for my own need. It is easy-to-use command-line tool designed to uncover secrets and links in JavaScript files or source code. The jsleak was inspired by Linkfinder and regexes are collected from multiple sources.
+
 ### Google Dorks Scanning
 https://github.com/opsdisk/pagodo
 <br># The goal of this project was to develop a passive Google dork script to collect potentially vulnerable web pages and applications on the Internet.
