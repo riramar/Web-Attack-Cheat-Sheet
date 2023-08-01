@@ -53,6 +53,7 @@
   - [DNS Rebinding](#dns-rebinding)
   - [SMTP Header Injection](#smtp-header-injection)
   - [Reverse Shell](#reverse-shell)
+  - [Web Shell](#web-shell)
   - [SQLi (SQL Injection)](#sqli-sql-injection-1)
   - [XSS](#xss-1)
   - [XPath Injection](#xpath-injection)
@@ -1053,6 +1054,10 @@ https://www.acunetix.com/blog/articles/email-header-injection/
 <br>```Host: www.example2.com```
 <br>``` ```
 <br>```name=Best Product\nbcc: everyone@example3.com&replyTo=blame_anna@example.com&message=Buy my product!```
+
+### Web Shell
+https://www.kali.org/tools/webshells/
+<br># A collection of webshells for ASP, ASPX, CFM, JSP, Perl, and PHP servers.
 
 ### Reverse Shell
 http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
