@@ -442,6 +442,9 @@ https://portswigger.net/web-security/graphql
 https://github.com/forcesunseen/graphquail
 <br># GraphQuail is a Burp Suite extension that offers a toolkit for testing GraphQL endpoints.
 
+https://github.com/graphql-kit/graphql-voyager
+<br># Represent any GraphQL API as an interactive graph.
+
 ### General
 https://github.com/redhuntlabs/Awesome-Asset-Discovery
 <br># Asset Discovery is the initial phase of any security assessment engagement, be it offensive or defensive. With the evolution of information technology, the scope and definition of assets has also evolved.
