@@ -897,6 +897,12 @@ https://github.com/sensepost/reGeorg
 https://github.com/fbkcs/ThunderDNS
 <br># This tool can forward TCP traffic over DNS protocol. Non-compile clients + socks5 support.
 
+https://github.com/BishopFox/sliver
+<br># Sliver is an open source cross-platform adversary emulation/red team framework, it can be used by organizations of all sizes to perform security testing. Sliver's implants support C2 over Mutual TLS (mTLS), WireGuard, HTTP(S), and DNS and are dynamically compiled with per-binary asymmetric encryption keys.
+
+https://github.com/rapid7/metasploit-framework
+<br># The Metasploit Framework (MSF) is far more than just a collection of exploits–it is also a solid foundation that you can build upon and easily customize to meet your needs.
+
 https://cloud.hacktricks.xyz/pentesting-cloud/gcp-pentesting/gcp-services/gcp-databases-enum/gcp-firebase-enum
 https://blog.assetnote.io/bug-bounty/2020/02/01/expanding-attack-surface-react-native/
 <br># Extract data from Firebase with apikey.
@@ -941,9 +947,6 @@ echo "${RESULTS}" | jq -cM '.responses[]' | while read LINE; do if [[ $LINE == *
 
 https://www.slideshare.net/snyff/code-that-gets-you-pwnsd
 <br># Code that gets you pwn(s|'d). Very intersting bypasses ideas.
-
-https://github.com/aufzayed/bugbounty/tree/main/403-bypass
-<br># Common 403 bypass.
 
 ### General
 https://github.com/firefart/stunner
@@ -1003,6 +1006,9 @@ https://neilmadden.blog/2022/04/19/psychic-signatures-in-java/
 
 https://h.43z.one/ipconverter/
 <br># Convert IP address to different formats for bypass.
+
+https://github.com/aufzayed/bugbounty/tree/main/403-bypass
+<br># Common 403 bypass.
 
 ### Deserialization
 https://github.com/joaomatosf/jexboss
