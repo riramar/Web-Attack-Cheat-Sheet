@@ -419,6 +419,10 @@ https://hackernoon.com/understanding-graphql-part-1-nxm3uv9
 https://graphql.org/learn/introspection/
 <br># It's often useful to ask a GraphQL schema for information about what queries it supports. GraphQL allows us to do so using the introspection system!
 
+https://github.com/nikitastupin/clairvoyance
+<br># Obtain GraphQL API schema even if the introspection is disabled.
+<br>```clairvoyance https://www.example.com/graphql -o schema.json```
+
 https://jondow.eu/practical-graphql-attack-vectors/
 <br># Practical GraphQL attack vectors
 
