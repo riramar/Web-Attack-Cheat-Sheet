@@ -575,6 +575,16 @@ https://www.alibabacloud.com/help/doc-detail/49122.htm
 https://about.gitlab.com/blog/2020/02/12/plundering-gcp-escalating-privileges-in-google-cloud-platform/
 <br># Tutorial on privilege escalation and post exploitation tactics in Google Cloud Platform environments.
 
+https://cloud.hacktricks.xyz/pentesting-cloud/aws-security/aws-services/aws-cognito-enum/cognito-user-pools
+<br># A user pool is a user directory in Amazon Cognito. With a user pool, your users can sign in to your web or mobile app through Amazon Cognito, or federate through a third-party identity provider (IdP). Whether your users sign in directly or through a third party, all members of the user pool have a directory profile that you can access through an SDK.
+
+https://security.lauritz-holtmann.de/advisories/flickr-account-takeover/
+<br># This post gives a deep dive into a critical security flaw that was present in Flickr’s login flow.
+
+https://rhinosecuritylabs.com/aws/attacking-aws-cognito-with-pacu-p1/
+https://rhinosecuritylabs.com/aws/attacking-aws-cognito-with-pacu-p2/
+<br># Attacking AWS Cognito with Pacu.
+
 ### Containerization
 https://github.com/stealthcopter/deepce
 <br># Docker Enumeration, Escalation of Privileges and Container Escapes (DEEPCE).
