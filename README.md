@@ -543,7 +543,7 @@ https://github.com/initstring/cloud_enum
 <br># Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
 
 https://github.com/toniblyx/prowler
-<br># Prowler is a command line tool that helps you with AWS security assessment, auditing, hardening and incident response.
+<br># Prowler is an Open Source Security tool for AWS, Azure and GCP to perform Cloud Security best practices assessments, audits, incident response, compliance, continuous monitoring, hardening and forensics readiness.
 
 https://github.com/salesforce/cloudsplaining
 <br># Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized HTML report.
