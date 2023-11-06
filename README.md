@@ -50,6 +50,7 @@
   - [Bypass](#bypass)
   - [Deserialization](#deserialization)
   - [SSRF (Server-Side Request Forgery)](#ssrf-server-side-request-forgery)
+  - [OAuth](#oauth)
   - [DNS Rebinding](#dns-rebinding)
   - [SMTP Header Injection](#smtp-header-injection)
   - [Web Shell](#web-shell)
@@ -1047,6 +1048,16 @@ https://blog.tneitzel.eu/posts/01-attacking-java-rmi-via-ssrf/
 https://docs.aws.amazon.com/lambda/latest/dg/runtimes-api.html#runtimes-api-next
 <br># Got SSRF in a AWS lambda?
 ```http://localhost:9001/2018-06-01/runtime/invocation/next```
+
+### OAuth
+https://book.hacktricks.xyz/pentesting-web/oauth-to-account-takeover
+<br># In this article, we will be focusing on the most common flow that you will come across today, which is the OAuth 2.0 authorization code grant type.
+
+https://portswigger.net/web-security/oauth
+<br># In this section, we'll teach you how to identify and exploit some of the key vulnerabilities found in OAuth 2.0 authentication mechanisms.
+
+https://salt.security/blog/oh-auth-abusing-oauth-to-take-over-millions-of-accounts
+<br># Hackers could take over millions of accounts on Grammarly, Vidio and Bukalapak.
 
 ### DNS Rebinding
 https://github.com/nccgroup/singularity
