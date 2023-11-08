@@ -1257,6 +1257,9 @@ https://github.com/A-poc/RedTeam-Tools
 https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md
 <br># All Atomic Tests by ATT&CK Tactic & Technique (https://atomicredteam.io/atomics/).
 
+https://github.com/fransr/unpack-burp
+<br># This is a small tool created by Frans Rosén. For unpacking base64:ed "Save items"-content from Burp.
+
 ## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
