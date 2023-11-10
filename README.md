@@ -1025,6 +1025,9 @@ https://h.43z.one/ipconverter/
 https://github.com/aufzayed/bugbounty/tree/main/403-bypass
 <br># Common 403 bypass.
 
+https://rafa.hashnode.dev/exploiting-http-parsers-inconsistencies
+<br># In this research, my focus revolves around the discovery of inconsistencies within HTTP parsers across various web technologies, including load balancers, reverse proxies, web servers, and caching servers.
+
 ### Deserialization
 https://github.com/joaomatosf/jexboss
 <br># JexBoss is a tool for testing and exploiting vulnerabilities in JBoss Application Server and others Java Platforms, Frameworks, Applications, etc.
