@@ -1263,6 +1263,9 @@ https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Index
 https://github.com/fransr/unpack-burp
 <br># This is a small tool created by Frans Rosén. For unpacking base64:ed "Save items"-content from Burp.
 
+https://github.com/codingo/Interlace
+<br># Easily turn single threaded command line applications into a fast, multi-threaded application with CIDR and glob support.
+
 ## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
