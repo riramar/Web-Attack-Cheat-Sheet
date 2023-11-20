@@ -687,6 +687,9 @@ https://github.com/cve-search/git-vuln-finder
 <br># Finding potential software vulnerabilities from git commit messages.
 <br>```git-vuln-finder -r ~/git/curl | jq .```
 
+https://github.com/internetwache/GitTools
+<br># This repository contains three small python/bash scripts used for the Git research.
+
 ### Web Scanning
 https://github.com/psiinon/open-source-web-scanners
 <br># A list of open source web security scanners on GitHub.
