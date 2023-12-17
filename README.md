@@ -71,6 +71,12 @@
 https://github.com/arkadiyt/bounty-targets-data
 <br># This repo contains data dumps of Hackerone and Bugcrowd scopes (i.e. the domains that are eligible for bug bounty reports).
 
+https://chaos.projectdiscovery.io
+<br># We actively collect and maintain internet-wide assets' data, this project is meant to enhance research and analyse changes around DNS for better insights.
+
+https://chaos-data.projectdiscovery.io/index.json
+<br># Project Discovery Chaos Data
+
 ### IP Enumeration
 http://www.asnlookup.com
 <br># This tool leverages ASN to look up IP addresses (IPv4 & IPv6) owned by a specific organization for reconnaissance purposes.
