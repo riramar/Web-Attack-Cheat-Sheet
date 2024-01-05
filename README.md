@@ -1479,3 +1479,6 @@ https://www.youtube.com/watch?v=s9w0KutMorE
 
 https://github.com/qmacro/teched-jq-talk
 <br># These are the notes and code snippets relating to a Community Talk at SAP TechEd 2023 in Bengaluru: Handle JSON like a boss with jq.
+
+https://github.com/clarkvoss/Oneliners-Collection/blob/main/OneLiners.md
+<br># Oneliner commands for bug bounties and pentesting.
