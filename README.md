@@ -77,6 +77,45 @@ https://chaos.projectdiscovery.io
 https://chaos-data.projectdiscovery.io/index.json
 <br># Project Discovery Chaos Data
 
+https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getfederationinformation-operation-soap
+<br># The GetFederationInformation operation provides information about the federation status of the organization, such as the target URI to be used when requesting tokens that are targeted at this organization, and the other domains that the organization has also federated.
+```
+$ curl -s -X POST -H $'Content-Type: text/xml; charset=utf-8' -H $'SOAPAction: \"http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetFederationInformation\"' -H $'User-Agent: AutodiscoverClient' -H $'Connection: close' --data-binary $'<?xml version=\"1.0\" encoding=\"utf-8\"?>\x0d\x0a<soap:Envelope xmlns:exm=\"http://schemas.microsoft.com/exchange/services/2006/messages\" xmlns:ext=\"http://schemas.microsoft.com/exchange/services/2006/types\" xmlns:a=\"http://www.w3.org/2005/08/addressing\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\x0d\x0a\x09<soap:Header>\x0d\x0a\x09\x09<a:Action soap:mustUnderstand=\"1\">http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetFederationInformation</a:Action>\x0d\x0a\x09\x09<a:To soap:mustUnderstand=\"1\">https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc</a:To>\x0d\x0a\x09\x09<a:ReplyTo>\x0d\x0a\x09\x09\x09<a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>\x0d\x0a\x09\x09</a:ReplyTo>\x0d\x0a\x09</soap:Header>\x0d\x0a\x09<soap:Body>\x0d\x0a\x09\x09<GetFederationInformationRequestMessage xmlns=\"http://schemas.microsoft.com/exchange/2010/Autodiscover\">\x0d\x0a\x09\x09\x09<Request>\x0d\x0a\x09\x09\x09\x09<Domain>contoso.com</Domain>\x0d\x0a\x09\x09\x09</Request>\x0d\x0a\x09\x09</GetFederationInformationRequestMessage>\x0d\x0a\x09</soap:Body>\x0d\x0a</soap:Envelope>' https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc | xmllint --format -
+<?xml version="1.0"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:a="http://www.w3.org/2005/08/addressing">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetFederationInformationResponse</a:Action>
+    <h:ServerVersionInfo xmlns:h="http://schemas.microsoft.com/exchange/2010/Autodiscover" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+      <h:MajorVersion>15</h:MajorVersion>
+      <h:MinorVersion>20</h:MinorVersion>
+      <h:MajorBuildNumber>7316</h:MajorBuildNumber>
+      <h:MinorBuildNumber>39</h:MinorBuildNumber>
+      <h:Version>Exchange2015</h:Version>
+    </h:ServerVersionInfo>
+  </s:Header>
+  <s:Body>
+    <GetFederationInformationResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+      <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <ErrorCode>NoError</ErrorCode>
+        <ErrorMessage/>
+        <ApplicationUri>outlook.com</ApplicationUri>
+        <Domains>
+          <Domain>contoso.com</Domain>
+          <Domain>CONTOSO18839.onmicrosoft.com</Domain>
+          <Domain>contoso18839.microsoftonline.com</Domain>
+        </Domains>
+        <TokenIssuers>
+          <TokenIssuer>
+            <Endpoint>https://login.microsoftonline.com/extSTS.srf</Endpoint>
+            <Uri>urn:federation:MicrosoftOnline</Uri>
+          </TokenIssuer>
+        </TokenIssuers>
+      </Response>
+    </GetFederationInformationResponseMessage>
+  </s:Body>
+</s:Envelope>
+```
+
 ### IP Enumeration
 http://www.asnlookup.com
 <br># This tool leverages ASN to look up IP addresses (IPv4 & IPv6) owned by a specific organization for reconnaissance purposes.
