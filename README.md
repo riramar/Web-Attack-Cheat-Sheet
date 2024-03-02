@@ -522,6 +522,10 @@ https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs?tabs=azure
 <br># The List Blobs operation returns a list of the blobs under the specified container.
 <br>```https://myaccount.blob.core.windows.net/mycontainer?restype=container&comp=list```
 
+https://github.com/hakluke/hakoriginfinder
+<br># Tool for discovering the origin host behind a reverse proxy. Useful for bypassing WAFs and other reverse proxies.
+<br>```prips 93.184.216.0/24 | hakoriginfinder -h https://example.com:443/foo```
+
 ## Enumerating
 
 ### Fingerprint
