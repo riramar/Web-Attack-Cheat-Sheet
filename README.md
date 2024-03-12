@@ -332,6 +332,9 @@ https://wordlists.assetnote.io
 https://github.com/trickest/wordlists
 <br># Real-world infosec wordlists, updated regularly.
 
+https://github.com/the-xentropy/samlists
+<br># The wordlists are created by trawling through huge public datasets. The methods employed are a bit different based on the noisiness of the data source.
+
 ### Directory Bruteforcing
 https://github.com/ffuf/ffuf
 <br># A fast web fuzzer written in Go.
