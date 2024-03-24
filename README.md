@@ -144,6 +144,9 @@ https://github.com/zidansec/CloudPeler
 https://web.archive.org/web/20211127183642/https://appsecco.com/books/subdomain-enumeration/
 <br># This book intendes to be a reference for subdomain enumeration techniques.
 
+https://celes.in/posts/cloudflare_ns_whois
+<br># Enumerating all domains from a cloudflare account by nameserver correlation.
+
 https://github.com/knownsec/ksubdomain
 <br># ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。
 <br>```ksubdomain -d example.com```
