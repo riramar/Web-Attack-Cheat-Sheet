@@ -63,6 +63,7 @@
   - [Information Disclosure](#information-disclosure)
   - [WebDAV (Web Distributed Authoring and Versioning)](#webdav-web-distributed-authoring-and-versioning)
   - [Generic Tools](#generic-tools)
+- [AI](#ai)
 - [General](#general-2)
 
 ## Discovering
