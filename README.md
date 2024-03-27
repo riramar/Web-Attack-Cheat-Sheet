@@ -1325,6 +1325,16 @@ https://github.com/fransr/unpack-burp
 https://github.com/codingo/Interlace
 <br># Easily turn single threaded command line applications into a fast, multi-threaded application with CIDR and glob support.
 
+## AI
+https://portswigger.net/web-security/llm-attacks
+<br># Organizations are rushing to integrate Large Language Models (LLMs) in order to improve their online customer experience. This exposes them to web LLM attacks that take advantage of the model's access to data, APIs, or user information that an attacker cannot access directly.
+
+https://owasp.org/www-project-top-10-for-large-language-model-applications/
+<br># The OWASP Top 10 for Large Language Model Applications project aims to educate developers, designers, architects, managers, and organizations about the potential security risks when deploying and managing Large Language Models (LLMs).
+
+https://github.com/protectai/ai-exploits
+<br># The AI world has a security problem and it's not just in the inputs given to LLMs such as ChatGPT. Based on research done by Protect AI and independent security experts on the Huntr Bug Bounty Platform, there are far more impactful and practical attacks against the tools, libraries and frameworks used to build, train, and deploy machine learning models.
+
 ## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
