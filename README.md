@@ -1087,6 +1087,9 @@ https://github.com/aufzayed/bugbounty/tree/main/403-bypass
 https://rafa.hashnode.dev/exploiting-http-parsers-inconsistencies
 <br># In this research, my focus revolves around the discovery of inconsistencies within HTTP parsers across various web technologies, including load balancers, reverse proxies, web servers, and caching servers.
 
+https://soroush.me/blog/2023/08/cookieless-duodrop-iis-auth-bypass-app-pool-privesc-in-asp-net-framework-cve-2023-36899/
+<br># The cookieless feature of .NET Framework could be abused to access protected directories or those blocked by URL filters in IIS.
+
 ### Deserialization
 https://github.com/joaomatosf/jexboss
 <br># JexBoss is a tool for testing and exploiting vulnerabilities in JBoss Application Server and others Java Platforms, Frameworks, Applications, etc.
