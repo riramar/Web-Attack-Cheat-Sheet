@@ -794,6 +794,10 @@ https://github.com/crashbrz/WebXmlExploiter/
 https://github.com/stark0de/nginxpwner
 <br># Nginxpwner is a simple tool to look for common Nginx misconfigurations and vulnerabilities.
 
+https://adityaksood.medium.com/sparty-useful-tools-die-hard-d9afe6f3f561
+https://github.com/adityaks/sparty
+<br># Sparty is an open source tool written in python to audit web applications using sharepoint and frontpage architecture.
+
 ### HTTP Request Smuggling
 https://github.com/defparam/smuggler
 <br># An HTTP Request Smuggling / Desync testing tool written in Python 3.
