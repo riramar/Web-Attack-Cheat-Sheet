@@ -141,6 +141,12 @@ https://netlas.io/
 https://github.com/zidansec/CloudPeler
 <br># This tools can help you to see the real IP behind CloudFlare protected websites.
 
+https://github.com/christophetd/CloudFlair
+<br># CloudFlair is a tool to find origin servers of websites protected by CloudFlare (or CloudFront) which are publicly exposed and don't appropriately restrict network access to the relevant CDN IP ranges.
+
+https://github.com/projectdiscovery/cdncheck
+<br># cdncheck is a tool for identifying the technology associated with dns / ip network addresses.
+
 ### Subdomain Enumeration
 https://web.archive.org/web/20211127183642/https://appsecco.com/books/subdomain-enumeration/
 <br># This book intendes to be a reference for subdomain enumeration techniques.
