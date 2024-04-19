@@ -147,6 +147,9 @@ https://github.com/christophetd/CloudFlair
 https://github.com/projectdiscovery/cdncheck
 <br># cdncheck is a tool for identifying the technology associated with dns / ip network addresses.
 
+https://github.com/Warflop/cloudbunny
+<br># CloudBunny is a tool to capture the origin server that uses a WAF as a proxy or protection.
+
 ### Subdomain Enumeration
 https://web.archive.org/web/20211127183642/https://appsecco.com/books/subdomain-enumeration/
 <br># This book intendes to be a reference for subdomain enumeration techniques.
