@@ -784,7 +784,11 @@ https://github.com/projectdiscovery/nuclei
 
 https://github.com/six2dez/reconftw
 <br># reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform enumeration and finding out vulnerabilities.
-<br>```reconftw.sh -d target.com -a```
+<br>```reconftw.sh -d example.com -a```
+
+https://github.com/blacklanternsecurity/bbot
+<br># BBOT (Bighuge BLS OSINT Tool) is a recursive internet scanner inspired by Spiderfoot, but designed to be faster, more reliable, and friendlier to pentesters, bug bounty hunters, and developers.
+<br>```bbot -t example.com -f subdomain-enum```
 
 https://gobies.org
 <br># The new generation of network security technology achieves rapid security emergency through the establishment of a complete asset database for the target.
