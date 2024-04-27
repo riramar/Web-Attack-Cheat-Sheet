@@ -1039,6 +1039,10 @@ echo "${RESULTS}" | jq -cM '.responses[]' | while read LINE; do if [[ $LINE == *
 https://www.slideshare.net/snyff/code-that-gets-you-pwnsd
 <br># Code that gets you pwn(s|'d). Very intersting bypasses ideas.
 
+https://github.com/arthaud/git-dumper
+<br># A tool to dump a git repository from a website.
+<br>```git-dumper http://example.com/.git ~/example```
+
 ### General
 https://github.com/firefart/stunner
 <br># Stunner is a tool to test and exploit STUN, TURN and TURN over TCP servers. TURN is a protocol mostly used in videoconferencing and audio chats (WebRTC).
