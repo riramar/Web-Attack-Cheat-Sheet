@@ -207,8 +207,12 @@ https://github.com/xiecat/fofax
 https://publicwww.com
 <br># Find any alphanumeric snippet, signature or keyword in the web pages HTML, JS and CSS code.
 
-https://fofa.so
-<br># FOFA (Cyberspace Assets Retrieval System) is the world's IT equipment search engine with more complete data coverage, and it has more complete DNA information of global networked IT equipment.
+https://en.fofa.info
+<br># FOFA is a search engine for global cyberspace mapping belonging to Beijing Huashun Xin'an Technology Co., Ltd.
+<br># Through continuous active detection of global Internet assets, more than 4 billion assets and more than 350,000 fingerprint rules have been accumulated, identifying most software and hardware network assets. Asset data supports external presentation and application in various ways and can perform hierarchical portraits of assets based on IP.
+
+https://getodin.com/
+<br># ODIN is a powerful internet scanning tool that empowers users with real-time threat detection, comprehensive vulnerability assessment, and smart, fast, and free capabilities, making it a versatile solution for enhancing cybersecurity.
 
 https://www.zoomeye.org
 <br># ZoomEyeis China's first and world-renowned cyberspace search engine driven by 404 Laboratory of Knownsec. Through a large number of global surveying and mapping nodes, according to the global IPv4, IPv6 address and website domain name databases，it can continuously scan and identify multiple service port and protocols 24 hours a day, and finally map the whole or local cyberspace.
