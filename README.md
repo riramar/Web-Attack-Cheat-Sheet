@@ -985,6 +985,10 @@ https://github.com/ticarpi/jwt_tool
 https://github.com/ustayready/fireprox
 <br># Rotate the source IP address in order to bypass rate limits
 
+https://github.com/AethliosIK/reset-tolkien
+<br># This tool is the result of research into "Unsecure time-based secrets" from this article: https://www.aeth.cc/public/Article-Reset-Tolkien/secret-time-based-article-en.html.
+<br># To better understand how to use this tool, we strongly recommend that you read it first.
+
 ### Exfiltration
 https://github.com/vp777/procrustes
 <br># A bash script that automates the exfiltration of data over dns
