@@ -1122,6 +1122,9 @@ https://rafa.hashnode.dev/exploiting-http-parsers-inconsistencies
 https://soroush.me/blog/2023/08/cookieless-duodrop-iis-auth-bypass-app-pool-privesc-in-asp-net-framework-cve-2023-36899/
 <br># The cookieless feature of .NET Framework could be abused to access protected directories or those blocked by URL filters in IIS.
 
+https://github.com/assetnote/nowafpls
+<br># nowafpls is a simple Burp plugin which will contextually insert this junk data into your HTTP request inside the repeater tab. You can select from a preset amount of junk data you want inserted, or you can insert an arbitrary amount of junk data by selecting the "Custom" option. This tool is just 80 or so lines of Python, it's incredibly simple but works for most WAFs lol.
+
 ### Deserialization
 https://github.com/joaomatosf/jexboss
 <br># JexBoss is a tool for testing and exploiting vulnerabilities in JBoss Application Server and others Java Platforms, Frameworks, Applications, etc.
