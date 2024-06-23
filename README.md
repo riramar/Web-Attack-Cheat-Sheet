@@ -1580,3 +1580,6 @@ https://github.com/qmacro/teched-jq-talk
 
 https://github.com/clarkvoss/Oneliners-Collection/blob/main/OneLiners.md
 <br># Oneliner commands for bug bounties and pentesting.
+
+https://hackerone.com/hacktivity/cve_discovery
+<br># The Common Vulnerabilities and Exposures Discovery Index ranks the top CVEs by recency and instances. CVE and EPSS data extracted every 6 hours; ranking updated hourly.
