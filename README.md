@@ -995,6 +995,10 @@ https://github.com/AethliosIK/reset-tolkien
 <br># This tool is the result of research into "Unsecure time-based secrets" from this article: https://www.aeth.cc/public/Article-Reset-Tolkien/secret-time-based-article-en.html.
 <br># To better understand how to use this tool, we strongly recommend that you read it first.
 
+https://portswigger.net/research/introducing-signsaboteur-forge-signed-web-tokens-with-ease
+<br># Signed web tokens are widely used for stateless authentication and authorization throughout the web. The most popular format is JSON Web Tokens (JWT) which we've already covered in depth, but beyond that a diverse ecosystem of standards thrives, each with its own implementation of data storage and security.
+<br># To help assess these, we've released a new open source extension for Burp Suite called SignSaboteur. This tool is designed to automate the attacks discussed here, ensuring that you no longer overlook any insecure configurations.
+
 ### Exfiltration
 https://github.com/vp777/procrustes
 <br># A bash script that automates the exfiltration of data over dns
