@@ -590,6 +590,9 @@ https://github.com/eth0izzle/bucket-stream
 https://buckets.grayhatwarfare.com/
 <br># Search Public Buckets
 
+https://s3digger.com/
+<br># s3📦digger is a search/discovery engine that allows you to find public files on Amazon S3.
+
 https://github.com/VirtueSecurity/aws-extender
 <br># Burp Suite extension which can identify and test S3 buckets
 
