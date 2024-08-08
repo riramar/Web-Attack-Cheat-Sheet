@@ -1383,6 +1383,9 @@ https://owasp.org/www-project-top-10-for-large-language-model-applications/
 https://github.com/protectai/ai-exploits
 <br># The AI world has a security problem and it's not just in the inputs given to LLMs such as ChatGPT. Based on research done by Protect AI and independent security experts on the Huntr Bug Bounty Platform, there are far more impactful and practical attacks against the tools, libraries and frameworks used to build, train, and deploy machine learning models.
 
+https://labs.zenity.io/
+<br># Latest research, tools and talks about building and breaking copilots and no-code apps.
+
 ## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
