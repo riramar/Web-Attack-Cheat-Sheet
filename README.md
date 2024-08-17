@@ -1135,6 +1135,9 @@ https://soroush.me/blog/2023/08/cookieless-duodrop-iis-auth-bypass-app-pool-priv
 https://github.com/assetnote/nowafpls
 <br># nowafpls is a simple Burp plugin which will contextually insert this junk data into your HTTP request inside the repeater tab. You can select from a preset amount of junk data you want inserted, or you can insert an arbitrary amount of junk data by selecting the "Custom" option. This tool is just 80 or so lines of Python, it's incredibly simple but works for most WAFs lol.
 
+https://blog.orange.tw/2024/08/confusion-attacks-en.html
+<br># This article explores architectural issues within the Apache HTTP Server, highlighting several technical debts within Httpd, including 3 types of Confusion Attacks, 9 new vulnerabilities, 20 exploitation techniques, and over 30 case studies.
+
 ### Deserialization
 https://github.com/joaomatosf/jexboss
 <br># JexBoss is a tool for testing and exploiting vulnerabilities in JBoss Application Server and others Java Platforms, Frameworks, Applications, etc.
