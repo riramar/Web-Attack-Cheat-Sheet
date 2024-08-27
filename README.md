@@ -1599,3 +1599,6 @@ https://github.com/clarkvoss/Oneliners-Collection/blob/main/OneLiners.md
 
 https://hackerone.com/hacktivity/cve_discovery
 <br># The Common Vulnerabilities and Exposures Discovery Index ranks the top CVEs by recency and instances. CVE and EPSS data extracted every 6 hours; ranking updated hourly.
+
+https://www.synacktiv.com/publications/github-actions-exploitation-untrusted-input.html
+<br># Each workflow trigger comes with an associated GitHub context, offering comprehensive information about the event that initiated it. This includes details about the user who triggered the event, the branch name, and other relevant contextual information. Certain components of this event data, such as the base repository name, or pull request number, cannot be manipulated or exploited for injection by the user who initiated the event (e.g., in the case of a pull request). This ensures a level of control and security over the information provided by the GitHub context during workflow execution. However, some elements can be controlled by an attacker and should be sanitized before being used.
