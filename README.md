@@ -1389,6 +1389,30 @@ https://github.com/protectai/ai-exploits
 https://labs.zenity.io/
 <br># Latest research, tools and talks about building and breaking copilots and no-code apps.
 
+https://embracethered.com/blog/posts/2023/37c3-new-important-instructions/
+<br># With the rapid growth of AI and Large Language Models users are facing an increased risk of scams, data exfiltration, loss of PII, and even remote code execution. This talk will demonstrate many real-world exploits the presenter discovered, including discussion of mitigations and fixes vendors put in place for the most prominent LLM applications, including ChatGPT, Bing Chat and Google Bard.
+
+https://www.breachproof.net/blog/lethal-injection-how-we-hacked-microsoft-ai-chat-bot
+<br># We have discovered multiple security vulnerabilities in the Azure Health Bot service, a patient-facing chatbot that handles medical information. The vulnerabilities, if exploited, could allow access to sensitive infrastructure and confidential medical data.
+
+https://prompting.ai.immersivelabs.com/
+<br># This is a safe environment where you can learn about the dangers of prompt injection attacks. You’ll be guided through a series of levels, with each one teaching you something new about these attacks.
+
+https://gandalf.lakera.ai/
+<br># Gandalf is an exciting game designed to challenge your ability to interact with large language models (LLMs).
+
+https://www.linkedin.com/pulse/safeguard-your-ai-llm-penetration-testing-checklist-based-smith-nneac/
+<br># This article contains a high-level (LLM)/AI penetration testing guide, with the primary purpose of providing direction when penetration testing (or defending) LLMs.
+
+https://learnprompting.org/docs/prompt_hacking/injection
+<br># Prompt Injection is the process of overriding original instructions in the prompt with special user input. It often occurs when untrusted input is used as part of the prompt.
+
+https://www.usenix.org/system/files/sec21-carlini-extracting.pdf
+<br># It has become common to publish large (billion parameter) language models that have been trained on private datasets. This paper demonstrates that in such settings, an adversary can perform a training data extraction attack to recover individual training examples by querying the language model.
+
+https://systemweakness.com/new-prompt-injection-attack-on-chatgpt-web-version-ef717492c5c2
+<br># New prompt injection attack on ChatGPT web version. Markdown images can steal your chat data.
+
 ## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
