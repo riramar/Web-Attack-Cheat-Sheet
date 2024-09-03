@@ -1162,6 +1162,9 @@ https://docs.aws.amazon.com/lambda/latest/dg/runtimes-api.html#runtimes-api-next
 <br># Got SSRF in a AWS lambda?
 ```http://localhost:9001/2018-06-01/runtime/invocation/next```
 
+https://portswigger.net/web-security/ssrf/url-validation-bypass-cheat-sheet
+<br># This cheat sheet contains payloads for bypassing URL validation. These wordlists are useful for attacks such as server-side request forgery, CORS misconfigurations, and open redirection.
+
 ### OAuth
 https://book.hacktricks.xyz/pentesting-web/oauth-to-account-takeover
 <br># In this article, we will be focusing on the most common flow that you will come across today, which is the OAuth 2.0 authorization code grant type.
