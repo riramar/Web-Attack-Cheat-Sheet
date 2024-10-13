@@ -1138,6 +1138,9 @@ https://github.com/assetnote/nowafpls
 https://blog.orange.tw/2024/08/confusion-attacks-en.html
 <br># This article explores architectural issues within the Apache HTTP Server, highlighting several technical debts within Httpd, including 3 types of Confusion Attacks, 9 new vulnerabilities, 20 exploitation techniques, and over 30 case studies.
 
+https://github.com/renniepak/CSPBypass
+<br># Welcome to CSPBypass.com, a tool designed to help ethical hackers bypass restrictive Content Security Policies (CSP) and exploit XSS (Cross-Site Scripting) vulnerabilities on sites where injections are blocked by CSPs that only allow certain whitelisted domains.
+
 ### Deserialization
 https://github.com/joaomatosf/jexboss
 <br># JexBoss is a tool for testing and exploiting vulnerabilities in JBoss Application Server and others Java Platforms, Frameworks, Applications, etc.
