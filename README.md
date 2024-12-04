@@ -664,6 +664,10 @@ https://rhinosecuritylabs.com/aws/attacking-aws-cognito-with-pacu-p1/
 https://rhinosecuritylabs.com/aws/attacking-aws-cognito-with-pacu-p2/
 <br># Attacking AWS Cognito with Pacu.
 
+https://www.plerion.com/blog/what-do-hackers-know-about-your-aws-account
+https://awseye.com/
+<br># Awseye (pronounced o-zee 🦘🇦🇺) is an open-source intelligence (OSINT) and reconnaissance service that analyzes publicly accessible data for AWS identifiers. It helps identify known and exposed AWS resources that might need your attention. It levels the playing field between attackers and defenders, by giving defenders access to the same data attackers have been harvesting since flip phones stopped being cool.
+
 ### Containerization
 https://github.com/stealthcopter/deepce
 <br># Docker Enumeration, Escalation of Privileges and Container Escapes (DEEPCE).
