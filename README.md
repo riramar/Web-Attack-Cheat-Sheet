@@ -1544,6 +1544,10 @@ https://github.com/projectdiscovery/proxify/
 <br># Ten requests in parallel
 <br>```xargs -I % -P 10 curl -H 'Connection: close' -s -D - -o /dev/null https://example.com < <(printf '%s\n' {1..10000})```
 
+<br># Burp Intruder
+<br>```xargs -I $ -P 10 curl -skL -o /dev/null "https://example.com/$" -w "%{http_code} /$\n" < <(head fuzz.txt)```
+<br>```xargs -I $ -P 10 curl -skL -o /dev/null "https://example.com/$" -w "%{http_code} /$\n" < <(printf '%s\n' {1..3})```
+
 <br># Access target directly through IP address
 <br>```http://1.2.3.4```
 <br>```https://1.2.3.4```
