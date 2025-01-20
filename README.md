@@ -1007,6 +1007,10 @@ https://portswigger.net/research/introducing-signsaboteur-forge-signed-web-token
 <br># Signed web tokens are widely used for stateless authentication and authorization throughout the web. The most popular format is JSON Web Tokens (JWT) which we've already covered in depth, but beyond that a diverse ecosystem of standards thrives, each with its own implementation of data storage and security.
 <br># To help assess these, we've released a new open source extension for Burp Suite called SignSaboteur. This tool is designed to automate the attacks discussed here, ensuring that you no longer overlook any insecure configurations.
 
+https://github.com/intruder-io/guidtool
+<br># A simple tool to analyse version 1 GUIDs/UUIDs from a system. With the information obtained from analysis, it is often possible to forge future v1 GUIDs created by the system, if you know the approximate time they were created.
+<br>```guidtool -t '2022-04-13 09:12:54' 95f6e264-bb00-11ec-8833-00155d01ef00```
+
 ### Exfiltration
 https://github.com/vp777/procrustes
 <br># A bash script that automates the exfiltration of data over dns
