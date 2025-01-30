@@ -601,10 +601,15 @@ https://github.com/VirtueSecurity/aws-extender
 <br># Burp Suite extension which can identify and test S3 buckets
 
 ### Cloud Enumeration
+<br># Set keys
+<br>```export AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY```
+<br>```export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_KEY```
+<br>```export AWS_SESSION_TOKEN=YOUR_SESSION_TOKEN```
+<br># Set keys (alternative)
+<br>```aws configure set aws_access_key_id YOUR_ACCESS_KEY```
+<br>```aws configure set aws_secret_access_key YOUR_SECRET_KEY```
+<br>```aws configure set aws_session_token YOUR_SESSION_TOKEN```
 <br># Basic check
-<br>```export AWS_ACCESS_KEY_ID=XYZ```
-<br>```export AWS_SECRET_ACCESS_KEY=XYZ```
-<br>```export AWS_SESSION_TOKEN=XYZ```
 <br>```aws sts get-caller-identity```
 
 https://github.com/andresriancho/enumerate-iam
