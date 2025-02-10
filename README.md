@@ -569,6 +569,10 @@ https://builtwith.com
 https://www.wappalyzer.com
 <br># Identify technologies on websites.
 
+https://github.com/s0md3v/wappalyzer-next
+<br># This project is a command line tool and python library that uses Wappalyzer extension (and its fingerprints) to detect technologies.
+<br>```wappalyzer -i https://example.com```
+
 https://webtechsurvey.com
 <br># Discover what technologies a website is built on or find out what websites use a particular web technology.
 
