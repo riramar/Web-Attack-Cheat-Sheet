@@ -289,6 +289,14 @@ https://github.com/lc/gau
 <br># getallurls (gau) fetches known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl for any given domain.
 <br>```cat domains.txt | gau --threads 5```
 
+https://github.com/xnl-h4ck3r/waymore
+<br># The idea behind waymore is to find even more links from the Wayback Machine than other existing tools.
+<br>```waymore -n -mode U -p 5 -i https://example.com```
+
+https://github.com/projectdiscovery/urlfinder
+<br># A high-speed tool for passively gathering URLs, optimized for efficient web asset discovery without active scanning.
+<br>```urlfinder -duc -silent -d example.com```
+
 ### Cache
 https://portswigger.net/research/practical-web-cache-poisoning
 <br># Web cache poisoning has long been an elusive vulnerability, a 'theoretical' threat used mostly to scare developers into obediently patching issues that nobody could actually exploit.
