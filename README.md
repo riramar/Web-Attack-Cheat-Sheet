@@ -1457,7 +1457,6 @@ https://systemweakness.com/new-prompt-injection-attack-on-chatgpt-web-version-ef
 <br># New prompt injection attack on ChatGPT web version. Markdown images can steal your chat data.
 
 https://josephthacker.com/hacking/2025/02/25/how-to-hack-ai-apps.html
-<br># I often get asked how to hack AI applications. There hadn’t been a single full guide that I could reference until now.
 <br># The following is my attempt to make the best and most comprehensive guide to hacking AI applications. It’s quite large, but if you take the time to go through it all, you will be extremely well prepared.
 
 ## General
