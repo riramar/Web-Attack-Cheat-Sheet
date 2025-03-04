@@ -1030,6 +1030,9 @@ https://github.com/intruder-io/guidtool
 <br># A simple tool to analyse version 1 GUIDs/UUIDs from a system. With the information obtained from analysis, it is often possible to forge future v1 GUIDs created by the system, if you know the approximate time they were created.
 <br>```guidtool -t '2022-04-13 09:12:54' 95f6e264-bb00-11ec-8833-00155d01ef00```
 
+https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-attack
+<br># In this presentation I introduce, demo and distribute Turbo Intruder - a research grade open source Burp Suite extension built from scratch with speed in mind. I also discuss the underlying HTTP abuse that enables it to go so fast, so you can attain similar speeds in any tools you happen to write.
+
 ### Exfiltration
 https://github.com/vp777/procrustes
 <br># A bash script that automates the exfiltration of data over dns
