@@ -1462,6 +1462,9 @@ https://systemweakness.com/new-prompt-injection-attack-on-chatgpt-web-version-ef
 https://josephthacker.com/hacking/2025/02/25/how-to-hack-ai-apps.html
 <br># The following is my attempt to make the best and most comprehensive guide to hacking AI applications. It’s quite large, but if you take the time to go through it all, you will be extremely well prepared.
 
+https://medium.com/@attias.dor/the-burn-notice-part-1-5-revealing-shadow-copilots-812def588a7a
+<br># In the first episode of our series, we’ll reveal how shockingly easy it was to extract financial data from multiple multi-billion-dollar companies. We’ll dive into Copilot Studio, Microsoft’s low-code/no-code platform for building AI agents, and uncover a technique that could allow threat actors to identify exposed agents.
+
 ## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
