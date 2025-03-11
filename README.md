@@ -1469,6 +1469,12 @@ https://medium.com/@attias.dor/the-burn-notice-part-1-5-revealing-shadow-copilot
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
 
+<br># File transfer with nc
+<br># Receiver:
+<br>```nc -l -p 12345 | pv | tar xz && echo "Transfer Received Successfully!"```
+<br># Sender:
+<br>```tar cz file.txt | pv | nc -N example.com 12345 && echo "File Sent Successfully!"```
+
 <br># Extract website certificate
 <br>```true | openssl s_client -connect www.example.com:443 2>/dev/null | openssl x509 -noout -text```
 
