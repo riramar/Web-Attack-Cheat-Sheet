@@ -1471,7 +1471,7 @@ https://medium.com/@attias.dor/the-burn-notice-part-1-5-revealing-shadow-copilot
 
 <br># File transfer with nc
 <br># Receiver:
-<br>```nc -l -p 12345 | pv | tar xz && echo "Transfer Received Successfully!"```
+<br>```nc -l -p 12345 | pv | tar xz && echo "File Received Successfully!"```
 <br># Sender:
 <br>```tar cz file.txt | pv | nc -N example.com 12345 && echo "File Sent Successfully!"```
 
