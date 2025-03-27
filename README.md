@@ -975,6 +975,12 @@ https://github.com/0xTeles/jsleak
 https://github.com/channyein1337/jsleak
 <br># I was developing jsleak during most of my free time for my own need. It is easy-to-use command-line tool designed to uncover secrets and links in JavaScript files or source code. The jsleak was inspired by Linkfinder and regexes are collected from multiple sources.
 
+https://github.com/praetorian-inc/noseyparker
+<br># Nosey Parker is a command-line tool that finds secrets and sensitive information in textual data and Git history.
+
+https://github.com/praetorian-inc/gato
+<br># Gato, or GitHub Attack Toolkit, is an enumeration and attack tool that allows both blue teamers and offensive security practitioners to identify and exploit pipeline vulnerabilities within a GitHub organization's public and private repositories.
+
 ### Google Dorks Scanning
 https://github.com/opsdisk/pagodo
 <br># The goal of this project was to develop a passive Google dork script to collect potentially vulnerable web pages and applications on the Internet.
