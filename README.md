@@ -157,6 +157,9 @@ https://web.archive.org/web/20211127183642/https://appsecco.com/books/subdomain-
 https://celes.in/posts/cloudflare_ns_whois
 <br># Enumerating all domains from a cloudflare account by nameserver correlation.
 
+https://pugrecon.com/
+<br># Query some subdomains!
+
 https://github.com/knownsec/ksubdomain
 <br># ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。
 <br>```ksubdomain -d example.com```
@@ -262,6 +265,9 @@ https://cramppet.github.io/regulator/index.html
 https://github.com/blechschmidt/massdns
 <br># MassDNS is a simple high-performance DNS stub resolver targeting those who seek to resolve a massive amount of domain names in the order of millions or even billions.
 <br>```massdns -r resolvers.txt -o S -w massdns.out subdomains.txt```
+
+https://github.com/c3l3si4n/pugdns/
+<br># An experimental high-performance DNS query tool built with AF_XDP and eBPF for extremely fast and accurate bulk DNS lookups.
 
 https://github.com/trickest/resolvers
 <br># The most exhaustive list of reliable DNS resolvers.
