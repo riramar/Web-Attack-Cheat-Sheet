@@ -1487,13 +1487,14 @@ https://medium.com/@attias.dor/the-burn-notice-part-1-5-revealing-shadow-copilot
 <br># Sender:
 <br>```tar cz file.txt | pv | nc -N example.com 12345 && echo "File Sent Successfully!"```
 <br>```tar cz file.txt | pv | nc -q 3 example.com 12345 && echo "File Sent Successfully!"```
-<br>
+
 <br># File transfer with nc (Receiver > Sender)
 <br># Sender:
 <br>```tar cz file.txt | pv | nc -N -l -p 12345```
 <br>```tar cz file.txt | pv | nc -q 3 -l -p 12345```
 <br># Receiver:
 <br>```nc example.com 12345 | pv | tar xz && echo "File Received Successfully!"```
+
 <br># Extract website certificate
 <br>```true | openssl s_client -connect www.example.com:443 2>/dev/null | openssl x509 -noout -text```
 
