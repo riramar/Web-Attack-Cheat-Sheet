@@ -1499,6 +1499,18 @@ https://medium.com/@attias.dor/the-burn-notice-part-1-5-revealing-shadow-copilot
 <br># Receiver:
 <br>```nc example.com 12345 | pv | tar xz && echo "File Received Successfully!"```
 
+<br># File transfer with socat (Sender > Receiver)
+<br># Receiver:
+<br>```socat -u TCP-LISTEN:12345,reuseaddr - | pv | tar xz && echo "File Received Successfully!"```
+<br># Sender:
+<br>```tar cz file.txt | pv | socat -u - TCP:example.com:12345 && echo "File Sent Successfully!"```
+
+<br># File transfer with socat (Receiver > Sender)
+<br># Sender:
+<br>```tar cz file.txt | pv | socat -u - TCP-LISTEN:12345,reuseaddr && echo "File Sent Successfully!"```
+<br># Receiver:
+<br>```socat -u TCP:example.com:12345 - | pv | tar xz && echo "File Received Successfully!"```
+
 <br># Extract website certificate
 <br>```true | openssl s_client -connect www.example.com:443 2>/dev/null | openssl x509 -noout -text```
 
