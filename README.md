@@ -378,6 +378,10 @@ https://github.com/ffuf/ffuf
 <br># A fast web fuzzer written in Go.
 <br>```ffuf -H 'User-Agent: Mozilla' -v -t 30 -w mydirfilelist.txt -b 'NAME1=VALUE1; NAME2=VALUE2' -u 'https://example.com/FUZZ'```
 
+https://github.com/jthack/ffufai
+<br># ffufai is an AI-powered wrapper for the popular web fuzzer ffuf. It automatically suggests file extensions for fuzzing based on the target URL and its headers, using either OpenAI's GPT or Anthropic's Claude AI models.
+<br>```ffufai -u https://example.com/FUZZ -w /path/to/wordlist.txt```
+
 https://github.com/iustin24/chameleon
 <br># Chameleon provides better content discovery by using wappalyzer's set of technology fingerprints alongside custom wordlists tailored to each detected technologies.
 <br>```chameleon --url https://example.com -a```
