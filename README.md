@@ -1609,7 +1609,10 @@ https://github.com/projectdiscovery/proxify/
 ```
 
 <br># Fake FTP Server
-<br>```python -m pyftpdlib --directory=/tmp/dir/ --port=21```
+<br>```sudo python -m pyftpdlib --directory=/tmp/dir/ --port=21```
+
+<br># Fake SMTP Server
+<br>```sudo python -m aiosmtpd -n -l 0.0.0.0:25```
 
 <br># Check HTTP or HTTPS
 <br>```while read i; do curl -m 15 -ki http://$i &> /dev/null; if [ $? -eq 0 ]; then echo $i; fi; done < subdomains.txt```
