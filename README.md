@@ -1481,6 +1481,9 @@ https://josephthacker.com/hacking/2025/02/25/how-to-hack-ai-apps.html
 https://medium.com/@attias.dor/the-burn-notice-part-1-5-revealing-shadow-copilots-812def588a7a
 <br># In the first episode of our series, we’ll reveal how shockingly easy it was to extract financial data from multiple multi-billion-dollar companies. We’ll dive into Copilot Studio, Microsoft’s low-code/no-code platform for building AI agents, and uncover a technique that could allow threat actors to identify exposed agents.
 
+https://www.bugcrowd.com/blog/a-low-cost-hacking-sidekick-baby-steps-to-using-offensive-ai-agents/
+<br># This time around, we’ll be addressing the other side of the coin and covering some examples of harnessing agents for hacking purposes (ethically, of course). In this first part of an all-new series, I will start easy. I’ll build from the ground up for those who may not have any experience coding or using LLMs. At the same time, I’ll provide some food for thought for savvy vets. Writing code to build agents and evaluating them on the daily get my adrenaline pumping.
+
 ## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
