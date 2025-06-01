@@ -152,7 +152,7 @@ https://github.com/Warflop/cloudbunny
 
 https://github.com/projectdiscovery/mapcidr
 <br># Utility program to perform multiple operations for a given subnet/CIDR ranges.
-<br>```mapcidr -cidr 173.0.84.0/24```
+<br>```mapcidr -cidr 173.0.84.0/24 -sbc 10 -silent```
 
 ### Subdomain Enumeration
 https://web.archive.org/web/20211127183642/https://appsecco.com/books/subdomain-enumeration/
