@@ -150,6 +150,10 @@ https://github.com/projectdiscovery/cdncheck
 https://github.com/Warflop/cloudbunny
 <br># CloudBunny is a tool to capture the origin server that uses a WAF as a proxy or protection.
 
+https://github.com/projectdiscovery/mapcidr
+<br># Utility program to perform multiple operations for a given subnet/CIDR ranges.
+<br>```mapcidr -cidr 173.0.84.0/24```
+
 ### Subdomain Enumeration
 https://web.archive.org/web/20211127183642/https://appsecco.com/books/subdomain-enumeration/
 <br># This book intendes to be a reference for subdomain enumeration techniques.
