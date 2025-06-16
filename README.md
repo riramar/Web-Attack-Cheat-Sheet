@@ -1202,7 +1202,10 @@ https://portswigger.net/research/bypassing-wafs-with-the-phantom-version-cookie
 <br># HTTP cookies often control critical website features, but their long and convoluted history exposes them to parser discrepancy vulnerabilities. In this post, I'll explore some dangerous, lesser-known features of modern cookie parsers and show how they can be abused to bypass web application firewalls. This is the first part of a series of blog posts on cookie parsing.
 
 https://hexagonal-humble-damselfly.glitch.me/
-<br># Punycode converter. Just put the name you want to convert. Click a letter you want to change and you'll get multiple input versions. 
+<br># Punycode converter. Just put the name you want to convert. Click a letter you want to change and you'll get multiple input versions.
+
+https://embracethered.com/blog/ascii-smuggler.html
+<br># Convert text to invisible Unicode encodings and decode hidden secrets.
 
 ### Deserialization
 https://github.com/joaomatosf/jexboss
