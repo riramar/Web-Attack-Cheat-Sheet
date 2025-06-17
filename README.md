@@ -1207,6 +1207,9 @@ https://hexagonal-humble-damselfly.glitch.me/
 https://embracethered.com/blog/ascii-smuggler.html
 <br># Convert text to invisible Unicode encodings and decode hidden secrets.
 
+https://www.punycoder.com/
+<br># Punycoder is a tool for Unicode to ASCII/Punycode and vice-versa conversion.
+
 ### Deserialization
 https://github.com/joaomatosf/jexboss
 <br># JexBoss is a tool for testing and exploiting vulnerabilities in JBoss Application Server and others Java Platforms, Frameworks, Applications, etc.
