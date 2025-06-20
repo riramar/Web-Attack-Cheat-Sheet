@@ -1210,6 +1210,10 @@ https://embracethered.com/blog/ascii-smuggler.html
 https://www.punycoder.com/
 <br># Punycoder is a tool for Unicode to ASCII/Punycode and vice-versa conversion.
 
+https://github.com/assetnote/newtowner
+<br># Abuse trust-boundaries to bypass firewalls and network controls.
+<br>```newtowner --provider github --urls urls.txt```
+
 ### Deserialization
 https://github.com/joaomatosf/jexboss
 <br># JexBoss is a tool for testing and exploiting vulnerabilities in JBoss Application Server and others Java Platforms, Frameworks, Applications, etc.
