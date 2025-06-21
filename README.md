@@ -283,6 +283,10 @@ https://github.com/vortexau/dnsvalidator
 https://github.com/n0kovo/n0kovo_subdomains
 <br># An extremely effective subdomain wordlist of 3,000,000 lines, crafted by harvesting SSL certs from the entire IPv4 space.
 
+https://github.com/hdm/ctail
+<br># Tail Certificate Transparency logs and extract hostnames.
+<br>```ctail -f -m '^.*\.example\.com'```
+
 https://labs.detectify.com/how-to/advanced-subdomain-reconnaissance-how-to-enhance-an-ethical-hackers-easm/
 <br># Many EASM programs limit the effectiveness of subdomain enumeration by relying solely on pre-made tools. The following techniques show how ethical hackers can expand their EASM program beyond the basics and build the best possible subdomain asset inventory.
 
