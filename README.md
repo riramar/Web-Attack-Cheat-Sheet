@@ -1245,6 +1245,11 @@ https://docs.aws.amazon.com/lambda/latest/dg/runtimes-api.html#runtimes-api-next
 https://portswigger.net/web-security/ssrf/url-validation-bypass-cheat-sheet
 <br># This cheat sheet contains payloads for bypassing URL validation. These wordlists are useful for attacks such as server-side request forgery, CORS misconfigurations, and open redirection.
 
+https://slcyber.io/assetnote-security-research-center/novel-ssrf-technique-involving-http-redirect-loops/
+<br># Blind Server-Side Request Forgery bugs are tricky to exploit, and obtaining the full HTTP response is one of the primary goals with any SSRF vulnerability. With modern cloud architectures, leaking the full HTTP response can often lead to cloud environment compromise if we can obtain the security credentials from the metadata IP.
+<br># However, what if you’re in a situation where the application just refuses to return the full HTTP response? Perhaps it’s performing some parsing logic, and your response does not fit its specifications, leading to an uneventful parsing error. These were the same challenges we faced recently when looking at widely used enterprise software.
+<br># We saw some unexpected behavior in this software that led to the leakage of the full redirect chain, including the final 200 OK response. We wanted to take some time today to blog about the issue, as it could lead to other SSRF vulnerabilities being exploitable in a similar way. Since this technique was surprisingly successful in this popular enterprise product, this pattern may hold true elsewhere.
+
 ### OAuth
 https://book.hacktricks.xyz/pentesting-web/oauth-to-account-takeover
 <br># In this article, we will be focusing on the most common flow that you will come across today, which is the OAuth 2.0 authorization code grant type.
