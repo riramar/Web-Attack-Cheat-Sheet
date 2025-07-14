@@ -233,6 +233,9 @@ https://securitytrails.com/list/email/dns-admin.example.com
 <br>```curl --request POST --url 'https://api.securitytrails.com/v1/domains/list?apikey={API_Key}&page=1&scroll=true' --data '{"filter":{"apex_domain":"example.com"}}' | jq -Mr '.records[].hostname' >> subdomains.txt```
 <br>```curl --request POST --url 'https://api.securitytrails.com/v1/domains/list?apikey={API_Key}&page=1&scroll=true' --data '{"filter":{"whois_email":"domains@example.com"}}' | jq -Mr '.records[].hostname' >> domains.txt```
 
+https://profundis.io/
+<br># Profundis is a search engine which focuses on indexing hosts and DNS records rather than web pages. You may use it to discover new assets or get alerts when a new host which matches specific criteria is discovered.
+
 https://viewdns.info/reversewhois
 <br># This free tool will allow you to find domain names owned by an individual person or company.
 
