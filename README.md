@@ -669,6 +669,9 @@ https://github.com/aquasecurity/trivy
 https://github.com/initstring/cloud_enum
 <br># Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
 
+https://github.com/R-s0n/cloud_enum
+<br># This fork is actively maintained by rs0n as part of The Ars0n Framework v2, a comprehensive bug bounty hunting framework. This version includes significant enhancements and expanded cloud service coverage.
+
 https://github.com/toniblyx/prowler
 <br># Prowler is an Open Source Security tool for AWS, Azure and GCP to perform Cloud Security best practices assessments, audits, incident response, compliance, continuous monitoring, hardening and forensics readiness.
 
