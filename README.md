@@ -1530,31 +1530,31 @@ https://www.bugcrowd.com/blog/a-low-cost-hacking-sidekick-baby-steps-to-using-of
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
 
-<br># File transfer with nc (Sender > Receiver)
+<br># Files transfer with nc (Sender > Receiver)
 <br># Receiver:
-<br>```nc -l -p 12345 | pv | tar xz && echo "File Received Successfully!"```
+<br>```nc -l -p 12345 | pv | tar xz && echo "Files Received Successfully!"```
 <br># Sender:
-<br>```tar cz file.txt | pv | nc -N example.com 12345 && echo "File Sent Successfully!"```
-<br>```tar cz file.txt | pv | nc -q 3 example.com 12345 && echo "File Sent Successfully!"```
+<br>```tar cz *files.txt | pv | nc -N example.com 12345 && echo "Files Sent Successfully!"```
+<br>```tar cz *files.txt | pv | nc -q 3 example.com 12345 && echo "Files Sent Successfully!"```
 
-<br># File transfer with nc (Receiver > Sender)
+<br># Files transfer with nc (Receiver > Sender)
 <br># Sender:
-<br>```tar cz file.txt | pv | nc -N -l -p 12345 && echo "File Sent Successfully!"```
-<br>```tar cz file.txt | pv | nc -q 3 -l -p 12345 && echo "File Sent Successfully!"```
+<br>```tar cz *files.txt | pv | nc -N -l -p 12345 && echo "Files Sent Successfully!"```
+<br>```tar cz *files.txt | pv | nc -q 3 -l -p 12345 && echo "Files Sent Successfully!"```
 <br># Receiver:
-<br>```nc example.com 12345 | pv | tar xz && echo "File Received Successfully!"```
+<br>```nc example.com 12345 | pv | tar xz && echo "Files Received Successfully!"```
 
-<br># File transfer with socat (Sender > Receiver)
+<br># Files transfer with socat (Sender > Receiver)
 <br># Receiver:
-<br>```socat -u TCP-LISTEN:12345,reuseaddr - | pv | tar xz && echo "File Received Successfully!"```
+<br>```socat -u TCP-LISTEN:12345,reuseaddr - | pv | tar xz && echo "Files Received Successfully!"```
 <br># Sender:
-<br>```tar cz file.txt | pv | socat -u - TCP:example.com:12345 && echo "File Sent Successfully!"```
+<br>```tar cz *files.txt | pv | socat -u - TCP:example.com:12345 && echo "Files Sent Successfully!"```
 
-<br># File transfer with socat (Receiver > Sender)
+<br># Files transfer with socat (Receiver > Sender)
 <br># Sender:
-<br>```tar cz file.txt | pv | socat -u - TCP-LISTEN:12345,reuseaddr && echo "File Sent Successfully!"```
+<br>```tar cz *files.txt | pv | socat -u - TCP-LISTEN:12345,reuseaddr && echo "Files Sent Successfully!"```
 <br># Receiver:
-<br>```socat -u TCP:example.com:12345 - | pv | tar xz && echo "File Received Successfully!"```
+<br>```socat -u TCP:example.com:12345 - | pv | tar xz && echo "Files Received Successfully!"```
 
 <br># Extract website certificate
 <br>```true | openssl s_client -connect www.example.com:443 2>/dev/null | openssl x509 -noout -text```
