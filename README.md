@@ -932,6 +932,9 @@ https://github.com/BenjiTrapp/http-request-smuggling-lab
 https://infosec.zeyu2001.com/2022/http-request-smuggling-in-the-multiverse-of-parsing-flaws
 <br># Nowadays, novel HTTP request smuggling techniques rely on subtle deviations from the HTTP standard. Here, I discuss some of my recent findings and novel techniques.
 
+https://tools.honoki.net/smuggler.html
+<br># Visualize HTTP parsing discrepancies that lead to smuggling vulnerabilities.
+
 ### Subdomain Takeover
 https://github.com/anshumanbh/tko-subs
 <br># Subdomain Takeover Scanner
