@@ -1241,6 +1241,15 @@ https://github.com/joaomatosf/jexboss
 https://github.com/pimps/JNDI-Exploit-Kit
 <br># This is a forked modified version of the great exploitation tool created by @welk1n (https://github.com/welk1n/JNDI-Injection-Exploit). 
 
+https://github.com/frohoff/ysoserial
+<br># A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
+
+https://github.com/pwntester/ysoserial.net
+<br># A proof-of-concept tool for generating payloads that exploit unsafe .NET object deserialization.
+
+https://github.com/irsdl/ysonet
+<br># YSoNet (previously known as ysoserial.net) is a collection of utilities and property-oriented programming "gadget chains" discovered in common .NET libraries that can, under the right conditions, exploit .NET applications performing unsafe deserialization of objects.
+
 ### SSRF (Server-Side Request Forgery)
 https://lab.wallarm.com/blind-ssrf-exploitation/
 <br># There is such a thing as SSRF. There’s lots of information about it, but here is my quick summary.
