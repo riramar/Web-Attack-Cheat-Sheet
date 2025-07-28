@@ -58,6 +58,7 @@
   - [SQLi (SQL Injection)](#sqli-sql-injection-1)
   - [XSS](#xss-1)
   - [XPath Injection](#xpath-injection)
+  - [Path Traversal](#path-traversal)
   - [LFI (Local File Inclusion)](#lfi-local-file-inclusion)
   - [SSTI (Server Side Template Injection)](#ssti-server-side-template-injection)
   - [Information Disclosure](#information-disclosure)
@@ -1426,6 +1427,10 @@ https://devhints.io/xpath
 
 https://www.s4msecurity.com/2022/06/08/xml-xpath-injection-search-bwapp-level-low/
 <br># This article subject XML/XPath Injection vulnerability on web app.
+
+### Path Traversal
+https://github.com/avlidienbrunn/archivealchemist
+<br># Archive Alchemist is a tool for creating specially crafted archives to test extraction vulnerabilities.
 
 ### LFI (Local File Inclusion)
 https://bierbaumer.net/security/php-lfi-with-nginx-assistance/
