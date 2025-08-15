@@ -1256,6 +1256,9 @@ https://github.com/pwntester/ysoserial.net
 https://github.com/irsdl/ysonet
 <br># YSoNet (previously known as ysoserial.net) is a collection of utilities and property-oriented programming "gadget chains" discovered in common .NET libraries that can, under the right conditions, exploit .NET applications performing unsafe deserialization of objects.
 
+https://github.com/ambionics/phpggc
+<br># PHPGGC is a library of unserialize() payloads along with a tool to generate them, from command line or programmatically. When encountering an unserialize on a website you don't have the code of, or simply when trying to build an exploit, this tool allows you to generate the payload without having to go through the tedious steps of finding gadgets and combining them. It can be seen as the equivalent of frohoff's ysoserial, but for PHP. Currently, the tool supports gadget chains such as: CodeIgniter4, Doctrine, Drupal7, Guzzle, Laravel, Magento, Monolog, Phalcon, Podio, Slim, SwiftMailer, Symfony, Wordpress, Yii and ZendFramework.
+
 ### SSRF (Server-Side Request Forgery)
 https://lab.wallarm.com/blind-ssrf-exploitation/
 <br># There is such a thing as SSRF. There’s lots of information about it, but here is my quick summary.
