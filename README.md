@@ -1235,6 +1235,11 @@ https://github.com/assetnote/newtowner
 <br># Abuse trust-boundaries to bypass firewalls and network controls.
 <br>```newtowner --provider github --urls urls.txt```
 
+https://blog.huli.tw/2022/04/07/en/iframe-and-window-open/
+<br># If you want to generate a new window on a webpage, there are probably only two options: one is to embed resources on the same page using tags such as iframe, embed, and object, and the other is to use window.open to open a new window.
+<br># As a front-end developer, I believe that everyone is familiar with these. You may have used iframe to embed third-party web pages or widgets, or used window.open to open a new window and communicate with the original window through window.opener.
+<br># However, from a security perspective, there are many interesting things about iframes, which often appear in the real world or in CTF competitions. Therefore, I want to record some of the features I learned recently through this article.
+
 ### Deserialization
 https://github.com/joaomatosf/jexboss
 <br># JexBoss is a tool for testing and exploiting vulnerabilities in JBoss Application Server and others Java Platforms, Frameworks, Applications, etc.
