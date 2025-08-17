@@ -1551,6 +1551,9 @@ https://medium.com/@attias.dor/the-burn-notice-part-1-5-revealing-shadow-copilot
 https://www.bugcrowd.com/blog/a-low-cost-hacking-sidekick-baby-steps-to-using-offensive-ai-agents/
 <br># This time around, we’ll be addressing the other side of the coin and covering some examples of harnessing agents for hacking purposes (ethically, of course). In this first part of an all-new series, I will start easy. I’ll build from the ground up for those who may not have any experience coding or using LLMs. At the same time, I’ll provide some food for thought for savvy vets. Writing code to build agents and evaluating them on the daily get my adrenaline pumping.
 
+https://aliasrobotics.github.io/cai/
+<br># A lightweight, ergonomic framework for building bug bounty-ready Cybersecurity AIs (CAIs).
+
 ## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
