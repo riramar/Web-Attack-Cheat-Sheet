@@ -39,6 +39,7 @@
   - [Secret Scanning](#secret-scanning)
   - [Google Dorks Scanning](#google-dorks-scanning)
   - [CORS Misconfigurations](#cors-misconfigurations)
+  - [API](#api)
 - [Monitoring](#monitoring)
   - [CVE](#cve)
 - [Attacking](#attacking)
@@ -1025,6 +1026,14 @@ https://github.com/opsdisk/pagodo
 https://github.com/s0md3v/Corsy
 <br># Corsy is a lightweight program that scans for all known misconfigurations in CORS implementations.
 <br>```python3 corsy.py -u https://example.com```
+
+### API
+https://github.com/BishopFox/sj
+<br># A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition files.
+<br>```sj automate -u https://petstore.swagger.io/v2/swagger.json -q```
+
+https://github.com/intruder-io/autoswagger
+<br># Autoswagger is a command-line tool designed to discover, parse, and test for unauthenticated endpoints using Swagger/OpenAPI documentation. It helps identify potential security issues in unprotected endpoints of APIs, such as PII leaks and common secret exposures.
 
 ## Monitoring
 
