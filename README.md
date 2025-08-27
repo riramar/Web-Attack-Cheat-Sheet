@@ -1563,6 +1563,9 @@ https://www.bugcrowd.com/blog/a-low-cost-hacking-sidekick-baby-steps-to-using-of
 https://aliasrobotics.github.io/cai/
 <br># A lightweight, ergonomic framework for building bug bounty-ready Cybersecurity AIs (CAIs).
 
+https://azure.github.io/PyRIT/
+<br># Welcome to the Python Risk Identification Tool for generative AI (PyRIT)! PyRIT is designed to be a flexible and extensible tool that can be used to assess the security and safety issues of generative AI systems in a variety of ways.
+
 ## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
