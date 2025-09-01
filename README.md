@@ -1584,6 +1584,9 @@ https://github.com/prompt-security/ps-fuzz
 https://github.com/promptfoo/promptfoo
 <br># Test your prompts, agents, and RAGs. AI Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.
 
+https://github.com/ethiack/ai4eh
+<br># This repository contains the workshop guide, educational tools and scripts for learning how AI can be applied in offensive security.
+
 ## General
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
