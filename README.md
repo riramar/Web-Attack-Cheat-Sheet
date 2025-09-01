@@ -1521,6 +1521,9 @@ https://portswigger.net/web-security/llm-attacks
 https://owasp.org/www-project-top-10-for-large-language-model-applications/
 <br># The OWASP Top 10 for Large Language Model Applications project aims to educate developers, designers, architects, managers, and organizations about the potential security risks when deploying and managing Large Language Models (LLMs).
 
+https://owaspai.org/
+<br># Welcome to the go-to resource for broad AI security & privacy - over 200 pages of practical advice and references on protecting AI and data-centric systems from threats. This content serves as key bookmark for practitioners, and is contributing actively and substantially to international standards such as ISO/IEC and the AI Act through official standard partnerships. Through broad collaboration with key institutes and SDOs, the Exchange represents the consensus on AI security and privacy.
+
 https://github.com/protectai/ai-exploits
 <br># The AI world has a security problem and it's not just in the inputs given to LLMs such as ChatGPT. Based on research done by Protect AI and independent security experts on the Huntr Bug Bounty Platform, there are far more impactful and practical attacks against the tools, libraries and frameworks used to build, train, and deploy machine learning models.
 
