@@ -46,7 +46,7 @@
   - [Brute Force](#brute-force)
   - [Exfiltration](#exfiltration)
   - [Bypass](#bypass-attacking)
-  - [General](#general-1)
+  - [General](#general-attacking)
 - [Manual](#manual)
   - [Payloads](#payloads)
   - [Bypass](#bypass)
@@ -1157,7 +1157,7 @@ https://xsleaks.dev/
 https://github.com/MrTurvey/flareprox
 <br># FlareProx automatically deploys HTTP proxy endpoints on Cloudflare Workers for easy redirection of all traffic to any URL you specify.
 
-### General
+### General<a name="general-attacking"></a>
 https://github.com/firefart/stunner
 <br># Stunner is a tool to test and exploit STUN, TURN and TURN over TCP servers. TURN is a protocol mostly used in videoconferencing and audio chats (WebRTC).
 <br>```stunner info -s x.x.x.x:443```
