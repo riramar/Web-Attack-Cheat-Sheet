@@ -57,8 +57,8 @@
   - [SMTP Header Injection](#smtp-header-injection)
   - [Web Shell](#web-shell)
   - [Reverse Shell](#reverse-shell)
-  - [SQLi (SQL Injection)](#sqli-sql-injection-1)
-  - [XSS](#xss-1)
+  - [SQLi (SQL Injection)](#sqli-sql-injection_manual)
+  - [XSS](#xss_manual)
   - [XPath Injection](#xpath-injection)
   - [Path Traversal](#path-traversal)
   - [LFI (Local File Inclusion)](#lfi-local-file-inclusion)
@@ -67,7 +67,7 @@
   - [WebDAV (Web Distributed Authoring and Versioning)](#webdav-web-distributed-authoring-and-versioning)
   - [Generic Tools](#generic-tools)
 - [AI](#ai)
-- [General](#general-2)
+- [General](#general_all)
 
 ## Discovering
 
@@ -1386,7 +1386,7 @@ https://reverse-shell.sh/
 https://github.com/calebstewart/pwncat
 <br># pwncat is a post-exploitation platform for Linux targets.
 
-### SQLi (SQL Injection)
+### SQLi (SQL Injection)<a name="sqli-sql-injection_manual"></a>
 https://arxiv.org/abs/1303.3047
 <br># This paper describes an advanced SQL injection technique where DNS resolution process is exploited for retrieval of malicious SQL query results.
 
@@ -1428,7 +1428,7 @@ https://www.websec.ca/kb/sql_injection
 https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/
 <br># Use our SQL Injection Cheat Sheet to learn about the different variants of the SQL injection vulnerability.
 
-### XSS
+### XSS<a name="xss_manual"></a>
 https://rhynorater.github.io/postMessage-Braindump
 <br># postMessage-related bugs have landed me some serious bounties during the past couple live hacking events. Here is a quick summary of what you need to know about postMessage.
 
@@ -1593,7 +1593,7 @@ https://github.com/promptfoo/promptfoo
 https://github.com/ethiack/ai4eh
 <br># This repository contains the workshop guide, educational tools and scripts for learning how AI can be applied in offensive security.
 
-## General
+## General<a name="general_all"></a>
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
 
