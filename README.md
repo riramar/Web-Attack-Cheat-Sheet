@@ -45,6 +45,7 @@
 - [Attacking](#attacking)
   - [Brute Force](#brute-force)
   - [Exfiltration](#exfiltration)
+  - [Bypass](#bypass-attacking)
   - [General](#general-1)
 - [Manual](#manual)
   - [Payloads](#payloads)
@@ -1150,6 +1151,11 @@ https://github.com/arthaud/git-dumper
 
 https://xsleaks.dev/
 <br># Cross-site leaks (aka XS-Leaks, XSLeaks) are a class of vulnerabilities derived from side-channels built into the web platform. They take advantage of the web’s core principle of composability, which allows websites to interact with each other, and abuse legitimate mechanisms to infer information about the user. One way of looking at XS-Leaks is to highlight their similarity with cross-site request forgery (CSRF) techniques, with the main difference being that instead of allowing other websites to perform actions on behalf of a user, XS-Leaks can be used to infer information about a user.
+
+### Bypass(#bypass-attacking)
+
+https://github.com/MrTurvey/flareprox
+<br># FlareProx automatically deploys HTTP proxy endpoints on Cloudflare Workers for easy redirection of all traffic to any URL you specify.
 
 ### General
 https://github.com/firefart/stunner
