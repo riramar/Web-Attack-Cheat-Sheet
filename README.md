@@ -1394,7 +1394,7 @@ https://github.com/calebstewart/pwncat
 
 <br># Interactive shell perl
 <br>```perl -e 'exec "/bin/sh";'```
-# or
+<br># or
 <br>```perl -e 'use POSIX; POSIX::setsid(); exec("/bin/bash -i");'```
 
 <br># Interactive shell ruby
