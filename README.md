@@ -568,6 +568,10 @@ https://github.com/assetnote/batchql
 https://github.com/doyensec/inql
 <br># InQL is a robust, open-source Burp Suite extension for advanced GraphQL testing, offering intuitive vulnerability detection, customizable scans, and seamless Burp integration.
 
+https://github.com/dolevf/graphql-cop
+<br># GraphQL Cop is a small Python utility to run common security tests against GraphQL APIs. GraphQL Cop is perfect for running CI/CD checks in GraphQL. It is lightweight, and covers interesting security issues in GraphQL.
+<br>```graphql-cop.py -t https://www.example.com/graphql```
+
 ### General
 https://github.com/redhuntlabs/Awesome-Asset-Discovery
 <br># Asset Discovery is the initial phase of any security assessment engagement, be it offensive or defensive. With the evolution of information technology, the scope and definition of assets has also evolved.
