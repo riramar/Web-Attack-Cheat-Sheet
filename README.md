@@ -1635,6 +1635,9 @@ https://github.com/promptfoo/promptfoo
 https://github.com/ethiack/ai4eh
 <br># This repository contains the workshop guide, educational tools and scripts for learning how AI can be applied in offensive security.
 
+https://github.com/westonbrown/Cyber-AutoAgent
+<br># Cyber-AutoAgent is a proactive security assessment tool that autonomously conducts intelligent penetration testing with natural language reasoning, dynamic tool selection, and evidence collection using AWS Bedrock, Litellm or local Ollama models with the core Strands framework.
+
 ## General<a name="general_all"></a>
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
