@@ -921,6 +921,9 @@ https://github.com/PortSwigger/http-request-smuggler
 https://medium.com/@ricardoiramar/the-powerful-http-request-smuggling-af208fafa142
 <br># This is how I was able to exploit a HTTP Request Smuggling in some Mobile Device Management (MDM) servers and send any MDM command to any device enrolled on them for a private bug bounty program.
 
+https://www.yeswehack.com/learn-bug-bounty/http-request-smuggling-guide-vulnerabilities
+<br># The ultimate Bug Bounty guide to HTTP request smuggling vulnerabilities.
+
 https://www.intruder.io/research/practical-http-header-smuggling
 <br># Modern web applications typically rely on chains of multiple servers, which forward HTTP requests to one another. The attack surface created by this forwarding is increasingly receiving more attention, including the recent popularisation of cache poisoning and request smuggling vulnerabilities. Much of this exploration, especially recent request smuggling research, has developed new ways to hide HTTP request headers from some servers in the chain while keeping them visible to others – a technique known as "header smuggling". This paper presents a new technique for identifying header smuggling and demonstrates how header smuggling can lead to cache poisoning, IP restriction bypasses, and request smuggling.
 
