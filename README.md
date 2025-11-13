@@ -1890,3 +1890,6 @@ https://www.synacktiv.com/publications/github-actions-exploitation-untrusted-inp
 
 https://tools.slcyber.io/
 <br># Powerful security testing tools and APIs designed for security professionals and researchers.
+
+https://github.com/vavkamil/awesome-bugbounty-tools
+<br># A curated list of various bug bounty tools.
