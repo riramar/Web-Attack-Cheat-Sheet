@@ -502,6 +502,9 @@ https://github.com/opsdisk/pagodo
 <br># The goal of this project was to develop a passive Google dork script to collect potentially vulnerable web pages and applications on the Internet.
 <br>```python3 pagodo.py -d example.com -g dorks.txt -l 50 -s -e 35.0 -j 1.1```
 
+https://github.com/Tobee1406/Awesome-Google-Dorks
+<br># A collection of Awesome Google Dorks.
+
 ### Content Security Policy (CSP)
 https://csp-evaluator.withgoogle.com/
 <br># CSP Evaluator allows developers and security experts to check if a Content Security Policy (CSP) serves as a strong mitigation against cross-site scripting attacks.
