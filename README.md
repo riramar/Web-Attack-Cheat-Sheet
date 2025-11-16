@@ -5,9 +5,8 @@
   - [Targets](#targets)
   - [IP Enumeration](#ip-enumeration)
   - [Subdomain Enumeration](#subdomain-enumeration)
-  - [Wayback Machine](#wayback-machine)
   - [Cache](#cache)
-  - [Crawling](#crawling)
+  - [Web Asset Discovery](#web-asset-discovery)
   - [Wordlist](#wordlist)
   - [Directory Bruteforcing](#directory-bruteforcing)
   - [Parameter Bruteforcing](#parameter-bruteforcing)
@@ -299,7 +298,22 @@ https://github.com/hdm/ctail
 https://labs.detectify.com/how-to/advanced-subdomain-reconnaissance-how-to-enhance-an-ethical-hackers-easm/
 <br># Many EASM programs limit the effectiveness of subdomain enumeration by relying solely on pre-made tools. The following techniques show how ethical hackers can expand their EASM program beyond the basics and build the best possible subdomain asset inventory.
 
-### Wayback Machine
+### Cache
+https://portswigger.net/research/practical-web-cache-poisoning
+<br># Web cache poisoning has long been an elusive vulnerability, a 'theoretical' threat used mostly to scare developers into obediently patching issues that nobody could actually exploit.
+<br># In this paper I'll show you how to compromise websites by using esoteric web features to turn their caches into exploit delivery systems, targeting everyone that makes the mistake of visiting their homepage.
+
+https://www.giftofspeed.com/cache-checker
+<br># This tool lists which web files on a website are cached and which are not. Furthermore it checks by which method these files are cached and what the expiry time of the cached files is.
+
+https://youst.in/posts/cache-poisoning-at-scale/
+<br># Even though Web Cache Poisoning has been around for years, the increasing complexity in technology stacks constantly introduces unexpected behaviour which can be abused to achieve novel cache poisoning attacks. In this paper I will present the techniques I used to report over 70 cache poisoning vulnerabilities to various Bug Bounty programs.
+
+https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner
+<br># Web Cache Vulnerability Scanner (WCVS) is a fast and versatile CLI scanner for web cache poisoning developed by Hackmanit.
+<br>```wcvs -u https://example.com -hw "file:/home/user/Documents/wordlist-header.txt" -pw "file:/home/user/Documents/wordlist-parameter.txt"```
+
+### Web Asset Discovery
 https://github.com/tomnomnom/waybackurls
 <br># Accept line-delimited domains on stdin, fetch known URLs from the Wayback Machine for *.domain and output them on stdout.
 <br>```cat subdomains.txt | waybackurls > waybackurls.txt```
@@ -320,22 +334,6 @@ https://github.com/projectdiscovery/urlfinder
 <br># A high-speed tool for passively gathering URLs, optimized for efficient web asset discovery without active scanning.
 <br>```urlfinder -duc -silent -d example.com```
 
-### Cache
-https://portswigger.net/research/practical-web-cache-poisoning
-<br># Web cache poisoning has long been an elusive vulnerability, a 'theoretical' threat used mostly to scare developers into obediently patching issues that nobody could actually exploit.
-<br># In this paper I'll show you how to compromise websites by using esoteric web features to turn their caches into exploit delivery systems, targeting everyone that makes the mistake of visiting their homepage.
-
-https://www.giftofspeed.com/cache-checker
-<br># This tool lists which web files on a website are cached and which are not. Furthermore it checks by which method these files are cached and what the expiry time of the cached files is.
-
-https://youst.in/posts/cache-poisoning-at-scale/
-<br># Even though Web Cache Poisoning has been around for years, the increasing complexity in technology stacks constantly introduces unexpected behaviour which can be abused to achieve novel cache poisoning attacks. In this paper I will present the techniques I used to report over 70 cache poisoning vulnerabilities to various Bug Bounty programs.
-
-https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner
-<br># Web Cache Vulnerability Scanner (WCVS) is a fast and versatile CLI scanner for web cache poisoning developed by Hackmanit.
-<br>```wcvs -u https://example.com -hw "file:/home/user/Documents/wordlist-header.txt" -pw "file:/home/user/Documents/wordlist-parameter.txt"```
-
-### Crawling
 https://github.com/jaeles-project/gospider
 <br># Fast web spider written in Go.
 <br>```gospider -s "https://example.com/" -o output -c 20 -d 10```
