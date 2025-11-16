@@ -35,7 +35,6 @@
   - [XSS](#xss)
   - [Repositories Scanning](#repositories-scanning)
   - [Secret Scanning](#secret-scanning)
-  - [Google Dorks Scanning](#google-dorks-scanning)
   - [CORS Misconfigurations](#cors-misconfigurations)
   - [API](#api)
 - [Monitoring](#monitoring)
@@ -499,8 +498,9 @@ https://docs.google.com/document/d/1ydVaJJeL1EYbWtlfj9TPfBTE5IBADkQfZrQaBZxqXGs/
 https://www.exploit-db.com/google-hacking-database
 <br># Google Hacking Database
 
-<br># Search on AWS
-<br>```site:amazonaws.com company```
+https://github.com/opsdisk/pagodo
+<br># The goal of this project was to develop a passive Google dork script to collect potentially vulnerable web pages and applications on the Internet.
+<br>```python3 pagodo.py -d example.com -g dorks.txt -l 50 -s -e 35.0 -j 1.1```
 
 ### Content Security Policy (CSP)
 https://csp-evaluator.withgoogle.com/
@@ -1022,10 +1022,6 @@ https://github.com/praetorian-inc/gato
 <br># Gato, or GitHub Attack Toolkit, is an enumeration and attack tool that allows both blue teamers and offensive security practitioners to identify and exploit pipeline vulnerabilities within a GitHub organization's public and private repositories.
 
 ### Google Dorks Scanning
-https://github.com/opsdisk/pagodo
-<br># The goal of this project was to develop a passive Google dork script to collect potentially vulnerable web pages and applications on the Internet.
-<br>```python3 pagodo.py -d example.com -g dorks.txt -l 50 -s -e 35.0 -j 1.1```
-
 ### CORS Misconfigurations
 https://github.com/s0md3v/Corsy
 <br># Corsy is a lightweight program that scans for all known misconfigurations in CORS implementations.
