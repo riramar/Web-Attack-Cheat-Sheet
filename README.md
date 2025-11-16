@@ -13,7 +13,6 @@
   - [Parameter Bruteforcing](#parameter-bruteforcing)
   - [DNS and HTTP detection](#dns-and-http-detection)
   - [Acquisitions/Names/Addresses/Contacts/Emails/etc.](#acquisitionsnamesaddressescontactsemailsetc)
-  - [HTML/JavaScript Comments](#htmljavascript-comments)
   - [Google Dorks](#google-dorks)
   - [Content Security Policy (CSP)](#content-security-policy-csp)
   - [Tiny URLs Services](#tiny-urls-services)
@@ -495,11 +494,10 @@ https://github.com/mxrch/GHunt
 <br># GHunt is an OSINT tool to extract information from any Google Account using an email.
 <br>```python3 ghunt.py email myemail@gmail.com```
 
-### HTML/JavaScript Comments
-https://portswigger.net/support/using-burp-suites-engagement-tools
-<br># Burp Engagement Tools
-
 ### Google Dorks
+https://docs.google.com/document/d/1ydVaJJeL1EYbWtlfj9TPfBTE5IBADkQfZrQaBZxqXGs/view
+<br># Google Advanced Search Operators
+
 https://www.exploit-db.com/google-hacking-database
 <br># Google Hacking Database
 
