@@ -1890,4 +1890,7 @@ https://github.com/vavkamil/awesome-bugbounty-tools
 <br># A curated list of various bug bounty tools.
 
 https://blog.heckel.io/2013/07/01/how-to-use-mitmproxy-to-read-and-modify-https-traffic-of-your-phone/
-Capturing HTTP and HTTPS traffic on your own machine is quite simple: Using tools like Wireshark or Firebug, sniffing the local connections is only a matter of seconds. Capturing and/or altering the HTTP/HTTPS traffic of other machines in your network (such as your smartphone or other laptops) on the other hand is not so easy. Especially sniffing into SSL-secured HTTPS-connections seems impossible at first. Using mitmproxy, however, makes this possible in a very easy and straight forward way.
+<br># Capturing HTTP and HTTPS traffic on your own machine is quite simple: Using tools like Wireshark or Firebug, sniffing the local connections is only a matter of seconds. Capturing and/or altering the HTTP/HTTPS traffic of other machines in your network (such as your smartphone or other laptops) on the other hand is not so easy. Especially sniffing into SSL-secured HTTPS-connections seems impossible at first. Using mitmproxy, however, makes this possible in a very easy and straight forward way.
+
+https://www.praetorian.com/blog/domain-fronting-is-dead-long-live-domain-fronting/
+<br># At Black Hat and DEF CON, we demonstrated how red teams could tunnel traffic through everyday collaboration platforms like Zoom and Microsoft Teams, effectively transforming them into covert communication channels for command-and-control. That research highlighted a critical blind spot: defenders rarely block traffic to core business services because doing so would disrupt legitimate operations. This creates a trust gap that attackers can exploit.
