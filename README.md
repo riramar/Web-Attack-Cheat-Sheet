@@ -208,6 +208,9 @@ https://censys.io/certificates?q=parsed.subject_dn%3AO%3DExample+Organization
 https://www.shodan.io/search?query=ssl%3AExample
 <br># Shodan is the world's first search engine for Internet-connected devices.
 
+https://profundis.io/
+<br># Profundis is a search engine which focuses on indexing hosts, DNS records, certificates, etc rather than web pages. You may use it to discover new assets or get alerts when a new host which matches specific criteria is discovered.
+
 https://fullhunt.io/
 <br># If you don't know all your internet-facing assets, which ones are vulnerable, FullHunt is here for you.
 
