@@ -508,6 +508,12 @@ https://github.com/opsdisk/pagodo
 https://github.com/Tobee1406/Awesome-Google-Dorks
 <br># A collection of Awesome Google Dorks.
 
+https://taksec.github.io/google-dorks-bug-bounty/
+<br># Google Dorks for Bug Bounty.
+
+https://github.com/xnl-h4ck3r/xnldorker
+<br># This is a tool used to run a dork on different search sites. The available sources are currently: DuckDuckGo, Bing, Startpage, Yahoo, Google, GoogleCS, Yandex, Ecosia, Baidu, Seznam, Kagi.
+
 ### Content Security Policy (CSP)
 https://csp-evaluator.withgoogle.com/
 <br># CSP Evaluator allows developers and security experts to check if a Content Security Policy (CSP) serves as a strong mitigation against cross-site scripting attacks.
