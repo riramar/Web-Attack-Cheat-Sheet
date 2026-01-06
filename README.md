@@ -1292,6 +1292,10 @@ https://lab.wallarm.com/blind-ssrf-exploitation/
 https://blog.assetnote.io/2021/01/13/blind-ssrf-chains/
 <br># A Glossary of Blind SSRF Chains.
 
+https://github.com/assetnote/surf
+<br># surf allows you to filter a list of hosts, returning a list of viable SSRF candidates. It does this by sending a HTTP request from your machine to each host, collecting all the hosts that did not respond, and then filtering them into a list of externally facing and internally facing hosts.
+```surf -l example.txt -t 10 -c 200```
+
 https://wya.pl/2021/12/20/bring-your-own-ssrf-the-gateway-actuator/
 <br># BRING YOUR OWN SSRF – THE GATEWAY ACTUATOR.
 
