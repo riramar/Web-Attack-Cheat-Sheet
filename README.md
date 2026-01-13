@@ -1542,6 +1542,9 @@ https://github.com/vladko312/SSTImap
 <br># SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
 <br>```sstimap.py -u https://example.com/page?name=John```
 
+https://github.com/vladko312/Research_Successful_Errors
+<br># This research introduces two such techniques for Code Injection and SSTI: Error-Based and Boolean Error-Based Blind.
+
 ### Information Disclosure
 
 https://infosecwriteups.com/information-disclosure-vulnerability-in-adobe-experience-manager-affecting-multiple-companies-2fb0558cd957
