@@ -32,7 +32,7 @@
   - [HTTP Request Smuggling](#http-request-smuggling)
   - [Subdomain Takeover](#subdomain-takeover)
   - [SQLi (SQL Injection)](#sqli-sql-injection)
-  - [XSS](#xss)
+  - [XSS (Cross-Site Scripting)](#xss_scanning)
   - [Repositories Scanning](#repositories-scanning)
   - [Secret Scanning](#secret-scanning)
   - [CORS Misconfigurations](#cors-misconfigurations)
@@ -56,7 +56,7 @@
   - [Web Shell](#web-shell)
   - [Reverse Shell](#reverse-shell)
   - [SQLi (SQL Injection)](#sqli-sql-injection_manual)
-  - [XSS](#xss_manual)
+  - [XSS (Cross-Site Scripting)](#xss_manual)
   - [XPath Injection](#xpath-injection)
   - [Path Traversal](#path-traversal)
   - [LFI (Local File Inclusion)](#lfi-local-file-inclusion)
@@ -977,7 +977,7 @@ https://github.com/sqlmapproject/sqlmap
 <br>```sqlmap --force-ssl -r RAW_REQUEST.txt --user-agent='Mozilla' --batch```
 <br>```sqlmap -vv -u 'https://www.example.com?id=1*' --user-agent='Mozilla' --level 5 --risk 3 --batch```
 
-### XSS
+### XSS (Cross-Site Scripting)<a name="xss_scanning"></a>
 https://github.com/hahwul/dalfox
 <br># DalFox is a powerful open-source tool that focuses on automation, making it ideal for quickly scanning for XSS flaws and analyzing parameters. Its advanced testing engine and niche features are designed to streamline the process of detecting and verifying vulnerabilities.
 <br>```dalfox url http://testphp.vulnweb.com/listproducts.php\?cat\=123\&artist\=123\&asdf\=ff -b https://your-callback-url```
@@ -1490,7 +1490,7 @@ https://www.websec.ca/kb/sql_injection
 https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/
 <br># Use our SQL Injection Cheat Sheet to learn about the different variants of the SQL injection vulnerability.
 
-### XSS<a name="xss_manual"></a>
+### XSS (Cross-Site Scripting)<a name="xss_manual"></a>
 https://rhynorater.github.io/postMessage-Braindump
 <br># postMessage-related bugs have landed me some serious bounties during the past couple live hacking events. Here is a quick summary of what you need to know about postMessage.
 
