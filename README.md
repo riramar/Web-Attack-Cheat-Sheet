@@ -49,6 +49,7 @@
   - [Bypass](#bypass)
   - [Deserialization](#deserialization)
   - [SSRF (Server-Side Request Forgery)](#ssrf-server-side-request-forgery)
+  - [XXE (XML External Entity)](#xxe-xml-external-entity)
   - [OAuth](#oauth)
   - [DNS Rebinding](#dns-rebinding)
   - [HTTP Header Injection](#http-header-injection)
@@ -1314,6 +1315,11 @@ https://slcyber.io/assetnote-security-research-center/novel-ssrf-technique-invol
 <br># Blind Server-Side Request Forgery bugs are tricky to exploit, and obtaining the full HTTP response is one of the primary goals with any SSRF vulnerability. With modern cloud architectures, leaking the full HTTP response can often lead to cloud environment compromise if we can obtain the security credentials from the metadata IP.
 <br># However, what if you’re in a situation where the application just refuses to return the full HTTP response? Perhaps it’s performing some parsing logic, and your response does not fit its specifications, leading to an uneventful parsing error. These were the same challenges we faced recently when looking at widely used enterprise software.
 <br># We saw some unexpected behavior in this software that led to the leakage of the full redirect chain, including the final 200 OK response. We wanted to take some time today to blog about the issue, as it could lead to other SSRF vulnerabilities being exploitable in a similar way. Since this technique was surprisingly successful in this popular enterprise product, this pattern may hold true elsewhere.
+
+### XXE (XML External Entity)
+https://swarm.ptsecurity.com/impossible-xxe-in-php/
+<br># Writing secure code today is easier than making a mistake that would lead to an XXE vulnerability. While examining a library, I wondered: is its code truly secure? At first glance, everything appeared to be filtered, and the function didn’t have the attributes that could make it vulnerable.
+<br># However, I was able to exploit an almost impossible XXE vulnerability using a combination of techniques and features.
 
 ### OAuth
 https://book.hacktricks.xyz/pentesting-web/oauth-to-account-takeover
