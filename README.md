@@ -51,6 +51,7 @@
   - [SSRF (Server-Side Request Forgery)](#ssrf-server-side-request-forgery)
   - [OAuth](#oauth)
   - [DNS Rebinding](#dns-rebinding)
+  - [HTTP Header Injection](#http-header-injection)
   - [SMTP Header Injection](#smtp-header-injection)
   - [Web Shell](#web-shell)
   - [Reverse Shell](#reverse-shell)
@@ -1345,6 +1346,14 @@ http://1u.ms/
 
 https://github.com/Rhynorater/rebindMultiA
 <br># rebindMultiA is a tool to perform a Multiple A Record rebind attack.
+
+### HTTP Header Injection
+https://portswigger.net/research/making-http-header-injection-critical-via-response-queue-poisoning
+<br># HTTP header injection is often under-estimated and misclassified as a moderate severity flaw equivalent to XSS or worse, Open Redirection. In this post, I'll share a simple technique I used to take a header injection vulnerability, make it critical, and earn a $12,500 bounty.
+<br># This technique applies to both request header injection on front-end servers, and response header injection on back-end servers.
+
+https://lab.ctbb.show/research/crlf-injection-nested-response-splitting-csp-gadget
+<br># CRLF Injection Nested Response Splitting CSP Gadget.
 
 ### SMTP Header Injection
 https://www.acunetix.com/blog/articles/email-header-injection/
