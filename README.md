@@ -1545,6 +1545,10 @@ https://github.com/vladko312/SSTImap
 https://github.com/vladko312/Research_Successful_Errors
 <br># This research introduces two such techniques for Code Injection and SSTI: Error-Based and Boolean Error-Based Blind.
 
+https://github.com/Hackmanit/TInjA
+<br># TInjA is a CLI tool for testing web pages for template injection vulnerabilities.
+<br>```tinja url -u "http://example.com/"```
+
 ### Information Disclosure
 
 https://infosecwriteups.com/information-disclosure-vulnerability-in-adobe-experience-manager-affecting-multiple-companies-2fb0558cd957
