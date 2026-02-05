@@ -704,6 +704,9 @@ https://github.com/cloudsploit/scans
 https://github.com/RhinoSecurityLabs/pacu
 <br># Pacu is an open-source AWS exploitation framework, designed for offensive security testing against cloud environments.
 
+https://github.com/NetSPI/gcpwn
+<br># Enumeration/exploit/analysis/download/etc pentesting framework for GCP; modeled like Pacu for AWS.
+
 https://github.com/VirtueSecurity/aws-extender
 <br># This Burp Suite extension can identify and test S3 buckets as well as Google Storage buckets and Azure Storage containers for common misconfiguration issues using the boto/boto3 SDK library.
 
