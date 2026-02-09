@@ -1674,6 +1674,12 @@ https://github.com/ethiack/ai4eh
 https://github.com/westonbrown/Cyber-AutoAgent
 <br># Cyber-AutoAgent is a proactive security assessment tool that autonomously conducts intelligent penetration testing with natural language reasoning, dynamic tool selection, and evidence collection using AWS Bedrock, Litellm or local Ollama models with the core Strands framework.
 
+https://github.com/praetorian-inc/julius
+<br># Julius is an LLM service fingerprinting tool for security professionals. It detects which AI server software is running on network endpoints during penetration tests, attack surface discovery, and security assessments.
+
+https://github.com/praetorian-inc/augustus
+<br># Augustus is a Go-based LLM vulnerability scanner for security professionals. It tests large language models against a wide range of adversarial attacks, integrates with 28 LLM providers, and produces actionable vulnerability reports.
+
 ## General<a name="general_all"></a>
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
