@@ -1682,6 +1682,9 @@ https://www.praetorian.com/blog/introducing-augustus-open-source-llm-prompt-inje
 https://github.com/praetorian-inc/augustus
 <br># Augustus is a Go-based LLM vulnerability scanner for security professionals. It tests large language models against a wide range of adversarial attacks, integrates with 28 LLM providers, and produces actionable vulnerability reports.
 
+https://github.com/GH05TCREW/pentestagent
+<br># PentestAgent is an AI agent framework for black-box security testing, supporting bug bounty, red-team, and penetration testing workflows.
+
 ## General<a name="general_all"></a>
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
