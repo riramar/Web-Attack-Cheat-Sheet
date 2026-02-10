@@ -21,7 +21,6 @@
   - [Fingerprint](#fingerprint)
   - [Buckets](#buckets)
   - [Cloud Enumeration](#cloud-enumeration)
-  - [Containerization](#containerization)
   - [Visual Identification](#visual-identification)
 - [Scanning](#scanning)
   - [Static Application Security Testing](#static-application-security-testing)
@@ -47,6 +46,7 @@
 - [Manual](#manual)
   - [Payloads](#payloads)
   - [Bypass](#bypass)
+  - [Container](#container)
   - [Deserialization](#deserialization)
   - [SSRF (Server-Side Request Forgery)](#ssrf-server-side-request-forgery)
   - [XXE (XML External Entity)](#xxe-xml-external-entity)
@@ -742,10 +742,6 @@ https://www.plerion.com/blog/what-do-hackers-know-about-your-aws-account
 https://awseye.com/
 <br># Awseye (pronounced o-zee 🦘🇦🇺) is an open-source intelligence (OSINT) and reconnaissance service that analyzes publicly accessible data for AWS identifiers. It helps identify known and exposed AWS resources that might need your attention. It levels the playing field between attackers and defenders, by giving defenders access to the same data attackers have been harvesting since flip phones stopped being cool.
 
-### Containerization
-https://github.com/stealthcopter/deepce
-<br># Docker Enumeration, Escalation of Privileges and Container Escapes (DEEPCE).
-
 ### Visual Identification
 https://github.com/FortyNorthSecurity/EyeWitness
 <br># EyeWitness is designed to take screenshots of websites provide some server header info, and identify default credentials if known.
@@ -1270,6 +1266,13 @@ https://blog.huli.tw/2022/04/07/en/iframe-and-window-open/
 <br># If you want to generate a new window on a webpage, there are probably only two options: one is to embed resources on the same page using tags such as iframe, embed, and object, and the other is to use window.open to open a new window.
 <br># As a front-end developer, I believe that everyone is familiar with these. You may have used iframe to embed third-party web pages or widgets, or used window.open to open a new window and communicate with the original window through window.opener.
 <br># However, from a security perspective, there are many interesting things about iframes, which often appear in the real world or in CTF competitions. Therefore, I want to record some of the features I learned recently through this article.
+
+### Container
+https://github.com/stealthcopter/deepce
+<br># Docker Enumeration, Escalation of Privileges and Container Escapes (DEEPCE).
+
+https://labs.iximiuz.com/tutorials/nodes-proxy-rce-c9e436a9
+<br># This lab demonstrates how nodes/proxy GET permissions allow command execution in any Pod, despite appearing to be read-only.
 
 ### Deserialization
 https://github.com/joaomatosf/jexboss
