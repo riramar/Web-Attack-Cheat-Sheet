@@ -1688,6 +1688,9 @@ https://github.com/praetorian-inc/augustus
 https://github.com/GH05TCREW/pentestagent
 <br># PentestAgent is an AI agent framework for black-box security testing, supporting bug bounty, red-team, and penetration testing workflows.
 
+https://github.com/KeygraphHQ/shannon
+<br># Shannon's goal is to break your web app before someone else does. It autonomously hunts for attack vectors in your code, then uses its built-in browser to execute real exploits, such as injection attacks, and auth bypass, to prove the vulnerability is actually exploitable.
+
 ## General<a name="general_all"></a>
 <br># Print only response headers for any method with curl
 <br>```curl -skSL -D - https://www.example.com -o /dev/null```
