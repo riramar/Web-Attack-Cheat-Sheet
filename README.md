@@ -1096,6 +1096,9 @@ https://github.com/intruder-io/guidtool
 https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-attack
 <br># In this presentation I introduce, demo and distribute Turbo Intruder - a research grade open source Burp Suite extension built from scratch with speed in mind. I also discuss the underlying HTTP abuse that enables it to go so fast, so you can attain similar speeds in any tools you happen to write.
 
+https://weakpass.com
+<br># Weakpass.com is a collection of password lists for various purposes from penetration testing to improving password security.
+
 ### Exfiltration
 https://github.com/vp777/procrustes
 <br># A bash script that automates the exfiltration of data over dns
