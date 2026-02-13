@@ -1099,6 +1099,10 @@ https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-at
 https://weakpass.com
 <br># Weakpass.com is a collection of password lists for various purposes from penetration testing to improving password security.
 
+https://github.com/praetorian-inc/brutus
+<br># Brutus is a multi-protocol authentication testing tool designed to address a critical gap in offensive security tooling: efficient credential validation across diverse network services.
+<br>```naabu -host 10.0.0.0/24 -p 80,443,3000,8080,9090 -silent | fingerprintx --json | brutus --json```
+
 ### Exfiltration
 https://github.com/vp777/procrustes
 <br># A bash script that automates the exfiltration of data over dns
