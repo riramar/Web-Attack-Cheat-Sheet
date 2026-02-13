@@ -635,6 +635,10 @@ https://portswigger.net/bappstore/c9fb79369b56407792a7104e3c4352fb
 https://github.com/GrrrDog/weird_proxies
 <br># It's a cheat sheet about behaviour of various reverse proxies and related attacks.
 
+https://github.com/praetorian-inc/fingerprintx
+<br># fingerprintx is a utility similar to httpx that also supports fingerprinting services like as RDP, SSH, MySQL, PostgreSQL, Kafka, etc. fingerprintx can be used alongside port scanners like Naabu to fingerprint a set of ports identified during a port scan.
+<br>```fingerprintx -t 127.0.0.1:8000 --json```
+
 ### Buckets
 https://aws.amazon.com/cli/
 <br># List s3 bucket permissions and keys
