@@ -1207,6 +1207,9 @@ https://github.com/RenwaX23/XSS-Payloads
 https://github.com/0xacb/recollapse
 <br># REcollapse is a helper tool for black-box regex fuzzing to bypass validations and discover normalizations in web applications.
 
+https://shazzer.co.uk/
+<br># Shared online fuzzer.
+
 https://appcheck-ng.com/wp-content/uploads/unicode_normalization.html
 <br># Unicode normalization good for WAF bypass.
   
