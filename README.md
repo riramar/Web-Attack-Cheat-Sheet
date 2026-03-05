@@ -641,6 +641,10 @@ https://github.com/praetorian-inc/fingerprintx
 <br># fingerprintx is a utility similar to httpx that also supports fingerprinting services like as RDP, SSH, MySQL, PostgreSQL, Kafka, etc. fingerprintx can be used alongside port scanners like Naabu to fingerprint a set of ports identified during a port scan.
 <br>```fingerprintx -t 127.0.0.1:8000 --json```
 
+https://github.com/praetorian-inc/nerva
+<br># Nerva rapidly detects and identifies services running on open network ports.
+<br>```nerva -t example.com:22```
+
 ### Buckets
 https://aws.amazon.com/cli/
 <br># List s3 bucket permissions and keys
