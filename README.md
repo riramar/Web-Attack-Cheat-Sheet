@@ -1352,6 +1352,9 @@ https://swarm.ptsecurity.com/impossible-xxe-in-php/
 <br># Writing secure code today is easier than making a mistake that would lead to an XXE vulnerability. While examining a library, I wondered: is its code truly secure? At first glance, everything appeared to be filtered, and the function didn’t have the attributes that could make it vulnerable.
 <br># However, I was able to exploit an almost impossible XXE vulnerability using a combination of techniques and features.
 
+https://www.intigriti.com/researchers/blog/hacking-tools/exploiting-advanced-xxe-vulnerabilities
+<br># In this article, we will learn what XXE vulnerabilities are and how to identify and exploit them as well. We will also be covering some advanced cases too.
+
 ### OAuth
 https://book.hacktricks.xyz/pentesting-web/oauth-to-account-takeover
 <br># In this article, we will be focusing on the most common flow that you will come across today, which is the OAuth 2.0 authorization code grant type.
