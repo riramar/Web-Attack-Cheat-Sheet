@@ -181,6 +181,10 @@ https://github.com/projectdiscovery/subfinder
 <br># subfinder is a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources.
 <br>```subfinder -r 8.8.8.8,8.8.4.4,1.1.1.1,1.0.0.1 -t 10 -v -d example.com -o dir/example.com```
 
+https://github.com/praetorian-inc/pius
+<br># Pius is an open-source attack surface discovery tool written in Go. Given a company name, it maps the complete external attack surface: domains, subdomains, and IP ranges (CIDRs). Pius queries certificate transparency logs, all five regional Internet registries (ARIN, RIPE, APNIC, AFRINIC, LACNIC), passive DNS databases, WHOIS/RDAP, BGP tables, and more through 23 discovery plugins.
+<br>```pius run --org "Example Corp" --domain example.com```
+
 https://github.com/infosec-au/altdns
 <br># Altdns is a DNS recon tool that allows for the discovery of subdomains that conform to patterns. Altdns takes in words that could be present in subdomains under a domain (such as test, dev, staging) as well as takes in a list of subdomains that you know of.
 <br>```altdns -i subdomains.txt -o data_output -w words.txt -r -s results_output.txt```
