@@ -691,6 +691,9 @@ https://github.com/andresriancho/enumerate-iam
 https://github.com/nccgroup/ScoutSuite
 <br># Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments.
 
+https://github.com/praetorian-inc/aurelian
+<br># Aurelian is an open-source, multi-cloud security reconnaissance framework built in Go. It provides a single, unified command-line interface for cloud security assessments across Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
+
 https://github.com/streaak/keyhacks
 <br># KeyHacks shows ways in which particular API keys found on a Bug Bounty Program can be used, to check if they are valid.
 
