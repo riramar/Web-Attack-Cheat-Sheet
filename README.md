@@ -803,6 +803,9 @@ https://dotnetfiddle.net
 https://jsfiddle.net
 <br># Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.
 
+https://github.com/praetorian-inc/trajan
+<br># Trajan scans CI/CD pipelines for security vulnerabilities that attackers use to compromise software supply chains.
+
 ### Dependency Confusion
 https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610
 <br># How I Hacked Into Apple, Microsoft and Dozens of Other Companies.
