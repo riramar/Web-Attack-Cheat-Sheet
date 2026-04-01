@@ -1070,6 +1070,9 @@ https://github.com/BishopFox/sj
 https://github.com/intruder-io/autoswagger
 <br># Autoswagger is a command-line tool designed to discover, parse, and test for unauthenticated endpoints using Swagger/OpenAPI documentation. It helps identify potential security issues in unprotected endpoints of APIs, such as PII leaks and common secret exposures.
 
+https://github.com/praetorian-inc/hadrian
+<br># Hadrian is an open-source API security testing framework that detects OWASP API Top 10 vulnerabilities in REST, GraphQL, and gRPC APIs.
+
 ## Monitoring
 
 ### CVE
