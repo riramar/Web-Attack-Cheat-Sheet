@@ -1076,6 +1076,9 @@ https://github.com/intruder-io/autoswagger
 https://github.com/praetorian-inc/hadrian
 <br># Hadrian is an open-source API security testing framework that detects OWASP API Top 10 vulnerabilities in REST, GraphQL, and gRPC APIs.
 
+https://github.com/praetorian-inc/vespasian
+<br># Vespasian discovers API endpoints by observing real HTTP traffic and generates API specification files from those observations. It captures traffic through headless browser crawling or imports it from existing sources (Burp Suite XML exports, HAR files, and mitmproxy dumps), then classifies requests, probes discovered endpoints, and outputs specifications in the native format for each API type: OpenAPI 3.0 for REST, GraphQL SDL for GraphQL, and WSDL for SOAP services.
+
 ## Monitoring
 
 ### CVE
