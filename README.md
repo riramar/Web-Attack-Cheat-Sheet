@@ -918,6 +918,10 @@ https://adityaksood.medium.com/sparty-useful-tools-die-hard-d9afe6f3f561
 https://github.com/adityaks/sparty
 <br># Sparty is an open source tool written in python to audit web applications using sharepoint and frontpage architecture.
 
+https://hackt.us/from-tomcat-jmx-proxy-to-rce-via-accesslogvalve-injection
+https://github.com/Hacktus/jmx2rce
+<br># Unauthenticated Tomcat JMX proxy access is remote code execution. Not theoretically - practically. This post walks through an extended chain that converts /manager/jmxproxy/ access into arbitrary file read, JSP file write, and server-side code execution without ever touching the Manager deploy API. Building on 4ra1n's original AccessLogValve injection technique, this chain adds docBase-based arbitrary file read, WAF/CDN bypass via relaxedQueryChars manipulation, and EL expression injection to evade scriptlet detection - making the full chain work through Cloudflare and enterprise WAFs. Affected: Apache Tomcat 8.5.x through 11.0.x.
+
 ### HTTP Request Smuggling
 https://github.com/defparam/smuggler
 <br># An HTTP Request Smuggling / Desync testing tool written in Python 3.
