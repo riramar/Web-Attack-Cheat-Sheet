@@ -2035,73 +2035,73 @@ https://www.praetorian.com/blog/domain-fronting-is-dead-long-live-domain-frontin
 
 ## Awesome Bug Bounty Blogs
 
-https://spaceraccoon.dev/
-https://shubs.io
-https://krevetk0.medium.com/
-https://x2f.me
-https://ryotak.net
-https://arthurair.es
-https://rhynorater.github.io/
-https://www.shockwave.cloud
-http://corb3nik.github.io/
-https://bxmbn.medium.com/
-https://dday.us
-https://hogarth45.medium.com/
-https://niemand.com.ar/
-https://tolo7010note.blogspot.com
-https://hipotermia.pw
-https://kongwenbin.com
-https://m0chan.github.io
-https://hackerrishad.me/
-https://securityrise.com/about
-https://zonduu.me
-https://ajxchapman.github.io
-https://trieulieuf9.blogspot.com/
-https://ganofins.com
-https://f4d3.io
-https://www.tomanthony.co.uk/
-https://medium.com/@siratsami71
-https://blog.teknogeek.io
-https://godiego.co
-https://youst.in
-https://blog.orange.tw/
-https://mert.ninja/
-https://jub0bs.com/
-https://corben.io/blog
-https://portswigger.net/research
-https://rez0.blog/
-https://www.jhaddix.com/blog
-https://nahamsec.com/posts
-https://blog.deesee.xyz/
-https://jonbottarini.com/
-https://philippeharewood.com/
-https://edoverflow.com/
-https://www.rcesecurity.com/blog/
-https://www.yassineaboukir.com/
-https://shubs.io/
-https://ngailong.wordpress.com/
-https://ysamm.com/
-https://samcurry.net/
-https://buer.haus/
-https://soroush.me/blog/
-https://blog.huli.tw/en/
-https://danaepp.com/blog
-https://rafa.hashnode.dev/
-https://blog.voorivex.team/
-https://thefrogsec.github.io/
-https://swarm.ptsecurity.com/
-https://blog.criticalthinkingpodcast.io/
-https://executiveoffense.beehiiv.com/
-https://www.bugbountyexplained.com/
-https://blog.badsectorlabs.com/
-https://ott3rly.com/
-https://www.assetnote.io/resources/research
-https://labs.detectify.com/
-https://labs.watchtowr.com/
-https://www.pmnh.site/
-https://thehackerish.com/category/hacking/bug-bounty/
-https://www.allysonomalley.com/
-https://dhakal-ananda.com.np/
-https://www.secrash.com/
-https://zonduu.me/posts/
+https://spaceraccoon.dev/ <br>
+https://shubs.io <br>
+https://krevetk0.medium.com/ <br>
+https://x2f.me <br>
+https://ryotak.net <br>
+https://arthurair.es <br>
+https://rhynorater.github.io/ <br>
+https://www.shockwave.cloud <br>
+http://corb3nik.github.io/ <br>
+https://bxmbn.medium.com/ <br>
+https://dday.us <br>
+https://hogarth45.medium.com/ <br>
+https://niemand.com.ar/ <br>
+https://tolo7010note.blogspot.com <br>
+https://hipotermia.pw <br>
+https://kongwenbin.com <br>
+https://m0chan.github.io <br>
+https://hackerrishad.me/ <br>
+https://securityrise.com/about <br>
+https://zonduu.me <br>
+https://ajxchapman.github.io <br>
+https://trieulieuf9.blogspot.com/ <br>
+https://ganofins.com <br>
+https://f4d3.io <br>
+https://www.tomanthony.co.uk/ <br>
+https://medium.com/@siratsami71 <br>
+https://blog.teknogeek.io <br>
+https://godiego.co <br>
+https://youst.in <br>
+https://blog.orange.tw/ <br>
+https://mert.ninja/ <br>
+https://jub0bs.com/ <br>
+https://corben.io/blog <br>
+https://portswigger.net/research <br>
+https://rez0.blog/ <br> 
+https://www.jhaddix.com/blog <br>
+https://nahamsec.com/posts <br>
+https://blog.deesee.xyz/ <br>
+https://jonbottarini.com/ <br>
+https://philippeharewood.com/ <br>
+https://edoverflow.com/ <br>
+https://www.rcesecurity.com/blog/ <br>
+https://www.yassineaboukir.com/ <br>
+https://shubs.io/ <br>
+https://ngailong.wordpress.com/ <br>
+https://ysamm.com/ <br>
+https://samcurry.net/ <br>
+https://buer.haus/ <br>
+https://soroush.me/blog/ <br>
+https://blog.huli.tw/en/ <br>
+https://danaepp.com/blog <br>
+https://rafa.hashnode.dev/ <br>
+https://blog.voorivex.team/ <br>
+https://thefrogsec.github.io/ <br>
+https://swarm.ptsecurity.com/ <br>
+https://blog.criticalthinkingpodcast.io/ <br>
+https://executiveoffense.beehiiv.com/ <br>
+https://www.bugbountyexplained.com/ <br>
+https://blog.badsectorlabs.com/ <br>
+https://ott3rly.com/ <br> 
+https://www.assetnote.io/resources/research <br>
+https://labs.detectify.com/ <br>
+https://labs.watchtowr.com/ <br>
+https://www.pmnh.site/ <br>
+https://thehackerish.com/category/hacking/bug-bounty/ <br>
+https://www.allysonomalley.com/ <br>
+https://dhakal-ananda.com.np/ <br>
+https://www.secrash.com/ <br>
+https://zonduu.me/posts/ <br>
 
