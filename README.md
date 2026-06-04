@@ -65,6 +65,7 @@
   - [WebDAV (Web Distributed Authoring and Versioning)](#webdav-web-distributed-authoring-and-versioning)
   - [Generic Tools](#generic-tools)
 - [AI](#ai)
+- [Awesome Bug Bounty Blogs](#awesome-bug-bounty-blogs)
 - [General](#general_all)
 
 ## Discovering
@@ -1296,6 +1297,9 @@ https://soroush.me/blog/2023/08/cookieless-duodrop-iis-auth-bypass-app-pool-priv
 https://github.com/assetnote/nowafpls
 <br># nowafpls is a simple Burp plugin which will contextually insert this junk data into your HTTP request inside the repeater tab. You can select from a preset amount of junk data you want inserted, or you can insert an arbitrary amount of junk data by selecting the "Custom" option. This tool is just 80 or so lines of Python, it's incredibly simple but works for most WAFs lol.
 
+https://github.com/devploit/nomore403
+<br>#🚫 Advanced tool for security researchers to bypass 403/40X restrictions through smart techniques and adaptive request manipulation. Fast. Precise. Effective.
+
 https://blog.orange.tw/2024/08/confusion-attacks-en.html
 <br># This article explores architectural issues within the Apache HTTP Server, highlighting several technical debts within Httpd, including 3 types of Confusion Attacks, 9 new vulnerabilities, 20 exploitation techniques, and over 30 case studies.
 
@@ -2027,3 +2031,77 @@ https://blog.heckel.io/2013/07/01/how-to-use-mitmproxy-to-read-and-modify-https-
 
 https://www.praetorian.com/blog/domain-fronting-is-dead-long-live-domain-fronting/
 <br># At Black Hat and DEF CON, we demonstrated how red teams could tunnel traffic through everyday collaboration platforms like Zoom and Microsoft Teams, effectively transforming them into covert communication channels for command-and-control. That research highlighted a critical blind spot: defenders rarely block traffic to core business services because doing so would disrupt legitimate operations. This creates a trust gap that attackers can exploit.
+
+
+## Awesome Bug Bounty Blogs
+
+https://spaceraccoon.dev/
+https://shubs.io
+https://krevetk0.medium.com/
+https://x2f.me
+https://ryotak.net
+https://arthurair.es
+https://rhynorater.github.io/
+https://www.shockwave.cloud
+http://corb3nik.github.io/
+https://bxmbn.medium.com/
+https://dday.us
+https://hogarth45.medium.com/
+https://niemand.com.ar/
+https://tolo7010note.blogspot.com
+https://hipotermia.pw
+https://kongwenbin.com
+https://m0chan.github.io
+https://hackerrishad.me/
+https://securityrise.com/about
+https://zonduu.me
+https://ajxchapman.github.io
+https://trieulieuf9.blogspot.com/
+https://ganofins.com
+https://f4d3.io
+https://www.tomanthony.co.uk/
+https://medium.com/@siratsami71
+https://blog.teknogeek.io
+https://godiego.co
+https://youst.in
+https://blog.orange.tw/
+https://mert.ninja/
+https://jub0bs.com/
+https://corben.io/blog
+https://portswigger.net/research
+https://rez0.blog/
+https://www.jhaddix.com/blog
+https://nahamsec.com/posts
+https://blog.deesee.xyz/
+https://jonbottarini.com/
+https://philippeharewood.com/
+https://edoverflow.com/
+https://www.rcesecurity.com/blog/
+https://www.yassineaboukir.com/
+https://shubs.io/
+https://ngailong.wordpress.com/
+https://ysamm.com/
+https://samcurry.net/
+https://buer.haus/
+https://soroush.me/blog/
+https://blog.huli.tw/en/
+https://danaepp.com/blog
+https://rafa.hashnode.dev/
+https://blog.voorivex.team/
+https://thefrogsec.github.io/
+https://swarm.ptsecurity.com/
+https://blog.criticalthinkingpodcast.io/
+https://executiveoffense.beehiiv.com/
+https://www.bugbountyexplained.com/
+https://blog.badsectorlabs.com/
+https://ott3rly.com/
+https://www.assetnote.io/resources/research
+https://labs.detectify.com/
+https://labs.watchtowr.com/
+https://www.pmnh.site/
+https://thehackerish.com/category/hacking/bug-bounty/
+https://www.allysonomalley.com/
+https://dhakal-ananda.com.np/
+https://www.secrash.com/
+https://zonduu.me/posts/
+
