@@ -65,6 +65,7 @@
   - [WebDAV (Web Distributed Authoring and Versioning)](#webdav-web-distributed-authoring-and-versioning)
   - [Generic Tools](#generic-tools)
 - [AI](#ai)
+- [Awesome Bug Bounty Blogs](#awesome-bug-bounty-blogs)
 - [General](#general_all)
 
 ## Discovering
@@ -1296,6 +1297,9 @@ https://soroush.me/blog/2023/08/cookieless-duodrop-iis-auth-bypass-app-pool-priv
 https://github.com/assetnote/nowafpls
 <br># nowafpls is a simple Burp plugin which will contextually insert this junk data into your HTTP request inside the repeater tab. You can select from a preset amount of junk data you want inserted, or you can insert an arbitrary amount of junk data by selecting the "Custom" option. This tool is just 80 or so lines of Python, it's incredibly simple but works for most WAFs lol.
 
+https://github.com/devploit/nomore403
+<br>#🚫 Advanced tool for security researchers to bypass 403/40X restrictions through smart techniques and adaptive request manipulation. Fast. Precise. Effective.
+
 https://blog.orange.tw/2024/08/confusion-attacks-en.html
 <br># This article explores architectural issues within the Apache HTTP Server, highlighting several technical debts within Httpd, including 3 types of Confusion Attacks, 9 new vulnerabilities, 20 exploitation techniques, and over 30 case studies.
 
@@ -2027,3 +2031,77 @@ https://blog.heckel.io/2013/07/01/how-to-use-mitmproxy-to-read-and-modify-https-
 
 https://www.praetorian.com/blog/domain-fronting-is-dead-long-live-domain-fronting/
 <br># At Black Hat and DEF CON, we demonstrated how red teams could tunnel traffic through everyday collaboration platforms like Zoom and Microsoft Teams, effectively transforming them into covert communication channels for command-and-control. That research highlighted a critical blind spot: defenders rarely block traffic to core business services because doing so would disrupt legitimate operations. This creates a trust gap that attackers can exploit.
+
+
+## Awesome Bug Bounty Blogs
+
+https://spaceraccoon.dev/ <br>
+https://shubs.io <br>
+https://krevetk0.medium.com/ <br>
+https://x2f.me <br>
+https://ryotak.net <br>
+https://arthurair.es <br>
+https://rhynorater.github.io/ <br>
+https://www.shockwave.cloud <br>
+http://corb3nik.github.io/ <br>
+https://bxmbn.medium.com/ <br>
+https://dday.us <br>
+https://hogarth45.medium.com/ <br>
+https://niemand.com.ar/ <br>
+https://tolo7010note.blogspot.com <br>
+https://hipotermia.pw <br>
+https://kongwenbin.com <br>
+https://m0chan.github.io <br>
+https://hackerrishad.me/ <br>
+https://securityrise.com/about <br>
+https://zonduu.me <br>
+https://ajxchapman.github.io <br>
+https://trieulieuf9.blogspot.com/ <br>
+https://ganofins.com <br>
+https://f4d3.io <br>
+https://www.tomanthony.co.uk/ <br>
+https://medium.com/@siratsami71 <br>
+https://blog.teknogeek.io <br>
+https://godiego.co <br>
+https://youst.in <br>
+https://blog.orange.tw/ <br>
+https://mert.ninja/ <br>
+https://jub0bs.com/ <br>
+https://corben.io/blog <br>
+https://portswigger.net/research <br>
+https://rez0.blog/ <br> 
+https://www.jhaddix.com/blog <br>
+https://nahamsec.com/posts <br>
+https://blog.deesee.xyz/ <br>
+https://jonbottarini.com/ <br>
+https://philippeharewood.com/ <br>
+https://edoverflow.com/ <br>
+https://www.rcesecurity.com/blog/ <br>
+https://www.yassineaboukir.com/ <br>
+https://shubs.io/ <br>
+https://ngailong.wordpress.com/ <br>
+https://ysamm.com/ <br>
+https://samcurry.net/ <br>
+https://buer.haus/ <br>
+https://soroush.me/blog/ <br>
+https://blog.huli.tw/en/ <br>
+https://danaepp.com/blog <br>
+https://rafa.hashnode.dev/ <br>
+https://blog.voorivex.team/ <br>
+https://thefrogsec.github.io/ <br>
+https://swarm.ptsecurity.com/ <br>
+https://blog.criticalthinkingpodcast.io/ <br>
+https://executiveoffense.beehiiv.com/ <br>
+https://www.bugbountyexplained.com/ <br>
+https://blog.badsectorlabs.com/ <br>
+https://ott3rly.com/ <br> 
+https://www.assetnote.io/resources/research <br>
+https://labs.detectify.com/ <br>
+https://labs.watchtowr.com/ <br>
+https://www.pmnh.site/ <br>
+https://thehackerish.com/category/hacking/bug-bounty/ <br>
+https://www.allysonomalley.com/ <br>
+https://dhakal-ananda.com.np/ <br>
+https://www.secrash.com/ <br>
+https://zonduu.me/posts/ <br>
+
