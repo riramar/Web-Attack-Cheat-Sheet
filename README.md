@@ -189,6 +189,10 @@ https://github.com/infosec-au/altdns
 <br># Altdns is a DNS recon tool that allows for the discovery of subdomains that conform to patterns. Altdns takes in words that could be present in subdomains under a domain (such as test, dev, staging) as well as takes in a list of subdomains that you know of.
 <br>```altdns -i subdomains.txt -o data_output -w words.txt -r -s results_output.txt```
 
+https://github.com/Sicks3c/altdns-ng
+<br># A high-performance subdomain permutation and DNS resolution tool written in Go. This is a modern reimplementation of the original altdns by @shubs, built for speed and reliability.
+<br>```altdns-ng -i subdomains.txt -w custom_words.txt -r -o results.txt```
+
 https://github.com/Josue87/gotator
 <br># Gotator is a tool to generate DNS wordlists through permutations.
 <br>```gotator -sub domains.txt -perm permutations.txt -depth 2 -numbers 5 > output.txt```
