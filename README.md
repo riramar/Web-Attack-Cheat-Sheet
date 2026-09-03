@@ -190,6 +190,10 @@ https://github.com/infosec-au/altdns
 <br># Altdns is a DNS recon tool that allows for the discovery of subdomains that conform to patterns. Altdns takes in words that could be present in subdomains under a domain (such as test, dev, staging) as well as takes in a list of subdomains that you know of.
 <br>```altdns -i subdomains.txt -o data_output -w words.txt -r -s results_output.txt```
 
+https://github.com/Sicks3c/altdns-ng
+<br># A high-performance subdomain permutation and DNS resolution tool written in Go. This is a modern reimplementation of the original altdns by @shubs, built for speed and reliability.
+<br>```altdns-ng -i subdomains.txt -w custom_words.txt -r -o results.txt```
+
 https://github.com/Josue87/gotator
 <br># Gotator is a tool to generate DNS wordlists through permutations.
 <br>```gotator -sub domains.txt -perm permutations.txt -depth 2 -numbers 5 > output.txt```
@@ -242,7 +246,10 @@ https://securitytrails.com/list/email/dns-admin.example.com
 <br>```curl --request POST --url 'https://api.securitytrails.com/v1/domains/list?apikey={API_Key}&page=1&scroll=true' --data '{"filter":{"apex_domain":"example.com"}}' | jq -Mr '.records[].hostname' >> subdomains.txt```
 <br>```curl --request POST --url 'https://api.securitytrails.com/v1/domains/list?apikey={API_Key}&page=1&scroll=true' --data '{"filter":{"whois_email":"domains@example.com"}}' | jq -Mr '.records[].hostname' >> domains.txt```
 
-https://profundis.io/
+https://www.argosdns.io
+<br># Domain intelligence and attack surface data for security teams.
+
+https://profundis.io
 <br># Profundis is a search engine which focuses on indexing hosts and DNS records rather than web pages. You may use it to discover new assets or get alerts when a new host which matches specific criteria is discovered.
 
 https://viewdns.info/reversewhois
@@ -807,6 +814,21 @@ https://jsfiddle.net
 https://github.com/praetorian-inc/trajan
 <br># Trajan scans CI/CD pipelines for security vulnerabilities that attackers use to compromise software supply chains.
 
+https://zizmor.sh
+<br># zizmor helps you find and fix potential vulnerabilities in your GitHub Actions CI/CD setup.
+<br>```zizmor example/example@v1```
+
+https://www.wiz.io/blog/github-actions-security-guide
+https://www.wiz.io/blog/github-actions-security-threat-model-and-defenses
+https://www.wiz.io/blog/github-actions-security-ai-powered-actions-vulnerabilities
+<br># This two-part blog series provides the threat model, three main risks (Pull Request pwnage, script injection, 3rd party components), and defensive playbook. This deeper understanding offers you a roadmap for developing a security strategy best suited to your environment. The series is for those with a general security background but only foundational knowledge of GitHub security.
+
+https://securitylab.github.com/resources/github-actions-preventing-pwn-requests/
+https://securitylab.github.com/resources/github-actions-untrusted-input/
+https://securitylab.github.com/resources/github-actions-building-blocks/
+https://securitylab.github.com/resources/github-actions-new-patterns-and-mitigations/
+<br># Series of posts about GitHub Actions security.
+
 ### Dependency Confusion
 https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610
 <br># How I Hacked Into Apple, Microsoft and Dozens of Other Companies.
@@ -930,6 +952,10 @@ https://github.com/adityaks/sparty
 https://hackt.us/from-tomcat-jmx-proxy-to-rce-via-accesslogvalve-injection
 https://github.com/Hacktus/jmx2rce
 <br># Unauthenticated Tomcat JMX proxy access is remote code execution. Not theoretically - practically. This post walks through an extended chain that converts /manager/jmxproxy/ access into arbitrary file read, JSP file write, and server-side code execution without ever touching the Manager deploy API. Building on 4ra1n's original AccessLogValve injection technique, this chain adds docBase-based arbitrary file read, WAF/CDN bypass via relaxedQueryChars manipulation, and EL expression injection to evade scriptlet detection - making the full chain work through Cloudflare and enterprise WAFs. Affected: Apache Tomcat 8.5.x through 11.0.x.
+
+https://github.com/BishopFox/snowpick
+<br># snowpick is a ServiceNow exposure scanner that finds misconfigured widget ACLs, REST API access controls, and unauthenticated data exposure.
+<br>```snowpick -target example.service-now.com```
 
 ### HTTP Request Smuggling
 https://github.com/defparam/smuggler
