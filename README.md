@@ -1314,6 +1314,10 @@ https://h.43z.one/ipconverter/
 https://github.com/aufzayed/bugbounty/tree/main/403-bypass
 <br># Common 403 bypass.
 
+https://github.com/devploit/nomore403
+<br># nomore403 is a command-line tool for testing HTTP access-control bypasses and parser inconsistencies around 401, 403, and related responses.
+<br>```nomore403 -u https://example.com/admin```
+
 https://rafa.hashnode.dev/exploiting-http-parsers-inconsistencies
 <br># In this research, my focus revolves around the discovery of inconsistencies within HTTP parsers across various web technologies, including load balancers, reverse proxies, web servers, and caching servers.
 
